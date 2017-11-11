@@ -1,0 +1,2 @@
+# fpga_cmos_design
+这是使用FPGA开发CMOS的两个真实项目，之前的fpga_design仅是一个未完善的版本，同时也删除了一些与项目无关的东西
