@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="sd_test">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-11-3T10:31:3</timestamp>
+    <attr value="sd_test" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-352" name="clk" />
+    <pin polarity="Input" x="0" y="-272" name="rst_n" />
+    <pin polarity="Input" x="0" y="-192" name="SD_dataout" />
+    <pin polarity="Input" x="0" y="-112" name="write_start" />
+    <pin polarity="Input" x="0" y="-32" name="ddr_data(63:0)" />
+    <pin polarity="Output" x="480" y="-352" name="SD_clk" />
+    <pin polarity="Output" x="480" y="-288" name="SD_cs" />
+    <pin polarity="Output" x="480" y="-224" name="SD_datain" />
+    <pin polarity="Output" x="480" y="-160" name="led_out" />
+    <pin polarity="Output" x="480" y="-96" name="write_frame_done" />
+    <pin polarity="Output" x="480" y="-32" name="request_data" />
+    <pin polarity="Output" x="480" y="32" name="init_o" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="240" y="-392" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-272" type="pin rst_n" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-192" type="pin SD_dataout" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-112" type="pin write_start" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin ddr_data(63:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-352" type="pin SD_clk" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-288" type="pin SD_cs" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-224" type="pin SD_datain" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-160" type="pin led_out" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-96" type="pin write_frame_done" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="-32" type="pin request_data" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="408" y="32" type="pin init_o" />
+        <line x2="480" y1="32" y2="32" x1="416" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <line x2="0" y1="-272" y2="-272" x1="64" />
+        <line x2="0" y1="-192" y2="-192" x1="64" />
+        <line x2="0" y1="-112" y2="-112" x1="64" />
+        <rect width="64" x="0" y="-44" height="24" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <line x2="480" y1="-352" y2="-352" x1="416" />
+        <line x2="480" y1="-288" y2="-288" x1="416" />
+        <line x2="480" y1="-224" y2="-224" x1="416" />
+        <line x2="480" y1="-160" y2="-160" x1="416" />
+        <line x2="480" y1="-96" y2="-96" x1="416" />
+        <line x2="480" y1="-32" y2="-32" x1="416" />
+        <rect width="352" x="64" y="-384" height="448" />
+    </graph>
+</symbol>

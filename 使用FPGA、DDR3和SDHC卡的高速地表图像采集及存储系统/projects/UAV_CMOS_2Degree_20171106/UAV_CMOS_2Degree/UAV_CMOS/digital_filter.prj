@@ -1,0 +1,2 @@
+verilog work "digital_filter.v"
+verilog work "ipcore_dir/DCM_CMOS/example_design/DCM_CMOS_exdes.v"

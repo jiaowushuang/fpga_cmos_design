@@ -1,0 +1,762 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : main.vf
+// /___/   /\     Timestamp : 11/05/2017 19:08:49
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS_2Degree/UAV_CMOS/ipcore_dir -intstyle ise -family spartan6 -verilog D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS_2Degree/UAV_CMOS/main.vf -w D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS_2Degree/UAV_CMOS/main.sch
+//Design Name: main
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 100 ps / 10 ps
+
+module SR4RE_HXILINX_main(Q0, Q1, Q2, Q3, C, CE, R, SLI);
+   
+   output             Q0;
+   output             Q1;
+   output             Q2;
+   output             Q3;
+
+   input 	      C;	
+   input 	      CE;	
+   input 	      R;	
+   input              SLI;
+   
+   reg                Q0;
+   reg                Q1;
+   reg                Q2;
+   reg                Q3;
+   
+   always @(posedge C)
+     begin
+	if (R)
+	  {Q3, Q2, Q1, Q0} <= 4'b0000;
+	else if (CE)
+          {Q3, Q2, Q1, Q0} <= {Q2, Q1, Q0, SLI};
+     end
+   
+   
+endmodule
+`timescale 1ns / 1ps
+
+module LVDS_IDDR_MUSER_main(CMOS_CLK, 
+                            CMOS_CLK_INV, 
+                            LVDS_Channel0, 
+                            LVDS_Channel1, 
+                            LVDS_Channel2, 
+                            LVDS_Channel3, 
+                            LVDS_Sync, 
+                            Channel_0_N, 
+                            Channel_0_P, 
+                            Channel_1_N, 
+                            Channel_1_P, 
+                            Channel_2_N, 
+                            Channel_2_P, 
+                            Channel_3_N, 
+                            Channel_3_P, 
+                            Sync_N, 
+                            Sync_P);
+
+    input CMOS_CLK;
+    input CMOS_CLK_INV;
+    input LVDS_Channel0;
+    input LVDS_Channel1;
+    input LVDS_Channel2;
+    input LVDS_Channel3;
+    input LVDS_Sync;
+   output Channel_0_N;
+   output Channel_0_P;
+   output Channel_1_N;
+   output Channel_1_P;
+   output Channel_2_N;
+   output Channel_2_P;
+   output Channel_3_N;
+   output Channel_3_P;
+   output Sync_N;
+   output Sync_P;
+   
+   wire XLXN_5;
+   wire XLXN_6;
+   wire XLXN_7;
+   wire XLXN_8;
+   wire XLXN_9;
+   wire XLXN_10;
+   wire XLXN_11;
+   wire XLXN_12;
+   wire XLXN_13;
+   wire XLXN_14;
+   wire XLXN_32;
+   wire XLXN_34;
+   wire XLXN_36;
+   wire XLXN_38;
+   wire XLXN_40;
+   wire XLXN_43;
+   wire XLXN_47;
+   wire XLXN_49;
+   
+   FD #( .INIT(1'b0) ) XLXI_180 (.C(CMOS_CLK), 
+                .D(XLXN_5), 
+                .Q(Channel_0_P));
+   FD #( .INIT(1'b0) ) XLXI_181 (.C(CMOS_CLK), 
+                .D(XLXN_6), 
+                .Q(Channel_0_N));
+   FD #( .INIT(1'b0) ) XLXI_182 (.C(CMOS_CLK), 
+                .D(XLXN_7), 
+                .Q(Channel_1_P));
+   FD #( .INIT(1'b0) ) XLXI_183 (.C(CMOS_CLK), 
+                .D(XLXN_8), 
+                .Q(Channel_1_N));
+   FD #( .INIT(1'b0) ) XLXI_184 (.C(CMOS_CLK), 
+                .D(XLXN_10), 
+                .Q(Channel_2_P));
+   FD #( .INIT(1'b0) ) XLXI_185 (.C(CMOS_CLK), 
+                .D(XLXN_9), 
+                .Q(Channel_2_N));
+   FD #( .INIT(1'b0) ) XLXI_186 (.C(CMOS_CLK), 
+                .D(XLXN_12), 
+                .Q(Channel_3_P));
+   FD #( .INIT(1'b0) ) XLXI_187 (.C(CMOS_CLK), 
+                .D(XLXN_11), 
+                .Q(Channel_3_N));
+   FD #( .INIT(1'b0) ) XLXI_188 (.C(CMOS_CLK), 
+                .D(XLXN_14), 
+                .Q(Sync_P));
+   FD #( .INIT(1'b0) ) XLXI_189 (.C(CMOS_CLK), 
+                .D(XLXN_13), 
+                .Q(Sync_N));
+   IDDR2 #( .INIT_Q0(1'b0), .INIT_Q1(1'b0), .SRTYPE("SYNC"), 
+         .DDR_ALIGNMENT("NONE") ) XLXI_200 (.CE(XLXN_43), 
+                   .C0(CMOS_CLK), 
+                   .C1(CMOS_CLK_INV), 
+                   .D(XLXN_47), 
+                   .R(XLXN_32), 
+                   .S(XLXN_32), 
+                   .Q0(XLXN_5), 
+                   .Q1(XLXN_6));
+   IDDR2 #( .INIT_Q0(1'b0), .INIT_Q1(1'b0), .SRTYPE("SYNC"), 
+         .DDR_ALIGNMENT("NONE") ) XLXI_201 (.CE(XLXN_43), 
+                   .C0(CMOS_CLK), 
+                   .C1(CMOS_CLK_INV), 
+                   .D(LVDS_Channel1), 
+                   .R(XLXN_34), 
+                   .S(XLXN_34), 
+                   .Q0(XLXN_7), 
+                   .Q1(XLXN_8));
+   IDDR2 #( .INIT_Q0(1'b0), .INIT_Q1(1'b0), .SRTYPE("SYNC"), 
+         .DDR_ALIGNMENT("NONE") ) XLXI_202 (.CE(XLXN_43), 
+                   .C0(CMOS_CLK), 
+                   .C1(CMOS_CLK_INV), 
+                   .D(LVDS_Channel2), 
+                   .R(XLXN_36), 
+                   .S(XLXN_36), 
+                   .Q0(XLXN_10), 
+                   .Q1(XLXN_9));
+   IDDR2 #( .INIT_Q0(1'b0), .INIT_Q1(1'b0), .SRTYPE("SYNC"), 
+         .DDR_ALIGNMENT("NONE") ) XLXI_203 (.CE(XLXN_43), 
+                   .C0(CMOS_CLK), 
+                   .C1(CMOS_CLK_INV), 
+                   .D(LVDS_Channel3), 
+                   .R(XLXN_38), 
+                   .S(XLXN_38), 
+                   .Q0(XLXN_12), 
+                   .Q1(XLXN_11));
+   IDDR2 #( .INIT_Q0(1'b0), .INIT_Q1(1'b0), .SRTYPE("SYNC"), 
+         .DDR_ALIGNMENT("NONE") ) XLXI_204 (.CE(XLXN_43), 
+                   .C0(CMOS_CLK), 
+                   .C1(CMOS_CLK_INV), 
+                   .D(XLXN_49), 
+                   .R(XLXN_40), 
+                   .S(XLXN_40), 
+                   .Q0(XLXN_14), 
+                   .Q1(XLXN_13));
+   GND  XLXI_205 (.G(XLXN_32));
+   GND  XLXI_206 (.G(XLXN_34));
+   GND  XLXI_207 (.G(XLXN_36));
+   GND  XLXI_208 (.G(XLXN_38));
+   GND  XLXI_209 (.G(XLXN_40));
+   VCC  XLXI_210 (.P(XLXN_43));
+   IODELAY2 #( .IDELAY_TYPE("FIXED"), .DELAY_SRC("IDATAIN"), .IDELAY_VALUE(10), 
+         .DATA_RATE("DDR"), .COUNTER_WRAPAROUND("WRAPAROUND"), 
+         .IDELAY2_VALUE(0), .IDELAY_MODE("NORMAL"), .ODELAY_VALUE(0), 
+         .SERDES_MODE("NONE"), .SIM_TAPDELAY_VALUE(75) ) XLXI_213 (.CAL(), 
+                      .CE(), 
+                      .CLK(), 
+                      .IDATAIN(LVDS_Channel0), 
+                      .INC(), 
+                      .IOCLK0(), 
+                      .IOCLK1(), 
+                      .ODATAIN(), 
+                      .RST(), 
+                      .T(), 
+                      .BUSY(), 
+                      .DATAOUT(XLXN_47), 
+                      .DATAOUT2(), 
+                      .DOUT(), 
+                      .TOUT());
+   IODELAY2 #( .IDELAY_TYPE("FIXED"), .DELAY_SRC("IDATAIN"), .IDELAY_VALUE(10), 
+         .DATA_RATE("DDR"), .COUNTER_WRAPAROUND("WRAPAROUND"), 
+         .IDELAY2_VALUE(0), .IDELAY_MODE("NORMAL"), .ODELAY_VALUE(0), 
+         .SERDES_MODE("NONE"), .SIM_TAPDELAY_VALUE(75) ) XLXI_214 (.CAL(), 
+                      .CE(), 
+                      .CLK(), 
+                      .IDATAIN(LVDS_Sync), 
+                      .INC(), 
+                      .IOCLK0(), 
+                      .IOCLK1(), 
+                      .ODATAIN(), 
+                      .RST(), 
+                      .T(), 
+                      .BUSY(), 
+                      .DATAOUT(XLXN_49), 
+                      .DATAOUT2(), 
+                      .DOUT(), 
+                      .TOUT());
+endmodule
+`timescale 1ns / 1ps
+
+module main(CMOS_CLK, 
+            cmos_monitor, 
+            LVDS_CLK_N, 
+            LVDS_CLK_P, 
+            LVDS_DATA_0_N, 
+            LVDS_DATA_0_P, 
+            LVDS_SYNC_N, 
+            LVDS_SYNC_P, 
+            SD_dataout, 
+            SPI_MISO, 
+            USB_FlagA, 
+            USB_FlagB, 
+            USB_FlagC, 
+            USB_FlagD, 
+            USB_SCLK, 
+            XLXN_538, 
+            cmos_pll, 
+            cmos_triger0, 
+            cmos_triger1, 
+            cmos_triger2, 
+            LED, 
+            mcb3_dram_a, 
+            mcb3_dram_ba, 
+            mcb3_dram_cas_n, 
+            mcb3_dram_ck, 
+            mcb3_dram_cke, 
+            mcb3_dram_ck_n, 
+            mcb3_dram_dm, 
+            mcb3_dram_odt, 
+            mcb3_dram_ras_n, 
+            mcb3_dram_reset_n, 
+            mcb3_dram_udm, 
+            mcb3_dram_we_n, 
+            reset, 
+            SD_clk, 
+            SD_cs, 
+            SD_datain, 
+            SPI_CLK, 
+            SPI_MOSI, 
+            SPI_SS, 
+            training_pattern, 
+            USB_FIFOADR, 
+            USB_PKTEND, 
+            usb_reset_out, 
+            USB_SLOE, 
+            USB_SLRD, 
+            USB_SLWR, 
+            XLXN_1554, 
+            mcb3_dram_dq, 
+            mcb3_dram_dqs, 
+            mcb3_dram_dqs_n, 
+            mcb3_dram_udqs, 
+            mcb3_dram_udqs_n, 
+            mcb3_rzq, 
+            mcb3_zio, 
+            USB_DATA);
+
+    input CMOS_CLK;
+    input [1:0] cmos_monitor;
+    input LVDS_CLK_N;
+    input LVDS_CLK_P;
+    input LVDS_DATA_0_N;
+    input LVDS_DATA_0_P;
+    input LVDS_SYNC_N;
+    input LVDS_SYNC_P;
+    input SD_dataout;
+    input SPI_MISO;
+    input USB_FlagA;
+    input USB_FlagB;
+    input USB_FlagC;
+    input USB_FlagD;
+    input USB_SCLK;
+    input XLXN_538;
+   output cmos_pll;
+   output cmos_triger0;
+   output cmos_triger1;
+   output cmos_triger2;
+   output LED;
+   output [13:0] mcb3_dram_a;
+   output [2:0] mcb3_dram_ba;
+   output mcb3_dram_cas_n;
+   output mcb3_dram_ck;
+   output mcb3_dram_cke;
+   output mcb3_dram_ck_n;
+   output mcb3_dram_dm;
+   output mcb3_dram_odt;
+   output mcb3_dram_ras_n;
+   output mcb3_dram_reset_n;
+   output mcb3_dram_udm;
+   output mcb3_dram_we_n;
+   output reset;
+   output SD_clk;
+   output SD_cs;
+   output SD_datain;
+   output SPI_CLK;
+   output SPI_MOSI;
+   output SPI_SS;
+   output training_pattern;
+   output [1:0] USB_FIFOADR;
+   output USB_PKTEND;
+   output usb_reset_out;
+   output USB_SLOE;
+   output USB_SLRD;
+   output USB_SLWR;
+   output XLXN_1554;
+    inout [15:0] mcb3_dram_dq;
+    inout mcb3_dram_dqs;
+    inout mcb3_dram_dqs_n;
+    inout mcb3_dram_udqs;
+    inout mcb3_dram_udqs_n;
+    inout mcb3_rzq;
+    inout mcb3_zio;
+    inout [15:0] USB_DATA;
+   
+   wire black_line_output;
+   wire calibration_done;
+   wire [1:0] channel_data_0;
+   wire [1:0] channel_data_1;
+   wire [1:0] channel_data_2;
+   wire [1:0] channel_data_3;
+   wire clk_cmos;
+   wire clk_cmos_inv;
+   wire clk_25m;
+   wire clk_50m;
+   wire clk_100m;
+   wire cmos_initial_done;
+   wire c3_p1_rd_empty;
+   wire [63:0] ddr_image_data;
+   wire [15:0] fd_data;
+   wire fd_fifo_en;
+   wire fifo_image_en;
+   wire fifo_parameter_en;
+   wire first;
+   wire frame_end;
+   wire frame_switch;
+   wire initial_done;
+   wire lock_flag;
+   wire [15:0] parameter_data;
+   wire parameter_fifo_empty;
+   wire request_data;
+   wire request_ddr;
+   wire request_flag;
+   wire request_frame_signal;
+   wire request_reset_signal;
+   wire requset_frame;
+   wire reset_internal_module;
+   wire sd_initial_done;
+   wire sd_output;
+   wire select_flag;
+   wire SPI_CLK_10M;
+   wire spi_idle_fd;
+   wire [1:0] sync_channel;
+   wire usb_clk_internal;
+   wire usb_command_latch;
+   wire [7:0] usb_image_addr;
+   wire usb_output;
+   wire write_frame_done;
+   wire [15:0] XLXN_421;
+   wire [9:0] XLXN_422;
+   wire XLXN_423;
+   wire XLXN_471;
+   wire [15:0] XLXN_473;
+   wire [8:0] XLXN_504;
+   wire [15:0] XLXN_505;
+   wire [0:0] XLXN_506;
+   wire [15:0] XLXN_513;
+   wire [8:0] XLXN_518;
+   wire XLXN_519;
+   wire XLXN_520;
+   wire XLXN_521;
+   wire [15:0] XLXN_524;
+   wire XLXN_539;
+   wire [7:0] XLXN_540;
+   wire XLXN_548;
+   wire XLXN_551;
+   wire XLXN_552;
+   wire XLXN_553;
+   wire XLXN_555;
+   wire [15:0] XLXN_567;
+   wire [9:0] XLXN_570;
+   wire XLXN_572;
+   wire XLXN_610;
+   wire [1:0] XLXN_912;
+   wire XLXN_1246;
+   wire XLXN_1248;
+   wire XLXN_1249;
+   wire XLXN_1336;
+   wire [63:0] XLXN_1399;
+   wire XLXN_1400;
+   wire XLXN_1535;
+   wire XLXN_1543;
+   wire XLXN_1548;
+   wire XLXN_1549;
+   wire XLXN_1550;
+   wire XLXN_1552;
+   wire XLXN_1557;
+   wire XLXN_1566;
+   wire XLXN_1567;
+   wire XLXN_1570;
+   wire XLXN_1586;
+   wire XLXN_1594;
+   wire XLXN_1598;
+   wire XLXN_1599;
+   wire XLXN_1607;
+   wire XLXN_1554_DUMMY;
+   wire cmos_pll_DUMMY;
+   
+   assign cmos_pll = cmos_pll_DUMMY;
+   assign XLXN_1554 = XLXN_1554_DUMMY;
+   usb_controller  XLXI_30 (.image_data(ddr_image_data[63:0]), 
+                           .nframe(XLXN_610), 
+                           .parameter_data(parameter_data[15:0]), 
+                           .parameter_fifo_empty(parameter_fifo_empty), 
+                           .ram_full(first), 
+                           .send_out(), 
+                           .usb_clk(usb_clk_internal), 
+                           .USB_FlagA(USB_FlagA), 
+                           .USB_FlagB(USB_FlagB), 
+                           .USB_FlagC(USB_FlagC), 
+                           .USB_FlagD(USB_FlagD), 
+                           .fifo_image_en(fifo_image_en), 
+                           .fifo_parameter_en(fifo_parameter_en), 
+                           .PKTEND(USB_PKTEND), 
+                           .receive_data(XLXN_473[15:0]), 
+                           .receive_data_en(XLXN_471), 
+                           .select_flag(select_flag), 
+                           .USB_FIFO_ADR(USB_FIFOADR[1:0]), 
+                           .usb_image_addr(usb_image_addr[7:0]), 
+                           .USB_SLOE(USB_SLOE), 
+                           .USB_SLRD(USB_SLRD), 
+                           .USB_SLWR(USB_SLWR), 
+                           .USB_DATA(USB_DATA[15:0]));
+   LED_Working  XLXI_31 (.clk_input(clk_100m), 
+                        .LED(LED));
+   CMOS_RESET  XLXI_36 (.clk_input(SPI_CLK_10M), 
+                       .PLL_Lock(lock_flag), 
+                       .request_reset(request_reset_signal), 
+                       .cmos_reset(reset), 
+                       .reset_internal_module(reset_internal_module));
+   usb_dcm  XLXI_65 (.clk_in1(USB_SCLK), 
+                    .clk_out1(usb_clk_internal));
+   SPI_BUS  XLXI_93 (.clk_input(SPI_CLK_10M), 
+                    .command_address(XLXN_422[9:0]), 
+                    .data_write(XLXN_421[15:0]), 
+                    .execute_pulse(XLXN_423), 
+                    .MISO(SPI_MISO), 
+                    .reset(reset_internal_module), 
+                    .command_read(XLXN_570[9:0]), 
+                    .data_read(XLXN_567[15:0]), 
+                    .MOSI(SPI_MOSI), 
+                    .read_latch(XLXN_572), 
+                    .SCLK(SPI_CLK), 
+                    .spi_idle_fd(spi_idle_fd), 
+                    .SS_N(SPI_SS));
+   command_decoder  XLXI_106 (.clk_input(usb_clk_internal), 
+                             .data_in(XLXN_473[15:0]), 
+                             .intial_done(lock_flag), 
+                             .receive_en(XLXN_471), 
+                             .reset(reset_internal_module), 
+                             .CMOS_command(XLXN_505[15:0]), 
+                             .config_ram_addr(XLXN_504[8:0]), 
+                             .config_ram_en(XLXN_506[0]), 
+                             .fifo_cmos_en(XLXN_552), 
+                             .FPGA_command(XLXN_540[7:0]), 
+                             .FPGA_command_latch(XLXN_539));
+   cmos_command_fifo  XLXI_112 (.din(XLXN_505[15:0]), 
+                               .rd_clk(SPI_CLK_10M), 
+                               .rd_en(XLXN_520), 
+                               .rst(), 
+                               .wr_clk(usb_clk_internal), 
+                               .wr_en(XLXN_552), 
+                               .dout(XLXN_524[15:0]), 
+                               .empty(XLXN_521), 
+                               .full());
+   pulse_transfer  XLXI_116 (.clk_original(usb_clk_internal), 
+                            .clk_target(SPI_CLK_10M), 
+                            .pulse_in(XLXN_548), 
+                            .pulse_out(request_reset_signal));
+   clock_DCM  XLXI_120 (.clk_in1(clk_50m), 
+                       .clk_out1(SPI_CLK_10M), 
+                       .clk_out2(cmos_pll_DUMMY), 
+                       .clk_out3(clk_100m), 
+                       .clk_out4(clk_25m), 
+                       .locked(lock_flag));
+   FD #( .INIT(1'b0) ) XLXI_121 (.C(usb_clk_internal), 
+                .D(XLXN_552), 
+                .Q(XLXN_551));
+   AND2B1  XLXI_122 (.I0(XLXN_552), 
+                    .I1(XLXN_551), 
+                    .O(XLXN_553));
+   FD #( .INIT(1'b0) ) XLXI_123 (.C(usb_clk_internal), 
+                .D(XLXN_553), 
+                .Q(XLXN_555));
+   parameter_fd_fifo  XLXI_127 (.din(fd_data[15:0]), 
+                               .rd_clk(usb_clk_internal), 
+                               .rd_en(fifo_parameter_en), 
+                               .rst(), 
+                               .wr_clk(SPI_CLK_10M), 
+                               .wr_en(fd_fifo_en), 
+                               .dout(parameter_data[15:0]), 
+                               .empty(parameter_fifo_empty), 
+                               .full());
+   OR2  XLXI_140 (.I0(frame_end), 
+                 .I1(reset_internal_module), 
+                 .O(XLXN_610));
+   image_interface  XLXI_193 (.channel_data_0(channel_data_0[1:0]), 
+                             .channel_data_1(channel_data_1[1:0]), 
+                             .channel_data_2(channel_data_2[1:0]), 
+                             .channel_data_3(channel_data_3[1:0]), 
+                             .clk_input(clk_cmos), 
+                             .initial_done(lock_flag), 
+                             .monitor(), 
+                             .request_image(XLXN_1607), 
+                             .sync_channel(sync_channel[1:0]), 
+                             .frame_end(frame_end), 
+                             .image_data_ddr(XLXN_1399[63:0]), 
+                             .image_fifo_en(XLXN_1400), 
+                             .training_pattern(training_pattern), 
+                             .triger0(cmos_triger0), 
+                             .triger1(cmos_triger1), 
+                             .triger2(cmos_triger2));
+   BUF  XLXI_228_0 (.I(cmos_monitor[0]), 
+                   .O(XLXN_912[0]));
+   BUF  XLXI_228_1 (.I(cmos_monitor[1]), 
+                   .O(XLXN_912[1]));
+   pulse_transfer  XLXI_236 (.clk_original(usb_clk_internal), 
+                            .clk_target(clk_cmos), 
+                            .pulse_in(requset_frame), 
+                            .pulse_out(XLXN_1607));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUFDS #( .DIFF_TERM("TRUE") ) XLXI_341 (.I(LVDS_DATA_0_P), 
+                    .IB(LVDS_DATA_0_N), 
+                    .O(XLXN_1249));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) (* 
+         IFD_DELAY_VALUE = "AUTO" *) 
+   IBUFDS #( .DIFF_TERM("TRUE") ) XLXI_342 (.I(LVDS_SYNC_P), 
+                    .IB(LVDS_SYNC_N), 
+                    .O(XLXN_1248));
+   LVDS_IDDR_MUSER_main  XLXI_348 (.CMOS_CLK(clk_cmos), 
+                                  .CMOS_CLK_INV(clk_cmos_inv), 
+                                  .LVDS_Channel0(XLXN_1249), 
+                                  .LVDS_Channel1(), 
+                                  .LVDS_Channel2(), 
+                                  .LVDS_Channel3(), 
+                                  .LVDS_Sync(XLXN_1248), 
+                                  .Channel_0_N(channel_data_0[0]), 
+                                  .Channel_0_P(channel_data_0[1]), 
+                                  .Channel_1_N(), 
+                                  .Channel_1_P(), 
+                                  .Channel_2_N(), 
+                                  .Channel_2_P(), 
+                                  .Channel_3_N(), 
+                                  .Channel_3_P(), 
+                                  .Sync_N(sync_channel[0]), 
+                                  .Sync_P(sync_channel[1]));
+   (* IOSTANDARD = "DEFAULT" *) (* IBUF_DELAY_VALUE = "0" *) 
+   IBUFGDS #( .DIFF_TERM("TRUE") ) XLXI_356 (.I(LVDS_CLK_P), 
+                     .IB(LVDS_CLK_N), 
+                     .O(XLXN_1246));
+   pulse_transfer  XLXI_555 (.clk_original(usb_clk_internal), 
+                            .clk_target(SPI_CLK_10M), 
+                            .pulse_in(XLXN_555), 
+                            .pulse_out(usb_command_latch));
+   usb_reset  XLXI_556 (.clk(cmos_pll_DUMMY), 
+                       .initial_done(lock_flag), 
+                       .reset_out(usb_reset_out));
+   cmos_configuration_ram  XLXI_557 (.addra(XLXN_504[8:0]), 
+                                    .addrb(XLXN_518[8:0]), 
+                                    .clka(usb_clk_internal), 
+                                    .clkb(SPI_CLK_10M), 
+                                    .dina(XLXN_505[15:0]), 
+                                    .enb(XLXN_519), 
+                                    .wea(XLXN_506[0]), 
+                                    .doutb(XLXN_513[15:0]));
+   lvds_pll  XLXI_559 (.clk_in1(XLXN_1246), 
+                      .clk_out1(clk_cmos), 
+                      .clk_out2(clk_cmos_inv));
+   VCC  XLXI_564 (.P(XLXN_1336));
+   coms_controller  XLXI_566 (.clk(SPI_CLK_10M), 
+                             .command_fifo_empty(XLXN_521), 
+                             .initial_done(lock_flag), 
+                             .initial_spi_data(XLXN_513[15:0]), 
+                             .parameter_request(XLXN_538), 
+                             .read_latch(XLXN_572), 
+                             .reset(reset_internal_module), 
+                             .spi_fd_command(XLXN_570[9:0]), 
+                             .spi_fd_data(XLXN_567[15:0]), 
+                             .spi_idle_feedback(spi_idle_fd), 
+                             .usb_command_latch(usb_command_latch), 
+                             .usb_spi_data(XLXN_524[15:0]), 
+                             .cmos_initial_done(cmos_initial_done), 
+                             .fd_data(fd_data[15:0]), 
+                             .fd_fifo_en(fd_fifo_en), 
+                             .initial_ram_addr(XLXN_518[8:0]), 
+                             .initial_read_en(XLXN_519), 
+                             .spi_command(XLXN_422[9:0]), 
+                             .spi_data(XLXN_421[15:0]), 
+                             .spi_execute(XLXN_423), 
+                             .usb_read_en(XLXN_520));
+   AND4  XLXI_569 (.I0(calibration_done), 
+                  .I1(sd_initial_done), 
+                  .I2(cmos_initial_done), 
+                  .I3(lock_flag), 
+                  .O(initial_done));
+   sd_test  XLXI_570 (.clk(clk_25m), 
+                     .ddr_data(ddr_image_data[63:0]), 
+                     .rst_n(lock_flag), 
+                     .SD_dataout(SD_dataout), 
+                     .write_start(XLXN_1598), 
+                     .init_o(sd_initial_done), 
+                     //.led_out(), 
+                     .request_data(request_data), 
+                     .SD_clk(SD_clk), 
+                     .SD_cs(SD_cs), 
+                     .SD_datain(SD_datain), 
+                     .write_frame_done(write_frame_done));
+   FPGA_Command_Decoder  XLXI_579 (.clk(usb_clk_internal), 
+                                  .command_data(XLXN_540[7:0]), 
+                                  .command_latch(XLXN_539), 
+                                  .request_nframe_signal(request_frame_signal), 
+                                  .request_reset_signal(XLXN_548), 
+                                  .sd_output(sd_output), 
+                                  .usb_output(usb_output));
+   ddr_rw  XLXI_596 (.c3_sys_clk(CMOS_CLK), 
+                    .c3_sys_rst_n(XLXN_1336), 
+                    .ddr_addr_rd_set(XLXN_1550), 
+                    .ddr_addr_wr_set(XLXN_1607), 
+                    .ddr_data_camera(XLXN_1399[63:0]), 
+                    .ddr_rden(request_ddr), 
+                    .ddr_read_clk(usb_clk_internal), 
+                    .ddr_wren(XLXN_1400), 
+                    .ddr_write_clk(clk_cmos), 
+                    .frame_switch(frame_switch), 
+                    .camera_clk(), 
+                    .c3_calib_done(calibration_done), 
+                    .c3_clk0(), 
+                    .c3_p0_cmd_full(), 
+                    .c3_p0_wr_full(), 
+                    .c3_p0_wr_underrun(), 
+                    .c3_p1_cmd_full(), 
+                    .c3_p1_rd_empty(c3_p1_rd_empty), 
+                    .c3_p1_rd_overflow(), 
+                    .c3_rst0(), 
+                    .ddr_data_vga(ddr_image_data[63:0]), 
+                    .first(first), 
+                    .mcb3_dram_a(mcb3_dram_a[13:0]), 
+                    .mcb3_dram_ba(mcb3_dram_ba[2:0]), 
+                    .mcb3_dram_cas_n(mcb3_dram_cas_n), 
+                    .mcb3_dram_ck(mcb3_dram_ck), 
+                    .mcb3_dram_cke(mcb3_dram_cke), 
+                    .mcb3_dram_ck_n(mcb3_dram_ck_n), 
+                    .mcb3_dram_dm(mcb3_dram_dm), 
+                    .mcb3_dram_odt(mcb3_dram_odt), 
+                    .mcb3_dram_ras_n(mcb3_dram_ras_n), 
+                    .mcb3_dram_reset_n(mcb3_dram_reset_n), 
+                    .mcb3_dram_udm(mcb3_dram_udm), 
+                    .mcb3_dram_we_n(mcb3_dram_we_n), 
+                    .vga_clk(clk_50m), 
+                    .mcb3_dram_dq(mcb3_dram_dq[15:0]), 
+                    .mcb3_dram_dqs(mcb3_dram_dqs), 
+                    .mcb3_dram_dqs_n(mcb3_dram_dqs_n), 
+                    .mcb3_dram_udqs(mcb3_dram_udqs), 
+                    .mcb3_dram_udqs_n(mcb3_dram_udqs_n), 
+                    .mcb3_rzq(mcb3_rzq), 
+                    .mcb3_zio(mcb3_zio));
+   FDE #( .INIT(1'b0) ) XLXI_597 (.C(clk_cmos), 
+                 .CE(frame_end), 
+                 .D(XLXN_1535), 
+                 .Q(frame_switch));
+   INV  XLXI_598 (.I(frame_switch), 
+                 .O(XLXN_1535));
+   (* HU_SET = "XLXI_599_0" *) 
+   SR4RE_HXILINX_main  XLXI_599 (.C(clk_cmos), 
+                                .CE(XLXN_1548), 
+                                .R(XLXN_1549), 
+                                .SLI(frame_end), 
+                                .Q0(), 
+                                .Q1(), 
+                                .Q2(), 
+                                .Q3(XLXN_1543));
+   VCC  XLXI_600 (.P(XLXN_1548));
+   pulse_transfer  XLXI_603 (.clk_original(clk_cmos), 
+                            .clk_target(usb_clk_internal), 
+                            .pulse_in(XLXN_1543), 
+                            .pulse_out(XLXN_1550));
+   GND  XLXI_604 (.G(XLXN_1549));
+   FDE #( .INIT(1'b0) ) XLXI_605 (.C(clk_25m), 
+                 .CE(write_frame_done), 
+                 .D(XLXN_1552), 
+                 .Q(XLXN_1554_DUMMY));
+   INV  XLXI_606 (.I(XLXN_1554_DUMMY), 
+                 .O(XLXN_1552));
+   FD #( .INIT(1'b0) ) XLXI_607 (.C(usb_clk_internal), 
+                .D(first), 
+                .Q(XLXN_1557));
+   AND2B1  XLXI_608 (.I0(XLXN_1557), 
+                    .I1(first), 
+                    .O(XLXN_1570));
+   (* HU_SET = "XLXI_609_1" *) 
+   SR4RE_HXILINX_main  XLXI_609 (.C(usb_clk_internal), 
+                                .CE(XLXN_1566), 
+                                .R(XLXN_1567), 
+                                .SLI(XLXN_1570), 
+                                .Q0(), 
+                                .Q1(), 
+                                .Q2(), 
+                                .Q3(XLXN_1599));
+   VCC  XLXI_610 (.P(XLXN_1566));
+   GND  XLXI_611 (.G(XLXN_1567));
+   generate_request  XLXI_613 (.black_output(black_line_output), 
+                              .clk(usb_clk_internal), 
+                              .initial_done(initial_done), 
+                              .request_frame(request_frame_signal), 
+                              .request_sd(XLXN_1594), 
+                              .request_usb(fifo_image_en), 
+                              .sd_request(sd_output), 
+                              .usb_request(usb_output), 
+                              .write_frame_done(XLXN_1586), 
+                              .frame_triger(requset_frame), 
+                              .request_data(request_ddr), 
+                              .request_flag(request_flag), 
+                              .write_start());
+   pulse_transfer  XLXI_620 (.clk_original(clk_25m), 
+                            .clk_target(usb_clk_internal), 
+                            .pulse_in(write_frame_done), 
+                            .pulse_out(XLXN_1586));
+   pulse_transfer  XLXI_621 (.clk_original(clk_25m), 
+                            .clk_target(usb_clk_internal), 
+                            .pulse_in(request_data), 
+                            .pulse_out(XLXN_1594));
+   pulse_transfer  XLXI_622 (.clk_original(usb_clk_internal), 
+                            .clk_target(clk_25m), 
+                            .pulse_in(XLXN_1599), 
+                            .pulse_out(XLXN_1598));
+endmodule

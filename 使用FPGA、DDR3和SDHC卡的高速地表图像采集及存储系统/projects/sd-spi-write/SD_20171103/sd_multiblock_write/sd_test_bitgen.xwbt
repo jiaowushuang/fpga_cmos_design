@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=G:\gitDoc\fpga\SD_20171103\SD_20171103\sd_multiblock_write\sd_test.ncd
+OUTFILE=G:\gitDoc\fpga\SD_20171103\SD_20171103\sd_multiblock_write\sd_test.bit
+FAMILY=Spartan6 Lower Power
+PART=xc6slx45l-1lcsg324
+WORKINGDIR=G:\gitDoc\fpga\SD_20171103\SD_20171103\sd_multiblock_write
+LICENSE=WebPack
+USER_INFO=__0_0_0

@@ -1,0 +1,58 @@
+#:C9     
+#Xilinx FPGA Editor Command Log File
+#Editor Version:
+#:V   NT M2.1 P.20131013
+#Current Working Directory:
+#:D   D:\03_FPGA_Project\01_UAV_CMOS\02_FPGA\UAV_CMOS_2Degree\UAV_CMOS
+#Date/Time:
+#:T   Mon Nov 06 05:39:39 2017
+#------------------------------
+	#Reading main.ncd...
+	#Loading device for application Rf_Device from file '6slx45.nph' in environment D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\.
+	#   "main" is an NCD, version 3.2, device xc6slx45, package csg324, speed -2
+	#Design creation date: 2017.11.05.15.08.57
+	#Building chip graphics...
+	#Loading speed info...
+	#1
+setattr main edit-mode no-logic-changes
+	#2
+post probes
+	#3
+probe add XLXN_610 -targetpins C8  -noroute
+	#The probe command requires a read/write edit mode.
+	#Do you want to change the edit mode?
+	#4
+setattr main edit-mode read-write
+	#INFO:FPGAEditor:950 - Please make a copy of the design before adding probes.
+	#FPGA Editor will modify the design when a probe is created.
+	#5
+probe route XLXN_610
+	#Found compatible IO standard "LVCMOS33" at site "C8".
+	#Building the delay mediator...
+	#Hint: to automatically load delays when design is loaded, setattr main auto_load_delays true
+	#  Routed net to C8, pin delay =  6.631ns
+	#Probe of net "XLXN_610" routed to C8 with delay  6.631ns
+	#6
+probe add XLXI_30/fifo_image_en_flag -targetpins A7  -noroute
+	#7
+probe route XLXI_30/fifo_image_en_flag
+	#Found compatible IO standard "LVCMOS33" at site "A7".
+	#  Routed net to A7, pin delay =  7.374ns
+	#Probe of net "XLXI_30/fifo_image_en_flag" routed to A7 with delay  7.374ns
+	#8
+unpost probes
+	#9
+save
+	#WARNING:PhysDesignRules:372 - Gated clock. Clock net icon_control0<13> is sourced by a combinatorial pin. This is not good design practice. Use the CE pin to control the loading of data into the flip-flop.
+	#WARNING:PhysDesignRules:367 - The signal <ila0_trig1<5>> is incomplete. The signal does not drive any load pins in the design.
+	#WARNING:PhysDesignRules:367 - The signal <ila0_trig1<6>> is incomplete. The signal does not drive any load pins in the design.
+	#WARNING:PhysDesignRules:367 - The signal <ila0_trig1<7>> is incomplete. The signal does not drive any load pins in the design.
+	#WARNING:PhysDesignRules:367 - The signal <ila0_trig1<8>> is incomplete. The signal does not drive any load pins in the design.
+	#WARNING:PhysDesignRules:367 - The signal <ila0_trig1<9>> is incomplete. The signal does not drive any load pins in the design.
+	#WARNING:PhysDesignRules:367 - The signal <ila0_trig1<10>> is incomplete. The signal does not drive any load pins in the design.
+	#WARNING:PhysDesignRules:367 - The signal <ila0_trig2<0>> is incomplete. The signal does not drive any load pins in the design.
+	#WARNING:PhysDesignRules:2410 - This design is using one or more 9K Block RAMs (RAMB8BWER).  9K Block RAM initialization data, both user defined and default, may be incorrect and should not be used.  For more information, please reference Xilinx Answer Record 39999.
+	#DRC detected 0 errors and 9 warnings.
+	#Constraint file is updated.  No saving is necessary.
+	#10
+post probes

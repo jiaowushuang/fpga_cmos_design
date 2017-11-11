@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="request_reset">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-9-22T14:44:27</timestamp>
+    <attr value="request_reset" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-160" name="clk" />
+    <pin polarity="Input" x="0" y="-96" name="command_latch" />
+    <pin polarity="Input" x="0" y="-32" name="command_data(7:0)" />
+    <pin polarity="Output" x="496" y="-160" name="request_reset_signal" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="248" y="-200" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin command_latch" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin command_data(7:0)" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <rect width="64" x="0" y="-44" height="24" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <rect width="368" x="64" y="-192" height="192" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="424" y="-160" type="pin request_reset_signal" />
+        <line x2="496" y1="-160" y2="-160" x1="432" />
+    </graph>
+</symbol>

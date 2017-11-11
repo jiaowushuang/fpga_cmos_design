@@ -1,0 +1,2 @@
+verilog work ../../usb_dcm.v
+verilog work ../example_design/usb_dcm_exdes.v

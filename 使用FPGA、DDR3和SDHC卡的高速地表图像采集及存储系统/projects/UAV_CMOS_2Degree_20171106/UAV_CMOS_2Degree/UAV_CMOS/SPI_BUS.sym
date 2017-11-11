@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="SPI_BUS">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-9-20T13:7:39</timestamp>
+    <attr value="SPI_BUS" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-336" name="reset" />
+    <pin polarity="Input" x="0" y="-272" name="clk_input" />
+    <pin polarity="Output" x="672" y="-336" name="SCLK" />
+    <pin polarity="Output" x="672" y="-272" name="SS_N" />
+    <pin polarity="Input" x="0" y="-208" name="MISO" />
+    <pin polarity="Output" x="672" y="-144" name="spi_idle_fd" />
+    <pin polarity="Output" x="672" y="-208" name="MOSI" />
+    <pin polarity="Input" x="0" y="-128" name="execute_pulse" />
+    <pin polarity="Output" x="672" y="-80" name="read_latch" />
+    <pin polarity="Input" x="0" y="-16" name="data_write(15:0)" />
+    <pin polarity="Input" x="0" y="48" name="command_address(9:0)" />
+    <pin polarity="Output" x="672" y="-16" name="data_read(15:0)" />
+    <pin polarity="Output" x="672" y="48" name="command_read(9:0)" />
+    <graph>
+        <rect width="544" x="64" y="-384" height="468" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-336" type="pin reset" />
+        <line x2="0" y1="-336" y2="-336" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-272" type="pin clk_input" />
+        <line x2="0" y1="-272" y2="-272" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="600" y="-336" type="pin SCLK" />
+        <line x2="672" y1="-336" y2="-336" x1="608" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="600" y="-272" type="pin SS_N" />
+        <line x2="672" y1="-272" y2="-272" x1="608" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-208" type="pin MISO" />
+        <line x2="0" y1="-208" y2="-208" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="600" y="-144" type="pin spi_idle_fd" />
+        <line x2="672" y1="-144" y2="-144" x1="608" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="600" y="-208" type="pin MOSI" />
+        <line x2="672" y1="-208" y2="-208" x1="608" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="360" y="-384" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-128" type="pin execute_pulse" />
+        <line x2="0" y1="-128" y2="-128" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="600" y="-80" type="pin read_latch" />
+        <line x2="672" y1="-80" y2="-80" x1="608" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-16" type="pin data_write(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="48" type="pin command_address(9:0)" />
+        <rect width="64" x="0" y="-28" height="24" />
+        <line x2="0" y1="-16" y2="-16" x1="64" />
+        <rect width="64" x="0" y="36" height="24" />
+        <line x2="0" y1="48" y2="48" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="600" y="-16" type="pin data_read(15:0)" />
+        <rect width="64" x="608" y="-28" height="24" />
+        <line x2="672" y1="-16" y2="-16" x1="608" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="600" y="48" type="pin command_read(9:0)" />
+        <rect width="64" x="608" y="36" height="24" />
+        <line x2="672" y1="48" y2="48" x1="608" />
+    </graph>
+</symbol>

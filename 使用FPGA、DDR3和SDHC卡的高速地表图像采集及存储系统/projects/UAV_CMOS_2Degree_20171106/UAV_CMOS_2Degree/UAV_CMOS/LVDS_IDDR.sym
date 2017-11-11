@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="LVDS_IDDR">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-9-27T11:46:54</timestamp>
+    <pin polarity="Input" x="0" y="-608" name="LVDS_Channel0" />
+    <pin polarity="Output" x="544" y="-512" name="Channel_1_P" />
+    <pin polarity="Output" x="544" y="-448" name="Channel_1_N" />
+    <pin polarity="Output" x="544" y="-640" name="Channel_0_P" />
+    <pin polarity="Output" x="544" y="-576" name="Channel_0_N" />
+    <pin polarity="Output" x="544" y="-384" name="Channel_2_P" />
+    <pin polarity="Output" x="544" y="-320" name="Channel_2_N" />
+    <pin polarity="Output" x="544" y="-256" name="Channel_3_P" />
+    <pin polarity="Output" x="544" y="-192" name="Channel_3_N" />
+    <pin polarity="Output" x="544" y="-128" name="Sync_P" />
+    <pin polarity="Output" x="544" y="-64" name="Sync_N" />
+    <pin polarity="Input" x="0" y="-480" name="LVDS_Channel1" />
+    <pin polarity="Input" x="0" y="-96" name="LVDS_Sync" />
+    <pin polarity="Input" x="0" y="-224" name="LVDS_Channel3" />
+    <pin polarity="Input" x="0" y="-352" name="LVDS_Channel2" />
+    <pin polarity="Input" x="0" y="-688" name="CMOS_CLK_INV" />
+    <pin polarity="Input" x="0" y="-736" name="CMOS_CLK" />
+    <graph>
+        <rect width="416" x="64" y="-756" height="756" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-608" type="pin LVDS_Channel0" />
+        <line x2="0" y1="-608" y2="-608" x1="64" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-512" type="pin Channel_1_P" />
+        <line x2="544" y1="-512" y2="-512" x1="480" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-448" type="pin Channel_1_N" />
+        <line x2="544" y1="-448" y2="-448" x1="480" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-640" type="pin Channel_0_P" />
+        <line x2="544" y1="-640" y2="-640" x1="480" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-576" type="pin Channel_0_N" />
+        <line x2="544" y1="-576" y2="-576" x1="480" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-384" type="pin Channel_2_P" />
+        <line x2="544" y1="-384" y2="-384" x1="480" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-320" type="pin Channel_2_N" />
+        <line x2="544" y1="-320" y2="-320" x1="480" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-256" type="pin Channel_3_P" />
+        <line x2="544" y1="-256" y2="-256" x1="480" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-192" type="pin Channel_3_N" />
+        <line x2="544" y1="-192" y2="-192" x1="480" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-128" type="pin Sync_P" />
+        <line x2="544" y1="-128" y2="-128" x1="480" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="472" y="-64" type="pin Sync_N" />
+        <line x2="544" y1="-64" y2="-64" x1="480" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-480" type="pin LVDS_Channel1" />
+        <line x2="0" y1="-480" y2="-480" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin LVDS_Sync" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin LVDS_Channel3" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin LVDS_Channel2" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="268" y="-764" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-688" type="pin CMOS_CLK_INV" />
+        <line x2="0" y1="-688" y2="-688" x1="64" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-736" type="pin CMOS_CLK" />
+        <line x2="0" y1="-736" y2="-736" x1="64" />
+    </graph>
+</symbol>

@@ -1,0 +1,13 @@
+run
+-ifmt VHDL
+-ent image_data_exdes
+-p xc6slx45l-csg324-1l
+-ifn xst.prj
+-write_timing_constraints No
+-iobuf YES
+-max_fanout 100
+-ofn image_data_exdes 
+-ofmt NGC
+-bus_delimiter ()
+-hierarchy_separator /
+-case Maintain

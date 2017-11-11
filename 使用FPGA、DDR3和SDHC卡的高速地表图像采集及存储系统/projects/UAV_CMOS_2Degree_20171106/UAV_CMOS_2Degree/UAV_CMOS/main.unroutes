@@ -1,0 +1,26 @@
+Release 14.7 - par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Tue Nov 07 11:16:18 2017
+
+All signals are completely routed.
+
+WARNING:ParHelpers:361 - There are 14 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   USB_FlagB_IBUF
+   USB_FlagD_IBUF
+   XLXI_596/mig_39_2_inst/memc3_infrastructure_inst/clk0
+   XLXI_596/mig_39_2_inst/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_cal_start
+   XLXI_596/mig_39_2_inst/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_cmd_ready_in
+   XLXI_596/mig_39_2_inst/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<0>
+   XLXI_596/mig_39_2_inst/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<1>
+   XLXI_596/mig_39_2_inst/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<2>
+   XLXI_596/mig_39_2_inst/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<3>
+   XLXI_596/mig_39_2_inst/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<4>
+   XLXI_596/mig_39_2_inst/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<5>
+   XLXI_596/mig_39_2_inst/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<6>
+   XLXI_596/mig_39_2_inst/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data<7>
+   XLXI_596/mig_39_2_inst/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/uo_data_valid
+
+

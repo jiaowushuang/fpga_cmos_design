@@ -1,0 +1,3 @@
+# Output products list for <DCM_CMOS>
+DCM_CMOS.xco
+DCM_CMOS_flist.txt

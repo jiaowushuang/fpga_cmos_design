@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- IMPORTANT: This is an internal file that has been generated
+     by the Xilinx ISE software.  Any direct editing or
+     changes made to this file may result in unpredictable
+     behavior or data corruption.  It is strongly advised that
+     users do not edit the contents of this file. -->
+<messages>
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CMOS_CLK</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CMOS_CLK</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">u_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT3</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_mcb_drp_clk_bufg_in = PERIOD &quot;XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_mcb_drp_clk_bufg_in&quot; TS_CMOS_CLK * 1.5625 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CMOS_CLK</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CMOS_CLK</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">u_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_clk_2x_180 = PERIOD &quot;XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_clk_2x_180&quot; TS_CMOS_CLK * 12.5 PHASE 0.666666667 ns HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CMOS_CLK</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CMOS_CLK</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">u_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT5</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in = PERIOD &quot;XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in&quot; TS_CMOS_CLK * 0.5 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CMOS_CLK</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CMOS_CLK</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">u_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_clk_2x_0 = PERIOD &quot;XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_clk_2x_0&quot; TS_CMOS_CLK * 12.5 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">CMOS_CLK</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_CMOS_CLK</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">u_pll_adv</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_clk0_bufg_in = PERIOD &quot;XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_clk0_bufg_in&quot; TS_CMOS_CLK * 1.5625 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">USB_SCLK</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_USB_SCLK</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_SP</arg> instance <arg fmt="%s" index="5">dcm_sp_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_SP</arg> output(s): 
+<arg fmt="%s" index="7">CLK0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_XLXI_65_clk0 = PERIOD &quot;XLXI_65_clk0&quot; TS_USB_SCLK PHASE 1.278409091 ns HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">LVDS_CLK_N</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_LVDS_CLK_N</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_XLXI_559_clkout1 = PERIOD &quot;XLXI_559_clkout1&quot; TS_LVDS_CLK_N PHASE 1 ns HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">LVDS_CLK_N</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_LVDS_CLK_N</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_XLXI_559_clkout0 = PERIOD &quot;XLXI_559_clkout0&quot; TS_LVDS_CLK_N PHASE -1 ns HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT3</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_XLXI_120_clkout3 = PERIOD &quot;XLXI_120_clkout3&quot; TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT1</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_XLXI_120_clkout1 = PERIOD &quot;XLXI_120_clkout1&quot; TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in * 1.6 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT0</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_XLXI_120_clkout0 = PERIOD &quot;XLXI_120_clkout0&quot; TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in * 0.125 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="new" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in</arg>&apos;, was traced into <arg fmt="%s" index="4">PLL_ADV</arg> instance <arg fmt="%s" index="5">PLL_ADV</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">PLL_ADV</arg> output(s): 
+<arg fmt="%s" index="7">CLKOUT2</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_clk_100m = PERIOD &quot;clk_100m&quot; TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in * 4 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="info" file="ConstraintSystem" num="178" delta="old" ><arg fmt="%s" index="1">TNM</arg> &apos;<arg fmt="%s" index="2">XLXI_120_clkout3</arg>&apos;, used in period specification &apos;<arg fmt="%s" index="3">TS_XLXI_120_clkout3</arg>&apos;, was traced into <arg fmt="%s" index="4">DCM_SP</arg> instance <arg fmt="%s" index="5">DCM_SP_inst</arg>. The following new TNM groups and period specifications were generated at the <arg fmt="%s" index="6">DCM_SP</arg> output(s): 
+<arg fmt="%s" index="7">CLKFX</arg>: <arg fmt="%s" index="8">&lt;TIMESPEC TS_XLXI_570_CLKFX = PERIOD &quot;XLXI_570_CLKFX&quot; TS_XLXI_120_clkout3 HIGH 50%&gt;</arg>
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_15 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_in_buf_15</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_in_buf_15&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(81)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_14 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_in_buf_14</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_in_buf_14&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(80)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_13 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_in_buf_13</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_in_buf_13&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(79)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_12 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_in_buf_12</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_in_buf_12&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(78)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_11 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_in_buf_11</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_in_buf_11&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(77)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_10 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_in_buf_10</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_in_buf_10&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(76)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_9 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_in_buf_9</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_in_buf_9&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(75)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_8 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_in_buf_8</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_in_buf_8&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(74)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_7 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_in_buf_7</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_in_buf_7&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(73)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_6 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_in_buf_6</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_in_buf_6&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(72)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_5 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_in_buf_5</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_in_buf_5&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(71)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_4 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_in_buf_4</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_in_buf_4&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(70)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_3 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_in_buf_3</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_in_buf_3&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(69)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_2 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_in_buf_2</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_in_buf_2&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(68)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_1 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_in_buf_1</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_in_buf_1&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(67)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_0 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_in_buf_0</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_in_buf_0&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(66)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_15 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_out_buf_15</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_out_buf_15&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(98)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_14 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_out_buf_14</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_out_buf_14&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(97)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_13 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_out_buf_13</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_out_buf_13&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(96)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_12 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_out_buf_12</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_out_buf_12&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(95)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_11 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_out_buf_11</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_out_buf_11&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(94)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_10 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_out_buf_10</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_out_buf_10&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(93)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_9 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_out_buf_9</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_out_buf_9&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(92)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_8 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_out_buf_8</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_out_buf_8&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(91)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_7 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_out_buf_7</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_out_buf_7&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(90)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_6 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_out_buf_6</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_out_buf_6&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(89)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_5 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_out_buf_5</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_out_buf_5&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(88)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_4 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_out_buf_4</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_out_buf_4&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(87)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_3 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_out_buf_3</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_out_buf_3&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(86)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_2 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_out_buf_2</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_out_buf_2&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(85)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_1 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_out_buf_1</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_out_buf_1&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(84)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1012" delta="old" >The constraint <arg fmt="%s" index="1">&lt;INST /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_0 IOB = true&gt;</arg> is overridden on the design object <arg fmt="%s" index="2">XLXI_30/USB_Data_out_buf_0</arg> by the constraint <arg fmt="%s" index="3">&lt;INST &quot;XLXI_30/USB_Data_out_buf_0&quot; IOB =TRUE;&gt; [UAV_CMOS.ucf(83)]</arg>.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1440" delta="old" >User specified non-default attribute value (<arg fmt="%s" index="1">20</arg>) was detected for the <arg fmt="%s" index="2">CLKIN1_PERIOD</arg> attribute on <arg fmt="%s" index="3">PLL</arg> &quot;<arg fmt="%s" index="4">u_pll_adv</arg>&quot;.  This does not match the PERIOD constraint value (<arg fmt="%s" index="5">60 MHz.</arg>).  The uncertainty calculation will use the PERIOD constraint value.  This could result in incorrect uncertainty calculated for <arg fmt="%s" index="6">PLL</arg> output clocks.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1212" delta="old" >User specified non-default attribute value (<arg fmt="%s" index="1">20.000000</arg>) was detected for the <arg fmt="%s" index="2">CLKIN_PERIOD</arg> attribute on <arg fmt="%s" index="3">DCM</arg> &quot;<arg fmt="%s" index="4">DCM_SP_inst</arg>&quot;.  This does not match the PERIOD constraint value (<arg fmt="%s" index="5">30 MHz.</arg>).  The uncertainty calculation will use the non-default attribute value.  This could result in incorrect uncertainty calculated for <arg fmt="%s" index="6">DCM</arg> output clocks.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1212" delta="old" >User specified non-default attribute value (<arg fmt="%s" index="1">20.833000</arg>) was detected for the <arg fmt="%s" index="2">CLKIN_PERIOD</arg> attribute on <arg fmt="%s" index="3">DCM</arg> &quot;<arg fmt="%s" index="4">dcm_sp_inst</arg>&quot;.  This does not match the PERIOD constraint value (<arg fmt="%s" index="5">55 MHz.</arg>).  The uncertainty calculation will use the non-default attribute value.  This could result in incorrect uncertainty calculated for <arg fmt="%s" index="6">DCM</arg> output clocks.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1440" delta="old" >User specified non-default attribute value (<arg fmt="%s" index="1">40</arg>) was detected for the <arg fmt="%s" index="2">CLKIN1_PERIOD</arg> attribute on <arg fmt="%s" index="3">PLL</arg> &quot;<arg fmt="%s" index="4">PLL_ADV</arg>&quot;.  This does not match the PERIOD constraint value (<arg fmt="%s" index="5">30 MHz.</arg>).  The uncertainty calculation will use the PERIOD constraint value.  This could result in incorrect uncertainty calculated for <arg fmt="%s" index="6">PLL</arg> output clocks.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="1440" delta="old" >User specified non-default attribute value (<arg fmt="%s" index="1">5</arg>) was detected for the <arg fmt="%s" index="2">CLKIN1_PERIOD</arg> attribute on <arg fmt="%s" index="3">PLL</arg> &quot;<arg fmt="%s" index="4">PLL_ADV</arg>&quot;.  This does not match the PERIOD constraint value (<arg fmt="%s" index="5">4 ns.</arg>).  The uncertainty calculation will use the PERIOD constraint value.  This could result in incorrect uncertainty calculated for <arg fmt="%s" index="6">PLL</arg> output clocks.
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">cmos_triger1_OBUF</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">cmos_triger2_OBUF</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N40</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N41</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N42</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N43</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N44</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N45</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N46</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N47</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N48</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N49</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N50</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N51</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N52</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N53</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N54</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N55</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N56</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N57</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N58</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N59</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N60</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N61</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N62</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N63</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N64</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N65</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N66</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N67</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N68</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N69</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N70</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N71</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N72</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N73</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N74</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N75</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N76</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">N77</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="478" delta="old" >clock net <arg fmt="%s" index="1">XLXI_596/camera_clk</arg> with clock driver <arg fmt="%s" index="2">XLXI_596/mig_39_2_inst/memc3_infrastructure_inst/U_BUFG_CLK2</arg> drives no clock pins
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">XLXI_596/c3_p0_wr_underrun</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">XLXI_596/mig_39_2_inst/c3_p0_cmd_byte_addr&lt;29&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">XLXI_596/mig_39_2_inst/c3_p0_cmd_byte_addr&lt;28&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">XLXI_596/mig_39_2_inst/c3_p0_cmd_byte_addr&lt;27&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">XLXI_596/mig_39_2_inst/c3_p1_cmd_byte_addr&lt;29&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">XLXI_596/mig_39_2_inst/c3_p1_cmd_byte_addr&lt;28&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">XLXI_596/mig_39_2_inst/c3_p1_cmd_byte_addr&lt;27&gt;</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">XLXI_596/mig_39_2_inst/c3_p0_wr_error</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">XLXI_596/mig_39_2_inst/c3_p0_rd_overflow</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">XLXI_596/mig_39_2_inst/c3_p0_rd_error</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">XLXI_596/mig_39_2_inst/c3_p1_wr_underrun</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">XLXI_348/LVDS_Channel1</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">XLXI_348/LVDS_Channel2</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">XLXI_348/LVDS_Channel3</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">XLXI_127/rst</arg>&apos; has no driver
+</msg>
+
+<msg type="warning" file="NgdBuild" num="452" delta="old" ><arg fmt="%s" index="1">logical</arg> net &apos;<arg fmt="%s" index="2">XLXI_112/rst</arg>&apos; has no driver
+</msg>
+
+</messages>
+

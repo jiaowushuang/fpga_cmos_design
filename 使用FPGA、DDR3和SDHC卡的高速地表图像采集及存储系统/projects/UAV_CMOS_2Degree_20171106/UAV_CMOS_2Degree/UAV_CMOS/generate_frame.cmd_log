@@ -1,0 +1,4 @@
+vhdtdtfi -lib work D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS/UAV_CMOS/generate_frame.v -lang verilog -prj UAV_CMOS -o generate_frame.spl -module generate_frame -template D:/01_Installed_SW/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6l generate_frame.spl D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS/UAV_CMOS/generate_frame.sym 
+vhdtdtfi -lib work D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS/UAV_CMOS/generate_frame.v -lang verilog -prj UAV_CMOS -o generate_frame.spl -module generate_frame -template D:/01_Installed_SW/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6l generate_frame.spl D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS/UAV_CMOS/generate_frame.sym 

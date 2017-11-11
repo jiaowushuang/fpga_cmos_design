@@ -1,0 +1,123 @@
+SET_FLAG DEBUG FALSE
+SET_FLAG MODE BATCH
+SET_FLAG STANDALONE_MODE FALSE
+SET_PREFERENCE devicefamily spartan6l
+SET_PREFERENCE device xc6slx45l
+SET_PREFERENCE speedgrade -1l
+SET_PREFERENCE package csg324
+SET_PREFERENCE verilogsim true
+SET_PREFERENCE vhdlsim false
+SET_PREFERENCE simulationfiles Behavioral
+SET_PREFERENCE busformat BusFormatAngleBracketNotRipped
+SET_PREFERENCE outputdirectory D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS/UAV_CMOS/ipcore_dir/
+SET_PREFERENCE workingdirectory D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS/UAV_CMOS/ipcore_dir/tmp/
+SET_PREFERENCE subworkingdirectory D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS/UAV_CMOS/ipcore_dir/tmp/_cg/
+SET_PREFERENCE transientdirectory D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS/UAV_CMOS/ipcore_dir/tmp/_cg/_dbg/
+SET_PREFERENCE designentry Verilog
+SET_PREFERENCE flowvendor Other
+SET_PREFERENCE addpads false
+SET_PREFERENCE projectname coregen
+SET_PREFERENCE formalverification false
+SET_PREFERENCE asysymbol false
+SET_PREFERENCE implementationfiletype Ngc
+SET_PREFERENCE foundationsym false
+SET_PREFERENCE createndf false
+SET_PREFERENCE removerpms false
+SET_PARAMETER Component_Name series10
+SET_PARAMETER Notes None
+SET_PARAMETER use_template Custom
+SET_PARAMETER Bus_Dir INPUTS
+SET_PARAMETER Bus_Sig_Type DIFF
+SET_PARAMETER Bus_IO_Std LVDS_25
+SET_PARAMETER Use_Phase_Detector false
+SET_PARAMETER v6_Active_Edge SDR
+SET_PARAMETER Use_Serialization true
+SET_PARAMETER Serialization_Factor 2
+SET_PARAMETER Enable_Bitslip false
+SET_PARAMETER Enable_Train false
+SET_PARAMETER Train_Constant 0
+SET_PARAMETER System_Data_Width 1
+SET_PARAMETER Interface_Type RETIMED
+SET_PARAMETER v6_Interface_Type NETWORKING
+SET_PARAMETER Bus_In_Delay NONE
+SET_PARAMETER v6_Bus_In_Delay NONE
+SET_PARAMETER Bus_In_Tap 0
+SET_PARAMETER v6_Bus_In_Tap 0
+SET_PARAMETER Bus_Tap_Reset NOT_APP
+SET_PARAMETER Bus_Tap_Wrap NOT_APP
+SET_PARAMETER Bus_Out_Delay NONE
+SET_PARAMETER v6_Bus_Out_Delay NONE
+SET_PARAMETER Bus_Out_Tap 0
+SET_PARAMETER v6_Bus_Out_Tap 0
+SET_PARAMETER Clk_Sig_Type DIFF
+SET_PARAMETER v6_Clk_Sig_Type DIFF
+SET_PARAMETER Clk_IO_Std LVDS_25
+SET_PARAMETER v6_Clk_IO_Std LVCMOS18
+SET_PARAMETER Clk_Buf BUFIO2
+SET_PARAMETER v6_Clk_Buf BUFIO
+SET_PARAMETER Active_Edge BOTH_RISE_FALL
+SET_PARAMETER DDR_Alignment C0
+SET_PARAMETER v6_DDR_Alignment SAME_EDGE_PIPELINED
+SET_PARAMETER v6_ODDR_ALIGNMENT SAME_EDGE
+SET_PARAMETER Clk_Delay NONE
+SET_PARAMETER Clk_Tap 0
+SET_PARAMETER CLK_FWD false
+SET_PARAMETER Iddr_Rst_Type ASYNC
+SET_PARAMETER v6_Iddr_Rst_Type ASYNC
+SET_SIM_PARAMETER c_component_name series10
+SET_SIM_PARAMETER c_device_family spartan6
+SET_SIM_PARAMETER c_notes None
+SET_SIM_PARAMETER c_bus_dir INPUTS
+SET_SIM_PARAMETER c_bus_sig_type DIFF
+SET_SIM_PARAMETER c_bus_io_std LVDS_25
+SET_SIM_PARAMETER c_use_serialization 1
+SET_SIM_PARAMETER c_serialization_factor 2
+SET_SIM_PARAMETER c_use_phase_detector false
+SET_SIM_PARAMETER c_enable_bitslip 0
+SET_SIM_PARAMETER c_enable_train 0
+SET_SIM_PARAMETER c_train_constant 0
+SET_SIM_PARAMETER c_system_data_width 1
+SET_SIM_PARAMETER c_bus_in_delay NONE
+SET_SIM_PARAMETER c_v6_bus_in_delay NONE
+SET_SIM_PARAMETER c_bus_in_tap 0
+SET_SIM_PARAMETER c_v6_bus_in_tap 0
+SET_SIM_PARAMETER c_bus_tap_reset FROM_ZERO
+SET_SIM_PARAMETER c_bus_tap_wrap STAY_AT_LIMIT
+SET_SIM_PARAMETER c_bus_out_delay NONE
+SET_SIM_PARAMETER c_v6_bus_out_delay NONE
+SET_SIM_PARAMETER c_bus_out_tap 0
+SET_SIM_PARAMETER c_v6_bus_out_tap 0
+SET_SIM_PARAMETER c_clk_sig_type DIFF
+SET_SIM_PARAMETER c_clk_io_std LVDS_25
+SET_SIM_PARAMETER c_v6_clk_sig_type DIFF
+SET_SIM_PARAMETER c_v6_clk_io_std LVCMOS18
+SET_SIM_PARAMETER c_clk_buf BUFIO2
+SET_SIM_PARAMETER c_v6_clk_buf BUFIO
+SET_SIM_PARAMETER c_active_edge BOTH_RISE_FALL
+SET_SIM_PARAMETER c_v6_active_edge NOT_APP
+SET_SIM_PARAMETER c_interface_type RETIMED
+SET_SIM_PARAMETER c_v6_interface_type NETWORKING
+SET_SIM_PARAMETER c_ddr_alignment C0
+SET_SIM_PARAMETER c_v6_ddr_alignment SAME_EDGE_PIPELINED
+SET_SIM_PARAMETER c_v6_oddr_alignment SAME_EDGE
+SET_SIM_PARAMETER c_clk_delay NONE
+SET_SIM_PARAMETER c_clk_tap 0
+SET_SIM_PARAMETER c_clk_tap_reset FROM_ZERO
+SET_SIM_PARAMETER c_clk_tap_wrap STAY_AT_LIMIT
+SET_SIM_PARAMETER c_clk_fwd false
+SET_SIM_PARAMETER c_use_template use_template
+SET_SIM_PARAMETER c_data_rate_string 0
+SET_SIM_PARAMETER c_device 1
+SET_SIM_PARAMETER c_iddr_rst_type ASYNC
+SET_SIM_PARAMETER c_v6_iddr_rst_type ASYNC
+SET_CORE_NAME SelectIO Interface Wizard
+SET_CORE_VERSION 4.1
+SET_CORE_VLNV xilinx.com:ip:selectio_wiz:4.1
+SET_CORE_CLASS com.xilinx.ip.selectio_wiz_v4_1.selectio_wiz_v4_1
+SET_CORE_PATH D:/01_Installed_SW/Xilinx/14.7/ISE_DS/ISE/coregen/ip/xilinx/network/com/xilinx/ip/selectio_wiz_v4_1
+SET_CORE_GUIPATH D:/01_Installed_SW/Xilinx/14.7/ISE_DS/ISE/coregen/ip/xilinx/network/com/xilinx/ip/selectio_wiz_v4_1/gui/selectio_wiz_v4_1.tcl
+SET_CORE_DATASHEET D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\network\com\xilinx\ip\selectio_wiz_v4_1\doc\selectio_wiz_ds746.pdf
+ADD_CORE_DOCUMENT <D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\network\com\xilinx\ip\selectio_wiz_v4_1\doc\selectio_wiz_gsg700.pdf><selectio_wiz_gsg700.pdf>
+ADD_CORE_DOCUMENT <D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\network\com\xilinx\ip\selectio_wiz_v4_1\doc\selectio_wiz_ds746.pdf><selectio_wiz_ds746.pdf>
+ADD_CORE_DOCUMENT <D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\network\com\xilinx\ip\selectio_wiz_v4_1\doc\selectio_wiz_v4_1_vinfo.html><selectio_wiz_v4_1_vinfo.html>
+ADD_CORE_DOCUMENT <D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\coregen\ip\xilinx\network\com\xilinx\ip\selectio_wiz_v4_1\doc\selectio_wiz_v4_1_readme.txt><selectio_wiz_v4_1_readme.txt>

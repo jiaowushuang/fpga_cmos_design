@@ -1,0 +1,6 @@
+vhdtdtfi -lib work D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS/UAV_CMOS/FPGA_Command_Decoder.v -lang verilog -prj UAV_CMOS -o FPGA_Command_Decoder.spl -module FPGA_Command_Decoder -template D:/01_Installed_SW/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6l FPGA_Command_Decoder.spl D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS/UAV_CMOS/FPGA_Command_Decoder.sym 
+vhdtdtfi -lib work D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS/UAV_CMOS/FPGA_Command_Decoder.v -lang verilog -prj UAV_CMOS -o FPGA_Command_Decoder.spl -module FPGA_Command_Decoder -template D:/01_Installed_SW/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6l FPGA_Command_Decoder.spl D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS/UAV_CMOS/FPGA_Command_Decoder.sym 
+vhdtdtfi -lib work D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS_2Degree/UAV_CMOS/FPGA_Command_Decoder.v -lang verilog -prj UAV_CMOS -o FPGA_Command_Decoder.spl -module FPGA_Command_Decoder -template D:/01_Installed_SW/Xilinx/14.7/ISE_DS/ISE//data/splveri.tft -deleteonerror 
+spl2sym -intstyle ise -family spartan6 FPGA_Command_Decoder.spl D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS_2Degree/UAV_CMOS/FPGA_Command_Decoder.sym 

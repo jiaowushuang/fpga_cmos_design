@@ -1,0 +1,8 @@
+INTSTYLE=impact
+INFILE=G:\gitDoc\fpga\SD_20171103\SD_20171103\sd_multiblock_write\impact.xsl
+OUTFILE=G:\gitDoc\fpga\SD_20171103\SD_20171103\sd_multiblock_write\impact.xsl
+FAMILY=Single
+PART=Single
+WORKINGDIR=G:\gitDoc\fpga\SD_20171103\SD_20171103\sd_multiblock_write
+LICENSE=iMPACT
+USER_INFO=iMPACT

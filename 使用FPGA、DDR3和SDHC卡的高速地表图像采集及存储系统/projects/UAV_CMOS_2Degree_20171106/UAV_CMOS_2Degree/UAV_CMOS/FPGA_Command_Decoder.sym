@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="FPGA_Command_Decoder">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-11-3T11:23:43</timestamp>
+    <attr value="FPGA_Command_Decoder" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-160" name="clk" />
+    <pin polarity="Input" x="0" y="-96" name="command_latch" />
+    <pin polarity="Input" x="0" y="-32" name="command_data(7:0)" />
+    <pin polarity="Output" x="560" y="-160" name="request_reset_signal" />
+    <pin polarity="Output" x="560" y="32" name="request_nframe_signal" />
+    <pin polarity="Output" x="560" y="-96" name="usb_output" />
+    <pin polarity="Output" x="560" y="-32" name="sd_output" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="280" y="-200" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin command_latch" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin command_data(7:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-160" type="pin request_reset_signal" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="32" type="pin request_nframe_signal" />
+        <line x2="560" y1="32" y2="32" x1="496" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <rect width="64" x="0" y="-44" height="24" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <line x2="560" y1="-160" y2="-160" x1="496" />
+        <rect width="432" x="64" y="-192" height="264" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-96" type="pin usb_output" />
+        <line x2="560" y1="-96" y2="-96" x1="496" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="488" y="-32" type="pin sd_output" />
+        <line x2="560" y1="-32" y2="-32" x1="496" />
+    </graph>
+</symbol>

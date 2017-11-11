@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="parameter_fd_fifo">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-9-23T12:26:57</timestamp>
+    <pin polarity="Input" x="0" y="112" name="rst" />
+    <pin polarity="Input" x="0" y="208" name="wr_clk" />
+    <pin polarity="Input" x="0" y="240" name="din(15:0)" />
+    <pin polarity="Input" x="0" y="272" name="wr_en" />
+    <pin polarity="Input" x="448" y="208" name="rd_clk" />
+    <pin polarity="Output" x="448" y="240" name="dout(15:0)" />
+    <pin polarity="Input" x="448" y="272" name="rd_en" />
+    <pin polarity="Output" x="448" y="320" name="empty" />
+    <pin polarity="Output" x="0" y="320" name="full" />
+    <graph>
+        <rect width="384" x="32" y="32" height="324" />
+        <line x2="32" y1="112" y2="112" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="112" type="pin rst" />
+        <line x2="32" y1="208" y2="208" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="208" type="pin wr_clk" />
+        <line x2="32" y1="240" y2="240" style="linewidth:W" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="240" type="pin din(15:0)" />
+        <line x2="32" y1="272" y2="272" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="272" type="pin wr_en" />
+        <line x2="416" y1="208" y2="208" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="412" y="208" type="pin rd_clk" />
+        <line x2="416" y1="240" y2="240" style="linewidth:W" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="412" y="240" type="pin dout(15:0)" />
+        <line x2="416" y1="272" y2="272" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="412" y="272" type="pin rd_en" />
+        <line x2="416" y1="320" y2="320" x1="448" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="412" y="320" type="pin empty" />
+        <line x2="32" y1="320" y2="320" x1="0" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="36" y="320" type="pin full" />
+        <text style="fontsize:40;fontname:Arial" x="60" y="32">parameter_fd_fifo</text>
+    </graph>
+</symbol>

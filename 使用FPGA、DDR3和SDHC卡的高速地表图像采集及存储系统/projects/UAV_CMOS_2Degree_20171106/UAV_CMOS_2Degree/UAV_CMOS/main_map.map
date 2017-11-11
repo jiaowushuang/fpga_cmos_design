@@ -1,0 +1,543 @@
+Release 14.7 Map P.20131013 (nt64)
+Xilinx Map Application Log File for Design 'main'
+
+Design Information
+------------------
+Command Line   : map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol
+high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off
+-pr b -lc off -power off -o main_map.ncd main.ngd main.pcf 
+Target Device  : xc6slx45
+Target Package : csg324
+Target Speed   : -2
+Mapper Version : spartan6 -- $Revision: 1.55 $
+Mapped Date    : Tue Nov 07 11:14:13 2017
+
+Mapping design into LUTs...
+WARNING:MapLib:701 - Signal cmos_monitor<1> connected to top level port
+   cmos_monitor<1> has been removed.
+WARNING:MapLib:701 - Signal cmos_monitor<0> connected to top level port
+   cmos_monitor<0> has been removed.
+WARNING:MapLib:701 - Signal cmos_triger1 connected to top level port
+   cmos_triger1 has been removed.
+WARNING:MapLib:701 - Signal cmos_triger2 connected to top level port
+   cmos_triger2 has been removed.
+Running directed packing...
+WARNING:Pack:2549 - The register "XLXI_30/direction_flag" has the property
+   IOB=TRUE, but was not packed into the OLOGIC component. The output signal for
+   register symbol XLXI_30/direction_flag requires general routing to fabric,
+   but the register can only be routed to ILOGIC, IODELAY, and IOB.
+WARNING:Pack:2549 - The register "XLXI_30/direction_flag" has the property
+   IOB=TRUE, but was not packed into the OLOGIC component. The output signal for
+   register symbol XLXI_30/direction_flag requires general routing to fabric,
+   but the register can only be routed to ILOGIC, IODELAY, and IOB.
+WARNING:Pack:2549 - The register "XLXI_30/direction_flag" has the property
+   IOB=TRUE, but was not packed into the OLOGIC component. The output signal for
+   register symbol XLXI_30/direction_flag requires general routing to fabric,
+   but the register can only be routed to ILOGIC, IODELAY, and IOB.
+WARNING:Pack:2549 - The register "XLXI_30/direction_flag" has the property
+   IOB=TRUE, but was not packed into the OLOGIC component. The output signal for
+   register symbol XLXI_30/direction_flag requires general routing to fabric,
+   but the register can only be routed to ILOGIC, IODELAY, and IOB.
+WARNING:Pack:2549 - The register "XLXI_30/direction_flag" has the property
+   IOB=TRUE, but was not packed into the OLOGIC component. The output signal for
+   register symbol XLXI_30/direction_flag requires general routing to fabric,
+   but the register can only be routed to ILOGIC, IODELAY, and IOB.
+WARNING:Pack:2549 - The register "XLXI_30/direction_flag" has the property
+   IOB=TRUE, but was not packed into the OLOGIC component. The output signal for
+   register symbol XLXI_30/direction_flag requires general routing to fabric,
+   but the register can only be routed to ILOGIC, IODELAY, and IOB.
+WARNING:Pack:2549 - The register "XLXI_30/direction_flag" has the property
+   IOB=TRUE, but was not packed into the OLOGIC component. The output signal for
+   register symbol XLXI_30/direction_flag requires general routing to fabric,
+   but the register can only be routed to ILOGIC, IODELAY, and IOB.
+WARNING:Pack:2549 - The register "XLXI_30/direction_flag" has the property
+   IOB=TRUE, but was not packed into the OLOGIC component. The output signal for
+   register symbol XLXI_30/direction_flag requires general routing to fabric,
+   but the register can only be routed to ILOGIC, IODELAY, and IOB.
+WARNING:Pack:2549 - The register "XLXI_30/direction_flag" has the property
+   IOB=TRUE, but was not packed into the OLOGIC component. The output signal for
+   register symbol XLXI_30/direction_flag requires general routing to fabric,
+   but the register can only be routed to ILOGIC, IODELAY, and IOB.
+WARNING:Pack:2549 - The register "XLXI_30/direction_flag" has the property
+   IOB=TRUE, but was not packed into the OLOGIC component. The output signal for
+   register symbol XLXI_30/direction_flag requires general routing to fabric,
+   but the register can only be routed to ILOGIC, IODELAY, and IOB.
+WARNING:Pack:2549 - The register "XLXI_30/direction_flag" has the property
+   IOB=TRUE, but was not packed into the OLOGIC component. The output signal for
+   register symbol XLXI_30/direction_flag requires general routing to fabric,
+   but the register can only be routed to ILOGIC, IODELAY, and IOB.
+WARNING:Pack:2549 - The register "XLXI_30/direction_flag" has the property
+   IOB=TRUE, but was not packed into the OLOGIC component. The output signal for
+   register symbol XLXI_30/direction_flag requires general routing to fabric,
+   but the register can only be routed to ILOGIC, IODELAY, and IOB.
+WARNING:Pack:2549 - The register "XLXI_30/direction_flag" has the property
+   IOB=TRUE, but was not packed into the OLOGIC component. The output signal for
+   register symbol XLXI_30/direction_flag requires general routing to fabric,
+   but the register can only be routed to ILOGIC, IODELAY, and IOB.
+WARNING:Pack:2549 - The register "XLXI_30/direction_flag" has the property
+   IOB=TRUE, but was not packed into the OLOGIC component. The output signal for
+   register symbol XLXI_30/direction_flag requires general routing to fabric,
+   but the register can only be routed to ILOGIC, IODELAY, and IOB.
+WARNING:Pack:2549 - The register "XLXI_30/direction_flag" has the property
+   IOB=TRUE, but was not packed into the OLOGIC component. The output signal for
+   register symbol XLXI_30/direction_flag requires general routing to fabric,
+   but the register can only be routed to ILOGIC, IODELAY, and IOB.
+WARNING:Pack:2549 - The register "XLXI_30/direction_flag" has the property
+   IOB=TRUE, but was not packed into the OLOGIC component. The output signal for
+   register symbol XLXI_30/direction_flag requires general routing to fabric,
+   but the register can only be routed to ILOGIC, IODELAY, and IOB.
+Running delay-based LUT packing...
+Updating timing models...
+WARNING:Pack:1653 - At least one timing constraint is impossible to meet because component delays alone exceed the constraint. A timing
+   constraint summary below shows the failing constraints (preceded with an Asterisk (*)). Please use the Timing Analyzer (GUI) or TRCE
+   (command line) with the Mapped NCD and PCF files to identify which constraints and paths are failing because of the component delays
+   alone. If the failing path(s) is mapped to Xilinx components as expected, consider relaxing the constraint. If it is not mapped to
+   components as expected, re-evaluate your HDL and how synthesis is optimizing the path. To allow the tools to bypass this error, set the
+   environment variable XIL_TIMING_ALLOW_IMPOSSIBLE to 1.
+
+
+   For more information about the Timing Analyzer, consult the Xilinx Timing Analyzer Reference manual; for more information on TRCE,
+   consult the Xilinx Command Line Tools User Guide "TRACE" chapter.
+INFO:Timing:3284 - This timing report was generated using estimated delay 
+   information.  For accurate numbers, please refer to the post Place and Route 
+   timing report.
+Number of Timing Constraints that were not applied: 10
+
+Asterisk (*) preceding a constraint indicates it was not met.
+   This may be due to a setup or hold violation.
+
+----------------------------------------------------------------------------------------------------------
+  Constraint                                |    Check    | Worst Case |  Best Case | Timing |   Timing   
+                                            |             |    Slack   | Achievable | Errors |    Score   
+----------------------------------------------------------------------------------------------------------
+* TS_XLXI_596_mig_39_2_inst_memc3_infrastru | SETUP       |    -0.884ns|    24.802ns|       1|         884
+  cture_inst_mcb_drp_clk_bufg_in = PERIOD T | HOLD        |     0.060ns|            |       0|           0
+  IMEGRP "XLXI_596_mig_39_2_inst_memc3_infr |             |            |            |        |            
+  astructure_inst_mcb_drp_clk_bufg_in" TS_C |             |            |            |        |            
+  MOS_CLK * 1.5625 HIGH 50%                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+* TS_XLXI_570_CLKFX = PERIOD TIMEGRP "XLXI_ | SETUP       |    14.178ns|     4.976ns|       0|           0
+  570_CLKFX" TS_XLXI_120_clkout3 HIGH 50%   | HOLD        |    -0.307ns|            |       2|         554
+----------------------------------------------------------------------------------------------------------
+* TS_XLXI_120_clkout3 = PERIOD TIMEGRP "XLX | SETUP       |    31.662ns|     1.671ns|       0|           0
+  I_120_clkout3" TS_XLXI_596_mig_39_2_inst_ | HOLD        |    -0.211ns|            |       3|         633
+  memc3_infrastructure_inst_vga_clk_bufg_in | MINLOWPULSE |    17.332ns|    16.000ns|       0|           0
+   HIGH 50%                                 |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+* TS_XLXI_596_mig_39_2_inst_memc3_infrastru | MINPERIOD   |    -0.166ns|     1.499ns|       1|         166
+  cture_inst_clk_2x_180 = PERIOD TIMEGRP "X |             |            |            |        |            
+  LXI_596_mig_39_2_inst_memc3_infrastructur |             |            |            |        |            
+  e_inst_clk_2x_180" TS_CMOS_CLK * 12.5 PHA |             |            |            |        |            
+  SE 0.666666667 ns HIGH 50%                |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+* TS_XLXI_596_mig_39_2_inst_memc3_infrastru | MINPERIOD   |    -0.166ns|     1.499ns|       1|         166
+  cture_inst_clk_2x_0 = PERIOD TIMEGRP "XLX |             |            |            |        |            
+  I_596_mig_39_2_inst_memc3_infrastructure_ |             |            |            |        |            
+  inst_clk_2x_0" TS_CMOS_CLK * 12.5 HIGH 50 |             |            |            |        |            
+  %                                         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_CMOS_CLK = PERIOD TIMEGRP "CMOS_CLK" 6 | MINLOWPULSE |    11.666ns|     5.000ns|       0|           0
+  0 MHz HIGH 50%                            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_XLXI_559_clkout0 = PERIOD TIMEGRP "XLX | SETUP       |     0.356ns|     3.288ns|       0|           0
+  I_559_clkout0" TS_LVDS_CLK_N PHASE -1 ns  | HOLD        |     0.060ns|            |       0|           0
+  HIGH 50%                                  |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_XLXI_559_clkout1 = PERIOD TIMEGRP "XLX | MINPERIOD   |     1.334ns|     2.666ns|       0|           0
+  I_559_clkout1" TS_LVDS_CLK_N PHASE 1 ns H |             |            |            |        |            
+  IGH 50%                                   |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_LVDS_CLK_N = PERIOD TIMEGRP "LVDS_CLK_ | MINLOWPULSE |     1.666ns|     2.334ns|       0|           0
+  N" 4 ns HIGH 50%                          |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_clk_100m = PERIOD TIMEGRP "clk_100m" T | SETUP       |     6.553ns|     1.780ns|       0|           0
+  S_XLXI_596_mig_39_2_inst_memc3_infrastruc | HOLD        |     0.201ns|            |       0|           0
+  ture_inst_vga_clk_bufg_in * 4 HIGH 50%    |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_XLXI_596_mig_39_2_inst_memc3_infrastru | MINPERIOD   |     8.000ns|     2.666ns|       0|           0
+  cture_inst_clk0_bufg_in = PERIOD TIMEGRP  |             |            |            |        |            
+  "XLXI_596_mig_39_2_inst_memc3_infrastruct |             |            |            |        |            
+  ure_inst_clk0_bufg_in" TS_CMOS_CLK * 1.56 |             |            |            |        |            
+  25 HIGH 50%                               |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_USB_SCLK = PERIOD TIMEGRP "USB_SCLK" 5 | MINLOWPULSE |    10.180ns|     8.000ns|       0|           0
+  5 MHz HIGH 50%                            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_U_TO_J = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |    13.808ns|     1.192ns|       0|           0
+   TO TIMEGRP "J_CLK" 15 ns                 | HOLD        |     0.192ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_U_TO_U = MAXDELAY FROM TIMEGRP "U_CLK" | SETUP       |    14.162ns|     0.838ns|       0|           0
+   TO TIMEGRP "U_CLK" 15 ns                 | HOLD        |     0.413ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_XLXI_65_clk0 = PERIOD TIMEGRP "XLXI_65 | SETUP       |    14.907ns|     3.274ns|       0|           0
+  _clk0" TS_USB_SCLK PHASE 1.27840909 ns HI | HOLD        |     0.071ns|            |       0|           0
+  GH 50%                                    | MINPERIOD   |    14.611ns|     3.570ns|       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_XLXI_120_clkout1 = PERIOD TIMEGRP "XLX | SETUP       |    19.290ns|     1.543ns|       0|           0
+  I_120_clkout1" TS_XLXI_596_mig_39_2_inst_ | HOLD        |     0.375ns|            |       0|           0
+  memc3_infrastructure_inst_vga_clk_bufg_in | MINPERIOD   |    18.167ns|     2.666ns|       0|           0
+   * 1.6 HIGH 50%                           |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_XLXI_596_mig_39_2_inst_memc3_infrastru | MINLOWPULSE |    23.332ns|    10.000ns|       0|           0
+  cture_inst_vga_clk_bufg_in = PERIOD TIMEG |             |            |            |        |            
+  RP "XLXI_596_mig_39_2_inst_memc3_infrastr |             |            |            |        |            
+  ucture_inst_vga_clk_bufg_in" TS_CMOS_CLK  |             |            |            |        |            
+  * 0.5 HIGH 50%                            |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  TS_J_CLK = PERIOD TIMEGRP "J_CLK" 30 ns H | SETUP       |    26.313ns|     3.687ns|       0|           0
+  IGH 50%                                   | HOLD        |     0.071ns|            |       0|           0
+----------------------------------------------------------------------------------------------------------
+  TS_XLXI_120_clkout0 = PERIOD TIMEGRP "XLX | SETUP       |   264.165ns|     2.501ns|       0|           0
+  I_120_clkout0" TS_XLXI_596_mig_39_2_inst_ | HOLD        |     0.132ns|            |       0|           0
+  memc3_infrastructure_inst_vga_clk_bufg_in | MINPERIOD   |   263.096ns|     3.570ns|       0|           0
+   * 0.125 HIGH 50%                         |             |            |            |        |            
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J4_TO_D2_ila_pro_0_path" TIG     | MAXDELAY    |         N/A|     1.026ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_D_TO_J_path" TIG                 | SETUP       |         N/A|     1.615ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J3_TO_D2_ila_pro_0_path" TIG     | N/A         |         N/A|         N/A|     N/A|         N/A
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J_TO_D_path" TIG                 | SETUP       |         N/A|     2.734ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_J2_TO_D2_ila_pro_0_path" TIG     | N/A         |         N/A|         N/A|     N/A|         N/A
+----------------------------------------------------------------------------------------------------------
+  PATH "TS_D2_TO_T2_ila_pro_0_path" TIG     | SETUP       |         N/A|     1.584ns|     N/A|           0
+----------------------------------------------------------------------------------------------------------
+
+
+Derived Constraint Report
+Review Timing Report for more details on the following derived constraints.
+To create a Timing Report, run "trce -v 12 -fastpaths -o design_timing_report design.ncd design.pcf"
+or "Run Timing Analysis" from Timing Analyzer (timingan).
+Derived Constraints for TS_CMOS_CLK
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths
+Analyzed       |
+|           Constraint          | Requirement
+|-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    |
+Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+|TS_CMOS_CLK                    |     16.667ns|      5.000ns|     38.753ns|            0|            8|            0|   
+    46974|
+| TS_XLXI_596_mig_39_2_inst_memc|      1.333ns|      1.499ns|          N/A|            1|            0|            0|   
+        0|
+| 3_infrastructure_inst_clk_2x_0|             |             |             |             |             |             |   
+         |
+| TS_XLXI_596_mig_39_2_inst_memc|     33.333ns|     10.000ns|     16.000ns|            0|            5|            0|   
+    29261|
+| 3_infrastructure_inst_vga_clk_|             |             |             |             |             |             |   
+         |
+| bufg_in                       |             |             |             |             |             |             |   
+         |
+|  TS_XLXI_120_clkout3          |     33.333ns|     16.000ns|      4.976ns|            3|            2|           18|   
+    21187|
+|   TS_XLXI_570_CLKFX           |     33.333ns|      4.976ns|          N/A|            2|            0|        21187|   
+        0|
+|  TS_XLXI_120_clkout1          |     20.833ns|      2.666ns|          N/A|            0|            0|          106|   
+        0|
+|  TS_clk_100m                  |      8.333ns|      1.780ns|          N/A|            0|            0|          326|   
+        0|
+|  TS_XLXI_120_clkout0          |    266.667ns|      3.570ns|          N/A|            0|            0|         7624|   
+        0|
+| TS_XLXI_596_mig_39_2_inst_memc|      1.333ns|      1.499ns|          N/A|            1|            0|            0|   
+        0|
+| 3_infrastructure_inst_clk_2x_1|             |             |             |             |             |             |   
+         |
+| 80                            |             |             |             |             |             |             |   
+         |
+| TS_XLXI_596_mig_39_2_inst_memc|     10.667ns|      2.666ns|          N/A|            0|            0|            0|   
+        0|
+| 3_infrastructure_inst_clk0_buf|             |             |             |             |             |             |   
+         |
+| g_in                          |             |             |             |             |             |             |   
+         |
+| TS_XLXI_596_mig_39_2_inst_memc|     10.667ns|     24.802ns|          N/A|            1|            0|        17713|   
+        0|
+| 3_infrastructure_inst_mcb_drp_|             |             |             |             |             |             |   
+         |
+| clk_bufg_in                   |             |             |             |             |             |             |   
+         |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+
+Derived Constraints for TS_USB_SCLK
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths
+Analyzed       |
+|           Constraint          | Requirement
+|-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    |
+Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+|TS_USB_SCLK                    |     18.182ns|      8.000ns|      3.570ns|            0|            0|            0|   
+     9028|
+| TS_XLXI_65_clk0               |     18.182ns|      3.570ns|          N/A|            0|            0|         9028|   
+        0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+
+Derived Constraints for TS_LVDS_CLK_N
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+|                               |   Period    |       Actual Period       |      Timing Errors        |      Paths
+Analyzed       |
+|           Constraint          | Requirement
+|-------------+-------------|-------------+-------------|-------------+-------------|
+|                               |             |   Direct    | Derivative  |   Direct    | Derivative  |   Direct    |
+Derivative  |
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+|TS_LVDS_CLK_N                  |      4.000ns|      2.334ns|      3.288ns|            0|            0|            0|   
+     2025|
+| TS_XLXI_559_clkout0           |      4.000ns|      3.288ns|          N/A|            0|            0|         2025|   
+        0|
+| TS_XLXI_559_clkout1           |      4.000ns|      2.666ns|          N/A|            0|            0|            0|   
+        0|
++-------------------------------+-------------+-------------+-------------+-------------+-------------+-------------+---
+----------+
+
+5 constraints not met.
+INFO:Timing:2761 - N/A entries in the Constraints List may indicate that the 
+   constraint is not analyzed due to the following: No paths covered by this 
+   constraint; Other constraints intersect with this constraint; or This 
+   constraint was disabled by a Path Tracing Control. Please run the Timespec 
+   Interaction Report (TSI) via command line (trce tsi) or Timing Analyzer GUI.
+
+
+INFO:Map:215 - The Interim Design Summary has been generated in the MAP Report
+   (.mrp).
+Running timing-driven placement...
+Total REAL time at the beginning of Placer: 14 secs 
+Total CPU  time at the beginning of Placer: 14 secs 
+
+Phase 1.1  Initial Placement Analysis
+Phase 1.1  Initial Placement Analysis (Checksum:dac251bb) REAL time: 16 secs 
+
+Phase 2.7  Design Feasibility Check
+INFO:Place:834 - Only a subset of IOs are locked. Out of 99 IOs, 98 are locked
+   and 1 are not locked. If you would like to print the names of these IOs,
+   please set the environment variable XIL_PAR_DESIGN_CHECK_VERBOSE to 1. 
+WARNING:Place:1206 - This design contains a global buffer instance,
+   <XLXI_120/clkout2_buf>, driving the net, <cmos_pll_OBUF>, that is driving the
+   following (first 30) non-clock load pins off chip.
+   < PIN: cmos_pll.O; >
+   This design practice, in Spartan-6, can lead to an unroutable situation due
+   to limitations in the global routing. If the design does route there may be
+   excessive delay or skew on this net. It is recommended to use a Clock
+   Forwarding technique to create a reliable and repeatable low skew solution:
+   instantiate an ODDR2 component; tie the .D0 pin to Logic1; tie the .D1 pin to
+   Logic0; tie the clock net to be forwarded to .C0; tie the inverted clock to
+   .C1. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was
+   applied on COMP.PIN <XLXI_120/clkout2_buf.O> allowing your design to
+   continue. This constraint disables all clock placer rules related to the
+   specified COMP.PIN.
+WARNING:Place:1206 - This design contains a global buffer instance,
+   <XLXI_570/bufg_insta>, driving the net, <SD_clk_OBUF>, that is driving the
+   following (first 30) non-clock load pins off chip.
+   < PIN: SD_clk.O; >
+   This design practice, in Spartan-6, can lead to an unroutable situation due
+   to limitations in the global routing. If the design does route there may be
+   excessive delay or skew on this net. It is recommended to use a Clock
+   Forwarding technique to create a reliable and repeatable low skew solution:
+   instantiate an ODDR2 component; tie the .D0 pin to Logic1; tie the .D1 pin to
+   Logic0; tie the clock net to be forwarded to .C0; tie the inverted clock to
+   .C1. This is normally an ERROR but the CLOCK_DEDICATED_ROUTE constraint was
+   applied on COMP.PIN <XLXI_570/bufg_insta.O> allowing your design to continue.
+   This constraint disables all clock placer rules related to the specified
+   COMP.PIN.
+WARNING:Place:1137 - This design is not guaranteed to be routable! This design
+   contains a global buffer instance, <XLXI_120/clkout2_buf>, driving the net,
+   <cmos_pll_OBUF>, that is driving the following (first 30) non-clock load
+   pins.
+   < PIN: cmos_pll.O; >
+   This is not a recommended design practice in Spartan-6 due to limitations in
+   the global routing that may cause excessive delay, skew or unroutable
+   situations.  It is recommended to only use a BUFG resource to drive clock
+   loads. Please pay extra attention to the timing and routing of this path to
+   ensure the design goals are met. This is normally an ERROR but the
+   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
+   <XLXI_120/clkout2_buf.O> allowing your design to continue. This constraint
+   disables all clock placer rules related to the specified COMP.PIN.
+WARNING:Place:1137 - This design is not guaranteed to be routable! This design
+   contains a global buffer instance, <XLXI_120/clkout4_buf>, driving the net,
+   <clk_25m>, that is driving the following (first 30) non-clock load pins.
+   < PIN: XLXI_570/bufg_instc.I0; >
+   This is not a recommended design practice in Spartan-6 due to limitations in
+   the global routing that may cause excessive delay, skew or unroutable
+   situations.  It is recommended to only use a BUFG resource to drive clock
+   loads. Please pay extra attention to the timing and routing of this path to
+   ensure the design goals are met. This is normally an ERROR but the
+   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
+   <XLXI_120/clkout4_buf.O> allowing your design to continue. This constraint
+   disables all clock placer rules related to the specified COMP.PIN.
+WARNING:Place:1137 - This design is not guaranteed to be routable! This design
+   contains a global buffer instance, <XLXI_570/bufg_insta>, driving the net,
+   <SD_clk_OBUF>, that is driving the following (first 30) non-clock load pins.
+   < PIN: SD_clk.O; >
+   This is not a recommended design practice in Spartan-6 due to limitations in
+   the global routing that may cause excessive delay, skew or unroutable
+   situations.  It is recommended to only use a BUFG resource to drive clock
+   loads. Please pay extra attention to the timing and routing of this path to
+   ensure the design goals are met. This is normally an ERROR but the
+   CLOCK_DEDICATED_ROUTE constraint was applied on COMP.PIN
+   <XLXI_570/bufg_insta.O> allowing your design to continue. This constraint
+   disables all clock placer rules related to the specified COMP.PIN.
+Phase 2.7  Design Feasibility Check (Checksum:dac251bb) REAL time: 16 secs 
+
+Phase 3.31  Local Placement Optimization
+Phase 3.31  Local Placement Optimization (Checksum:f15724d4) REAL time: 16 secs 
+
+Phase 4.2  Initial Placement for Architecture Specific Features
+...
+Phase 4.2  Initial Placement for Architecture Specific Features
+(Checksum:eb8617e3) REAL time: 38 secs 
+
+Phase 5.36  Local Placement Optimization
+Phase 5.36  Local Placement Optimization (Checksum:eb8617e3) REAL time: 38 secs 
+
+Phase 6.30  Global Clock Region Assignment
+Phase 6.30  Global Clock Region Assignment (Checksum:eb8617e3) REAL time: 38 secs 
+
+Phase 7.3  Local Placement Optimization
+...
+Phase 7.3  Local Placement Optimization (Checksum:50f9a5a7) REAL time: 38 secs 
+
+Phase 8.5  Local Placement Optimization
+Phase 8.5  Local Placement Optimization (Checksum:50f9a5a7) REAL time: 38 secs 
+
+Phase 9.8  Global Placement
+...................
+..................................................................
+.........................
+.......
+Phase 9.8  Global Placement (Checksum:f2c731ca) REAL time: 55 secs 
+
+Phase 10.5  Local Placement Optimization
+Phase 10.5  Local Placement Optimization (Checksum:f2c731ca) REAL time: 55 secs 
+
+Phase 11.18  Placement Optimization
+Phase 11.18  Placement Optimization (Checksum:d66c1959) REAL time: 1 mins 1 secs 
+
+Phase 12.5  Local Placement Optimization
+Phase 12.5  Local Placement Optimization (Checksum:d66c1959) REAL time: 1 mins 1 secs 
+
+Phase 13.34  Placement Validation
+Phase 13.34  Placement Validation (Checksum:9091b4fc) REAL time: 1 mins 1 secs 
+
+Total REAL time to Placer completion: 1 mins 6 secs 
+Total CPU  time to Placer completion: 1 mins 6 secs 
+Running post-placement packing...
+Writing output files...
+WARNING:PhysDesignRules:372 - Gated clock. Clock net icon_control0<13> is
+   sourced by a combinatorial pin. This is not good design practice. Use the CE
+   pin to control the loading of data into the flip-flop.
+WARNING:PhysDesignRules:2410 - This design is using one or more 9K Block RAMs
+   (RAMB8BWER).  9K Block RAM initialization data, both user defined and
+   default, may be incorrect and should not be used.  For more information,
+   please reference Xilinx Answer Record 39999.
+
+Design Summary
+--------------
+
+Design Summary:
+Number of errors:      0
+Number of warnings:   28
+Slice Logic Utilization:
+  Number of Slice Registers:                 2,717 out of  54,576    4%
+    Number used as Flip Flops:               2,716
+    Number used as Latches:                      1
+    Number used as Latch-thrus:                  0
+    Number used as AND/OR logics:                0
+  Number of Slice LUTs:                      2,438 out of  27,288    8%
+    Number used as logic:                    2,003 out of  27,288    7%
+      Number using O6 output only:           1,370
+      Number using O5 output only:             179
+      Number using O5 and O6:                  454
+      Number used as ROM:                        0
+    Number used as Memory:                     171 out of   6,408    2%
+      Number used as Dual Port RAM:              0
+      Number used as Single Port RAM:            0
+      Number used as Shift Register:           171
+        Number using O6 output only:           112
+        Number using O5 output only:             1
+        Number using O5 and O6:                 58
+    Number used exclusively as route-thrus:    264
+      Number with same-slice register load:    247
+      Number with same-slice carry load:        17
+      Number with other load:                    0
+
+Slice Logic Distribution:
+  Number of occupied Slices:                 1,039 out of   6,822   15%
+  Number of MUXCYs used:                       476 out of  13,644    3%
+  Number of LUT Flip Flop pairs used:        3,010
+    Number with an unused Flip Flop:           840 out of   3,010   27%
+    Number with an unused LUT:                 572 out of   3,010   19%
+    Number of fully used LUT-FF pairs:       1,598 out of   3,010   53%
+    Number of unique control sets:             177
+    Number of slice register sites lost
+      to control set restrictions:             686 out of  54,576    1%
+
+  A LUT Flip Flop pair for this architecture represents one LUT paired with
+  one Flip Flop within a slice.  A control set is a unique combination of
+  clock, reset, set, and enable signals for a registered element.
+  The Slice Logic Distribution report is not meaningful if the design is
+  over-mapped for a non-slice resource or if Placement fails.
+
+IO Utilization:
+  Number of bonded IOBs:                        99 out of     218   45%
+    Number of LOCed IOBs:                       98 out of      99   98%
+    IOB Flip Flops:                             42
+
+Specific Feature Utilization:
+  Number of RAMB16BWERs:                         4 out of     116    3%
+  Number of RAMB8BWERs:                          4 out of     232    1%
+  Number of BUFIO2/BUFIO2_2CLKs:                 2 out of      32    6%
+    Number used as BUFIO2s:                      2
+    Number used as BUFIO2_2CLKs:                 0
+  Number of BUFIO2FB/BUFIO2FB_2CLKs:             1 out of      32    3%
+    Number used as BUFIO2FBs:                    1
+    Number used as BUFIO2FB_2CLKs:               0
+  Number of BUFG/BUFGMUXs:                      15 out of      16   93%
+    Number used as BUFGs:                       14
+    Number used as BUFGMUX:                      1
+  Number of DCM/DCM_CLKGENs:                     2 out of       8   25%
+    Number used as DCMs:                         2
+    Number used as DCM_CLKGENs:                  0
+  Number of ILOGIC2/ISERDES2s:                  24 out of     376    6%
+    Number used as ILOGIC2s:                    24
+    Number used as ISERDES2s:                    0
+  Number of IODELAY2/IODRP2/IODRP2_MCBs:        26 out of     376    6%
+    Number used as IODELAY2s:                    2
+    Number used as IODRP2s:                      2
+    Number used as IODRP2_MCBs:                 22
+  Number of OLOGIC2/OSERDES2s:                  64 out of     376   17%
+    Number used as OLOGIC2s:                    18
+    Number used as OSERDES2s:                   46
+  Number of BSCANs:                              1 out of       4   25%
+  Number of BUFHs:                               0 out of     256    0%
+  Number of BUFPLLs:                             0 out of       8    0%
+  Number of BUFPLL_MCBs:                         1 out of       4   25%
+  Number of DSP48A1s:                            0 out of      58    0%
+  Number of ICAPs:                               0 out of       1    0%
+  Number of MCBs:                                1 out of       2   50%
+  Number of PCILOGICSEs:                         0 out of       2    0%
+  Number of PLL_ADVs:                            3 out of       4   75%
+  Number of PMVs:                                0 out of       1    0%
+  Number of STARTUPs:                            0 out of       1    0%
+  Number of SUSPEND_SYNCs:                       0 out of       1    0%
+
+  Number of RPM macros:           11
+Average Fanout of Non-Clock Nets:                3.28
+
+Peak Memory Usage:  642 MB
+Total REAL time to MAP completion:  1 mins 9 secs 
+Total CPU time to MAP completion:   1 mins 9 secs 
+
+Mapping completed.
+See MAP report file "main_map.mrp" for details.

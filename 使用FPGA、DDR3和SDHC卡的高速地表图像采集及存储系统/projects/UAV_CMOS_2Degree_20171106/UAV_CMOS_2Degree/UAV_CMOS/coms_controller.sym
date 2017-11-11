@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="coms_controller">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-11-2T12:52:29</timestamp>
+    <attr value="coms_controller" name="VeriModel" />
+    <pin polarity="Input" x="0" y="-736" name="clk" />
+    <pin polarity="Input" x="0" y="-672" name="reset" />
+    <pin polarity="Input" x="0" y="-608" name="read_latch" />
+    <pin polarity="Input" x="0" y="-544" name="spi_idle_feedback" />
+    <pin polarity="Input" x="0" y="-480" name="initial_done" />
+    <pin polarity="Input" x="0" y="-416" name="command_fifo_empty" />
+    <pin polarity="Input" x="0" y="-352" name="usb_command_latch" />
+    <pin polarity="Input" x="0" y="-288" name="parameter_request" />
+    <pin polarity="Input" x="0" y="-224" name="spi_fd_command(9:0)" />
+    <pin polarity="Input" x="0" y="-160" name="spi_fd_data(15:0)" />
+    <pin polarity="Input" x="0" y="-96" name="initial_spi_data(15:0)" />
+    <pin polarity="Input" x="0" y="-32" name="usb_spi_data(15:0)" />
+    <pin polarity="Output" x="576" y="-736" name="spi_execute" />
+    <pin polarity="Output" x="576" y="-640" name="fd_fifo_en" />
+    <pin polarity="Output" x="576" y="-544" name="initial_read_en" />
+    <pin polarity="Output" x="576" y="-448" name="usb_read_en" />
+    <pin polarity="Output" x="576" y="-352" name="spi_command(9:0)" />
+    <pin polarity="Output" x="576" y="-256" name="spi_data(15:0)" />
+    <pin polarity="Output" x="576" y="-160" name="fd_data(15:0)" />
+    <pin polarity="Output" x="576" y="-64" name="initial_ram_addr(8:0)" />
+    <pin polarity="Output" x="576" y="32" name="cmos_initial_done" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="288" y="-776" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-736" type="pin clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-672" type="pin reset" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-608" type="pin read_latch" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-544" type="pin spi_idle_feedback" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-480" type="pin initial_done" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-416" type="pin command_fifo_empty" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-352" type="pin usb_command_latch" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-288" type="pin parameter_request" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-224" type="pin spi_fd_command(9:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-160" type="pin spi_fd_data(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin initial_spi_data(15:0)" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-32" type="pin usb_spi_data(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-736" type="pin spi_execute" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-640" type="pin fd_fifo_en" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-544" type="pin initial_read_en" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-448" type="pin usb_read_en" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-352" type="pin spi_command(9:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-256" type="pin spi_data(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-160" type="pin fd_data(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="-64" type="pin initial_ram_addr(8:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="504" y="32" type="pin cmos_initial_done" />
+        <line x2="576" y1="32" y2="32" x1="512" />
+        <line x2="0" y1="-736" y2="-736" x1="64" />
+        <line x2="0" y1="-672" y2="-672" x1="64" />
+        <line x2="0" y1="-608" y2="-608" x1="64" />
+        <line x2="0" y1="-544" y2="-544" x1="64" />
+        <line x2="0" y1="-480" y2="-480" x1="64" />
+        <line x2="0" y1="-416" y2="-416" x1="64" />
+        <line x2="0" y1="-352" y2="-352" x1="64" />
+        <line x2="0" y1="-288" y2="-288" x1="64" />
+        <rect width="64" x="0" y="-236" height="24" />
+        <line x2="0" y1="-224" y2="-224" x1="64" />
+        <rect width="64" x="0" y="-172" height="24" />
+        <line x2="0" y1="-160" y2="-160" x1="64" />
+        <rect width="64" x="0" y="-108" height="24" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <rect width="64" x="0" y="-44" height="24" />
+        <line x2="0" y1="-32" y2="-32" x1="64" />
+        <line x2="576" y1="-736" y2="-736" x1="512" />
+        <line x2="576" y1="-640" y2="-640" x1="512" />
+        <line x2="576" y1="-544" y2="-544" x1="512" />
+        <line x2="576" y1="-448" y2="-448" x1="512" />
+        <rect width="64" x="512" y="-364" height="24" />
+        <line x2="576" y1="-352" y2="-352" x1="512" />
+        <rect width="64" x="512" y="-268" height="24" />
+        <line x2="576" y1="-256" y2="-256" x1="512" />
+        <rect width="64" x="512" y="-172" height="24" />
+        <line x2="576" y1="-160" y2="-160" x1="512" />
+        <rect width="64" x="512" y="-76" height="24" />
+        <line x2="576" y1="-64" y2="-64" x1="512" />
+        <rect width="448" x="64" y="-768" height="832" />
+    </graph>
+</symbol>

@@ -1,0 +1,433 @@
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design main_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly[2 : 0] on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly[4 : 0] on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus current_state<4 : 0> on block
+   usb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus previous_state<4 : 0> on block
+   usb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   main_state[5]_current_state[5]_select_72_OUT<4 : 0> on block usb_controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   main_state[5]_previous_state[5]_select_73_OUT<4 : 0> on block usb_controller
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file main_cs.edif ...
+ngc2edif: Total memory usage is 87660 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design main.ngc ...
+WARNING:NetListWriters:298 - No output is written to main.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus previouse_state<9 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus next_state<9 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus initial_ram_addr_offset<7 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus main_state[9]_GND_31_o_select_135_OUT<9
+   : 0> on block coms_controller is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus main_state[9]_GND_31_o_select_136_OUT<9
+   : 0> on block coms_controller is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus _n0570<8 : 1> on block coms_controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus next_SPI_state<3 : 0> on block SPI_BUS
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   SPI_state[5]_next_SPI_state[5]_select_67_OUT<3 : 0> on block SPI_BUS is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus current_state<4 : 0> on block
+   usb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus previous_state<4 : 0> on block
+   usb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   main_state[5]_current_state[5]_select_72_OUT<4 : 0> on block usb_controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   main_state[5]_previous_state[5]_select_73_OUT<4 : 0> on block usb_controller
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file main.edif ...
+ngc2edif: Total memory usage is 88300 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design main.ngc ...
+WARNING:NetListWriters:298 - No output is written to main.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus previouse_state<9 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus next_state<9 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus initial_ram_addr_offset<7 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus main_state[9]_GND_31_o_select_135_OUT<9
+   : 0> on block coms_controller is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus main_state[9]_GND_31_o_select_136_OUT<9
+   : 0> on block coms_controller is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus _n0570<8 : 1> on block coms_controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus next_SPI_state<3 : 0> on block SPI_BUS
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   SPI_state[5]_next_SPI_state[5]_select_67_OUT<3 : 0> on block SPI_BUS is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus current_state<4 : 0> on block
+   usb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus previous_state<4 : 0> on block
+   usb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   main_state[5]_current_state[5]_select_72_OUT<4 : 0> on block usb_controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   main_state[5]_previous_state[5]_select_73_OUT<4 : 0> on block usb_controller
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file main.edif ...
+ngc2edif: Total memory usage is 88300 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design main.ngc ...
+WARNING:NetListWriters:298 - No output is written to main.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus previouse_state<9 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus next_state<9 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus initial_ram_addr_offset<7 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus main_state[9]_GND_31_o_select_135_OUT<9
+   : 0> on block coms_controller is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus main_state[9]_GND_31_o_select_136_OUT<9
+   : 0> on block coms_controller is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus _n0570<8 : 1> on block coms_controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus next_SPI_state<3 : 0> on block SPI_BUS
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   SPI_state[5]_next_SPI_state[5]_select_67_OUT<3 : 0> on block SPI_BUS is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus current_state<4 : 0> on block
+   usb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus previous_state<4 : 0> on block
+   usb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   main_state[5]_current_state[5]_select_72_OUT<4 : 0> on block usb_controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   main_state[5]_previous_state[5]_select_73_OUT<4 : 0> on block usb_controller
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file main.edif ...
+ngc2edif: Total memory usage is 88300 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design parameter_fd_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to parameter_fd_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file parameter_fd_fifo.edif ...
+ngc2edif: Total memory usage is 85292 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design cmos_command_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to cmos_command_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file cmos_command_fifo.edif ...
+ngc2edif: Total memory usage is 85612 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design cmos_command_fifo.ngc ...
+WARNING:NetListWriters:298 - No output is written to cmos_command_fifo.xncf,
+   ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file cmos_command_fifo.edif ...
+ngc2edif: Total memory usage is 85612 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design cmos_configuration_ram.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   cmos_configuration_ram.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file cmos_configuration_ram.edif ...
+ngc2edif: Total memory usage is 84588 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design cmos_configuration_ram.ngc ...
+WARNING:NetListWriters:298 - No output is written to
+   cmos_configuration_ram.xncf, ignored.
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+  finished :Prep
+Writing EDIF netlist file cmos_configuration_ram.edif ...
+ngc2edif: Total memory usage is 84588 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design main_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly[2 : 0] on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly[4 : 0] on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus previouse_state<9 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus next_state<9 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus initial_ram_addr_offset<7 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus main_state[9]_GND_31_o_select_135_OUT<9
+   : 0> on block coms_controller is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus main_state[9]_GND_31_o_select_136_OUT<9
+   : 0> on block coms_controller is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus _n0568<8 : 1> on block coms_controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus next_SPI_state<3 : 0> on block SPI_BUS
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   SPI_state[5]_next_SPI_state[5]_select_67_OUT<3 : 0> on block SPI_BUS is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus current_state<4 : 0> on block
+   usb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus previous_state<4 : 0> on block
+   usb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   main_state[5]_current_state[5]_select_74_OUT<4 : 0> on block usb_controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   main_state[5]_previous_state[5]_select_75_OUT<4 : 0> on block usb_controller
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file main_cs.edif ...
+ngc2edif: Total memory usage is 92780 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design main_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly[2 : 0] on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly[4 : 0] on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus previouse_state<9 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus next_state<9 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus initial_ram_addr_offset<7 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus main_state[9]_GND_31_o_select_135_OUT<9
+   : 0> on block coms_controller is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus main_state[9]_GND_31_o_select_136_OUT<9
+   : 0> on block coms_controller is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus _n0568<8 : 1> on block coms_controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus next_SPI_state<3 : 0> on block SPI_BUS
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   SPI_state[5]_next_SPI_state[5]_select_67_OUT<3 : 0> on block SPI_BUS is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus current_state<4 : 0> on block
+   usb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus previous_state<4 : 0> on block
+   usb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   main_state[5]_current_state[5]_select_74_OUT<4 : 0> on block usb_controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   main_state[5]_previous_state[5]_select_75_OUT<4 : 0> on block usb_controller
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file main_cs.edif ...
+ngc2edif: Total memory usage is 92972 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design main_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly[2 : 0] on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly[4 : 0] on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus previouse_state<9 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus next_state<9 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus initial_ram_addr_offset<7 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus main_state[9]_GND_31_o_select_135_OUT<9
+   : 0> on block coms_controller is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus main_state[9]_GND_31_o_select_136_OUT<9
+   : 0> on block coms_controller is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus _n0568<8 : 1> on block coms_controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus next_SPI_state<3 : 0> on block SPI_BUS
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   SPI_state[5]_next_SPI_state[5]_select_67_OUT<3 : 0> on block SPI_BUS is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus current_state<4 : 0> on block
+   usb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus previous_state<4 : 0> on block
+   usb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   main_state[5]_current_state[5]_select_74_OUT<4 : 0> on block usb_controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   main_state[5]_previous_state[5]_select_75_OUT<4 : 0> on block usb_controller
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file main_cs.edif ...
+ngc2edif: Total memory usage is 92780 kilobytes
+
+Release 14.7 - ngc2edif P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+Reading design main_cs.ngc ...
+Processing design ...
+   Preping design's networks ...
+   Preping design's macros ...
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_HALT_XFER/iDOUT_dly<2 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   U0/I_NO_D.U_ILA/U_RST/U_ARM_XFER/iDOUT_dly<4 : 0> on block ila_pro_0 is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus U0/U_ICON/iCORE_ID_SEL<15 : 0> on block
+   icon_pro is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus previouse_state<9 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus next_state<9 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus initial_ram_addr_offset<7 : 0> on block
+   coms_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus main_state[9]_GND_31_o_select_135_OUT<9
+   : 0> on block coms_controller is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus main_state[9]_GND_31_o_select_136_OUT<9
+   : 0> on block coms_controller is not reconstructed, because there are some
+   missing bus signals.
+WARNING:NetListWriters:306 - Signal bus _n0568<8 : 1> on block coms_controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus next_SPI_state<3 : 0> on block SPI_BUS
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   SPI_state[5]_next_SPI_state[5]_select_67_OUT<3 : 0> on block SPI_BUS is not
+   reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus current_state<4 : 0> on block
+   usb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus previous_state<4 : 0> on block
+   usb_controller is not reconstructed, because there are some missing bus
+   signals.
+WARNING:NetListWriters:306 - Signal bus
+   main_state[5]_current_state[5]_select_74_OUT<4 : 0> on block usb_controller
+   is not reconstructed, because there are some missing bus signals.
+WARNING:NetListWriters:306 - Signal bus
+   main_state[5]_previous_state[5]_select_75_OUT<4 : 0> on block usb_controller
+   is not reconstructed, because there are some missing bus signals.
+  finished :Prep
+Writing EDIF netlist file main_cs.edif ...
+ngc2edif: Total memory usage is 92204 kilobytes
+

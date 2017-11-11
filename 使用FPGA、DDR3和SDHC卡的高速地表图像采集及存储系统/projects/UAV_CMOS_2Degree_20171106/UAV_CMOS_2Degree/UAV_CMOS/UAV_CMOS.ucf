@@ -1,0 +1,413 @@
+NET "CMOS_CLK" LOC = V10;
+NET "usb_reset_out" LOC = M13;
+#NET "key" LOC = N4;
+NET "SPI_MISO" LOC = B14;
+NET "SPI_MOSI" LOC = A14;
+NET "SPI_CLK" LOC = A15;
+NET "SPI_SS" LOC = A13;
+NET "reset" LOC = B12;
+NET "cmos_pll" LOC = C13;
+NET "LVDS_DATA_0_P" LOC = G9;
+NET "LVDS_DATA_0_N" LOC = F9;
+#NET "LVDS_DATA_1_P" LOC = D14;
+#NET "LVDS_DATA_1_N" LOC = C14;
+#NET "LVDS_DATA_2_P" LOC = B16;
+#NET "LVDS_DATA_2_N" LOC = A16;
+#NET "LVDS_DATA_3_P" LOC = B11;
+#NET "LVDS_DATA_3_N" LOC = A11;
+NET "LVDS_SYNC_P" LOC = C10;
+NET "LVDS_SYNC_N" LOC = A10;
+NET "LVDS_CLK_P" LOC = D11;
+NET "LVDS_CLK_N" LOC = C11;
+NET "LVDS_DATA_0_P" DIFF_TERM = "TRUE";
+NET "LVDS_DATA_0_N" DIFF_TERM = "TRUE";
+#NET "LVDS_DATA_1_P" DIFF_TERM = TRUE;
+#NET "LVDS_DATA_1_N" DIFF_TERM = TRUE;
+#NET "LVDS_DATA_2_P" DIFF_TERM = TRUE;
+#NET "LVDS_DATA_2_N" DIFF_TERM = TRUE;
+#NET "LVDS_DATA_3_P" DIFF_TERM = TRUE;
+#NET "LVDS_DATA_3_N" DIFF_TERM = TRUE;
+NET "LVDS_SYNC_P" DIFF_TERM = "TRUE";
+NET "LVDS_SYNC_N" DIFF_TERM = "TRUE";
+NET "LVDS_CLK_P" DIFF_TERM = "TRUE";
+NET "LVDS_CLK_N" DIFF_TERM = "TRUE";
+NET "cmos_triger0" LOC = B8;
+NET "cmos_triger1" LOC = A8;
+NET "cmos_triger2" LOC = A9;
+NET "cmos_monitor[0]" LOC = B9;
+NET "cmos_monitor[1]" LOC = A12;
+#NET "Test_point13" LOC = D6;
+#NET "Test_point9" LOC = A3;
+NET "XLXN_1554"  LOC = B3;
+NET "XLXN_1554" IOSTANDARD = LVCMOS33;
+#NET "clk_50m" LOC = C8;
+#NET "clk_50m" IOSTANDARD = LVCMOS33;
+#PIN "XLXI_563/mig_39_2_inst/memc3_infrastructure_inst/U_BUFG_CLK3.O" CLOCK_DEDICATED_ROUTE = FALSE;
+NET "USB_FlagA" LOC = E18;
+NET "USB_FlagB" LOC = F18;
+NET "USB_FlagC" LOC = G18;
+NET "USB_FlagD" LOC = K18;
+NET "USB_SLWR" LOC = N16;
+NET "USB_SLRD" LOC = M16;
+NET "USB_SLOE" LOC = H18;
+NET "USB_SCLK" LOC = K17;
+NET "USB_PKTEND" LOC = J18;
+NET "LED" LOC = U3;
+#Created by Constraints Editor (xc6slx45l-csg324-1l) - 2017/09/15
+NET "CMOS_CLK" TNM_NET = "CMOS_CLK";
+TIMESPEC TS_CMOS_CLK = PERIOD "CMOS_CLK" 60 MHz HIGH 50 %;
+NET "USB_SCLK" TNM_NET = "USB_SCLK";
+TIMESPEC TS_USB_SCLK = PERIOD "USB_SCLK" 55 MHz HIGH 50 %;
+NET "USB_SCLK" CLOCK_DEDICATED_ROUTE = FALSE;
+PIN "XLXI_120/clkout2_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+#NET "XLXN_934" TNM_NET = "XLXN_934";
+#TIMESPEC TS_XLXN_934 = PERIOD "XLXN_934" 250 MHz HIGH 50 %;
+#######################################
+INST "XLXI_30/USB_Data_in_buf_0" IOB =TRUE;
+INST "XLXI_30/USB_Data_in_buf_1" IOB =TRUE;
+INST "XLXI_30/USB_Data_in_buf_2" IOB =TRUE;
+INST "XLXI_30/USB_Data_in_buf_3" IOB =TRUE;
+INST "XLXI_30/USB_Data_in_buf_4" IOB =TRUE;
+INST "XLXI_30/USB_Data_in_buf_5" IOB =TRUE;
+INST "XLXI_30/USB_Data_in_buf_6" IOB =TRUE;
+INST "XLXI_30/USB_Data_in_buf_7" IOB =TRUE;
+INST "XLXI_30/USB_Data_in_buf_8" IOB =TRUE;
+INST "XLXI_30/USB_Data_in_buf_9" IOB =TRUE;
+INST "XLXI_30/USB_Data_in_buf_10" IOB =TRUE;
+INST "XLXI_30/USB_Data_in_buf_11" IOB =TRUE;
+INST "XLXI_30/USB_Data_in_buf_12" IOB =TRUE;
+INST "XLXI_30/USB_Data_in_buf_13" IOB =TRUE;
+INST "XLXI_30/USB_Data_in_buf_14" IOB =TRUE;
+INST "XLXI_30/USB_Data_in_buf_15" IOB =TRUE;
+
+INST "XLXI_30/USB_Data_out_buf_0" IOB =TRUE;
+INST "XLXI_30/USB_Data_out_buf_1" IOB =TRUE;
+INST "XLXI_30/USB_Data_out_buf_2" IOB =TRUE;
+INST "XLXI_30/USB_Data_out_buf_3" IOB =TRUE;
+INST "XLXI_30/USB_Data_out_buf_4" IOB =TRUE;
+INST "XLXI_30/USB_Data_out_buf_5" IOB =TRUE;
+INST "XLXI_30/USB_Data_out_buf_6" IOB =TRUE;
+INST "XLXI_30/USB_Data_out_buf_7" IOB =TRUE;
+INST "XLXI_30/USB_Data_out_buf_8" IOB =TRUE;
+INST "XLXI_30/USB_Data_out_buf_9" IOB =TRUE;
+INST "XLXI_30/USB_Data_out_buf_10" IOB =TRUE;
+INST "XLXI_30/USB_Data_out_buf_11" IOB =TRUE;
+INST "XLXI_30/USB_Data_out_buf_12" IOB =TRUE;
+INST "XLXI_30/USB_Data_out_buf_13" IOB =TRUE;
+INST "XLXI_30/USB_Data_out_buf_14" IOB =TRUE;
+INST "XLXI_30/USB_Data_out_buf_15" IOB =TRUE;
+
+INST "USB_FIFOADR_0_OBUF" IOB =TRUE;
+##Created by Constraints Editor (xc6slx45l-csg324-1l) - 2017/09/16
+#NET "XLXI_30/USB_DATA<0>" TNM = USB_DATA;
+#NET "XLXI_30/USB_DATA<1>" TNM = USB_DATA;
+#NET "XLXI_30/USB_DATA<2>" TNM = USB_DATA;
+#NET "XLXI_30/USB_DATA<3>" TNM = USB_DATA;
+#NET "XLXI_30/USB_DATA<4>" TNM = USB_DATA;
+#NET "XLXI_30/USB_DATA<5>" TNM = USB_DATA;
+#NET "XLXI_30/USB_DATA<6>" TNM = USB_DATA;
+#NET "XLXI_30/USB_DATA<7>" TNM = USB_DATA;
+#NET "XLXI_30/USB_DATA<8>" TNM = USB_DATA;
+#NET "XLXI_30/USB_DATA<9>" TNM = USB_DATA;
+#NET "XLXI_30/USB_DATA<10>" TNM = USB_DATA;
+#NET "XLXI_30/USB_DATA<11>" TNM = USB_DATA;
+#NET "XLXI_30/USB_DATA<12>" TNM = USB_DATA;
+#NET "XLXI_30/USB_DATA<13>" TNM = USB_DATA;
+#NET "XLXI_30/USB_DATA<14>" TNM = USB_DATA;
+#NET "XLXI_30/USB_DATA<15>" TNM = USB_DATA;
+#INST "XLXI_30/USB_Data_in_buf_0" TNM = USB_Data_in_buf_0;
+#INST "XLXI_30/USB_Data_in_buf_1" TNM = USB_Data_in_buf_1;
+#INST "XLXI_30/USB_Data_in_buf_2" TNM = USB_Data_in_buf_2;
+#INST "XLXI_30/USB_Data_in_buf_3" TNM = USB_Data_in_buf_3;
+#INST "XLXI_30/USB_Data_in_buf_4" TNM = USB_Data_in_buf_4;
+#INST "XLXI_30/USB_Data_in_buf_5" TNM = USB_Data_in_buf_5;
+#INST "XLXI_30/USB_Data_in_buf_6" TNM = USB_Data_in_buf_6;
+#INST "XLXI_30/USB_Data_in_buf_7" TNM = USB_Data_in_buf_7;
+#INST "XLXI_30/USB_Data_in_buf_8" TNM = USB_Data_in_buf_8;
+#INST "XLXI_30/USB_Data_in_buf_9" TNM = USB_Data_in_buf_9;
+#INST "XLXI_30/USB_Data_in_buf_10" TNM = USB_Data_in_buf_10;
+#INST "XLXI_30/USB_Data_in_buf_11" TNM = USB_Data_in_buf_11;
+#INST "XLXI_30/USB_Data_in_buf_12" TNM = USB_Data_in_buf_12;
+#INST "XLXI_30/USB_Data_in_buf_13" TNM = USB_Data_in_buf_13;
+#INST "XLXI_30/USB_Data_in_buf_14" TNM = USB_Data_in_buf_14;
+#INST "XLXI_30/USB_Data_in_buf_15" TNM = USB_Data_in_buf_15;
+#NET "USB_DATA<0>" OFFSET = IN 10 ns VALID 18.1818 ns BEFORE "USB_SCLK" TIMEGRP "USB_Data_in_buf_0" RISING;
+#NET "USB_DATA<1>" OFFSET = IN 10 ns VALID 18.1818 ns BEFORE "USB_SCLK" TIMEGRP "USB_Data_in_buf_1" RISING;
+#NET "USB_DATA<2>" OFFSET = IN 10 ns VALID 18.1818 ns BEFORE "USB_SCLK" TIMEGRP "USB_Data_in_buf_2" RISING;
+#NET "USB_DATA<3>" OFFSET = IN 10 ns VALID 18.1818 ns BEFORE "USB_SCLK" TIMEGRP "USB_Data_in_buf_3" RISING;
+#NET "USB_DATA<4>" OFFSET = IN 10 ns VALID 18.1818 ns BEFORE "USB_SCLK" TIMEGRP "USB_Data_in_buf_4" RISING;
+#NET "USB_DATA<5>" OFFSET = IN 10 ns VALID 18.1818 ns BEFORE "USB_SCLK" TIMEGRP "USB_Data_in_buf_5" RISING;
+#NET "USB_DATA<6>" OFFSET = IN 10 ns VALID 18.1818 ns BEFORE "USB_SCLK" TIMEGRP "USB_Data_in_buf_6" RISING;
+#NET "USB_DATA<7>" OFFSET = IN 10 ns VALID 18.1818 ns BEFORE "USB_SCLK" TIMEGRP "USB_Data_in_buf_7" RISING;
+#NET "USB_DATA<8>" OFFSET = IN 10 ns VALID 18.1818 ns BEFORE "USB_SCLK" TIMEGRP "USB_Data_in_buf_8" RISING;
+#NET "USB_DATA<9>" OFFSET = IN 10 ns VALID 18.1818 ns BEFORE "USB_SCLK" TIMEGRP "USB_Data_in_buf_9" RISING;
+#NET "USB_DATA<10>" OFFSET = IN 10 ns VALID 18.1818 ns BEFORE "USB_SCLK" TIMEGRP "USB_Data_in_buf_10" RISING;
+#NET "USB_DATA<11>" OFFSET = IN 10 ns VALID 18.1818 ns BEFORE "USB_SCLK" TIMEGRP "USB_Data_in_buf_11" RISING;
+#NET "USB_DATA<12>" OFFSET = IN 10 ns VALID 18.1818 ns BEFORE "USB_SCLK" TIMEGRP "USB_Data_in_buf_12" RISING;
+#NET "USB_DATA<13>" OFFSET = IN 10 ns VALID 18.1818 ns BEFORE "USB_SCLK" TIMEGRP "USB_Data_in_buf_13" RISING;
+#NET "USB_DATA<14>" OFFSET = IN 10 ns VALID 18.1818 ns BEFORE "USB_SCLK" TIMEGRP "USB_Data_in_buf_14" RISING;
+#NET "USB_DATA<15>" OFFSET = IN 10 ns VALID 18.1818 ns BEFORE "USB_SCLK" TIMEGRP "USB_Data_in_buf_15" RISING;
+#Created by Constraints Editor (xc6slx45l-csg324-1l) - 2017/09/16
+#NET "USB_DATA[0]" TIG = TS_USB_SCLK;
+#NET "USB_DATA[1]" TIG = TS_USB_SCLK;
+#NET "USB_DATA[2]" TIG = TS_USB_SCLK;
+#NET "USB_DATA[3]" TIG = TS_USB_SCLK;
+#NET "USB_DATA[4]" TIG = TS_USB_SCLK;
+#NET "USB_DATA[5]" TIG = TS_USB_SCLK;
+#NET "USB_DATA[6]" TIG = TS_USB_SCLK;
+#NET "USB_DATA[7]" TIG = TS_USB_SCLK;
+#NET "USB_DATA[8]" TIG = TS_USB_SCLK;
+#NET "USB_DATA[9]" TIG = TS_USB_SCLK;
+#NET "USB_DATA[10]" TIG = TS_USB_SCLK;
+#NET "USB_DATA[11]" TIG = TS_USB_SCLK;
+#NET "USB_DATA[12]" TIG = TS_USB_SCLK;
+#NET "USB_DATA[13]" TIG = TS_USB_SCLK;
+#NET "USB_DATA[14]" TIG = TS_USB_SCLK;
+#NET "USB_DATA[15]" TIG = TS_USB_SCLK;
+#pin2ucf - Wed Sep 27 19:25:06 2017
+#The following constraints were newly added
+NET "USB_DATA[11]" LOC = N15;
+NET "USB_DATA[5]" LOC = H14;
+NET "USB_DATA[12]" LOC = M18;
+NET "USB_DATA[6]" LOC = G13;
+NET "USB_DATA[13]" LOC = H12;
+NET "USB_DATA[7]" LOC = F17;
+NET "XLXN_538" LOC = T12;
+NET "USB_DATA[14]" LOC = N17;
+NET "USB_DATA[8]" LOC = L17;
+NET "USB_DATA[15]" LOC = H13;
+NET "USB_DATA[9]" LOC = K13;
+#NET "XLXN_92[0]" LOC = R15;
+#NET "XLXN_750" LOC = T11;
+#NET "XLXN_751" LOC = R11;
+#NET "XLXN_746" LOC = M10;
+#NET "XLXN_752" LOC = V12;
+#NET "XLXN_92[1]" LOC = T15;
+#NET "XLXN_747" LOC = U11;
+#NET "XLXN_753" LOC = N10;
+#NET "XLXN_748" LOC = V11;
+#NET "XLXN_754" LOC = N9;
+#NET "XLXN_749" LOC = U10;
+#NET "XLXN_755" LOC = T10;
+#NET "XLXN_92[2]" LOC = U16;
+#NET "XLXN_92[3]" LOC = V16;
+#NET "XLXN_92[4]" LOC = R13;
+#NET "XLXN_92[5]" LOC = T13;
+#NET "XLXN_92[6]" LOC = U15;
+#NET "XLXN_92[7]" LOC = V15;
+#NET "XLXN_92[8]" LOC = T14;
+#NET "XLXN_92[9]" LOC = V14;
+#NET "XLXN_92[10]" LOC = N12;
+#NET "XLXN_92[11]" LOC = P12;
+#NET "XLXN_92[12]" LOC = U13;
+#NET "XLXN_92[13]" LOC = V13;
+#NET "XLXN_92[14]" LOC = M11;
+NET "USB_FIFOADR[0]" LOC = H15;
+#NET "XLXN_92[15]" LOC = N11;
+NET "USB_FIFOADR[1]" LOC = K12;
+NET "USB_DATA[0]" LOC = D17;
+NET "USB_DATA[1]" LOC = H16;
+NET "USB_DATA[2]" LOC = D18;
+NET "USB_DATA[3]" LOC = G16;
+NET "USB_DATA[10]" LOC = L18;
+NET "USB_DATA[4]" LOC = E16;
+
+NET "XLXN_538" PULLDOWN;
+#PIN "clk_cmos_BUFG.O" CLOCK_DEDICATED_ROUTE = FALSE;
+#Created by Constraints Editor (xc6slx45l-csg324-1l) - 2017/10/21
+NET "LVDS_CLK_N" TNM_NET = "LVDS_CLK_N";
+TIMESPEC TS_LVDS_CLK_N = PERIOD "LVDS_CLK_N" 4 ns HIGH 50 %;
+NET "LVDS_CLK_P" TNM_NET = "LVDS_CLK_P";
+#TIMESPEC TS_LVDS_CLK_P = PERIOD "LVDS_CLK_P" 4 ns HIGH 50 %;
+#PIN "XLXI_324/clkout1_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+# PlanAhead Generated IO constraints 
+
+NET "LVDS_CLK_P" IOSTANDARD = LVDS_33;
+NET "LVDS_CLK_N" IOSTANDARD = LVDS_33;
+NET "LVDS_DATA_0_P" IOSTANDARD = LVDS_33;
+NET "LVDS_DATA_0_N" IOSTANDARD = LVDS_33;
+NET "LVDS_SYNC_P" IOSTANDARD = LVDS_33;
+NET "LVDS_SYNC_N" IOSTANDARD = LVDS_33;
+NET "cmos_monitor[1]" IOSTANDARD = LVCMOS33;
+NET "cmos_monitor[0]" IOSTANDARD = LVCMOS33;
+NET "reset" IOSTANDARD = LVCMOS33;
+NET "SPI_CLK" IOSTANDARD = LVCMOS33;
+NET "SPI_MISO" IOSTANDARD = LVCMOS33;
+NET "cmos_triger2" IOSTANDARD = LVCMOS33;
+NET "cmos_triger1" IOSTANDARD = LVCMOS33;
+NET "cmos_triger0" IOSTANDARD = LVCMOS33;
+NET "CMOS_CLK" IOSTANDARD = LVCMOS33;
+NET "cmos_pll" IOSTANDARD = LVCMOS33;
+#NET "key" IOSTANDARD = LVCMOS25;
+NET "SPI_MOSI" IOSTANDARD = LVCMOS33;
+NET "SPI_SS" IOSTANDARD = LVCMOS33;
+###############################################
+##NET "clk_cmos" LOC = D8;
+#NET "XLXN_1247" LOC = B6;
+#NET "XLXN_1248" LOC = B4;
+#NET "XLXN_1247" IOSTANDARD = LVCMOS33;
+#NET "XLXN_1248" IOSTANDARD = LVCMOS33;
+CONFIG VCCAUX=3.3; # Valid values are 2.5 and 3.3         
+
+############################################################################
+# DDR2 requires the MCB to operate in Extended performance mode with higher Vccint
+# specification to achieve maximum frequency. Therefore, the following CONFIG constraint
+# follows the corresponding GUI option setting. However, DDR3 can operate at higher 
+# frequencies with any Vcciint value by operating MCB in extended mode. Please do not
+# remove/edit the below constraint to avoid false errors.
+############################################################################
+CONFIG MCB_PERFORMANCE= EXTENDED;
+
+
+##################################################################################
+# Timing Ignore constraints for paths crossing the clock domain 
+##################################################################################
+#NET "XLXI_563/mig_39_2_inst/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/selfrefresh_mcb_mode" TIG;
+##NET "c?_pll_lock" TIG;
+#INST "XLXI_563/mig_39_2_inst/memc3_wrapper_inst/mcb_ui_top_inst/mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/DONE_SOFTANDHARD_CAL*" TIG;
+
+#Please uncomment the below TIG if used in a design which enables self-refresh mode
+#NET "memc?_wrapper_inst/memc?_mcb_raw_wrapper_inst/gen_term_calib.mcb_soft_calibration_top_inst/mcb_soft_calibration_inst/SELFREFRESH_MCB_REQ" TIG;
+
+############################################################################
+## Clock constraints                                                        
+############################################################################
+#NET "memc3_infrastructure_inst/sys_clk_ibufg" TNM_NET = "SYS_CLK3";
+#TIMESPEC "TS_SYS_CLK3" = PERIOD "SYS_CLK3"  20  ns HIGH 50 %;
+
+
+############################################################################
+##reset
+############################################################################
+#NET "reset_n"                                 LOC = N4 | IOSTANDARD = "LVCMOS15"; ## SW2 pushbutton
+
+############################################################################
+## Memory Controller 3                               
+## Memory Device: DDR3_SDRAM->MT41J128M16XX-187E 
+## Frequency: 312.5 MHz
+## Time Period: 3200 ps
+## Supported Part Numbers: MT41J128M16HA-187E
+############################################################################
+
+
+############################################################################
+## I/O TERMINATION                                                          
+############################################################################
+NET "mcb3_dram_dq[*]"                                 IN_TERM = NONE;
+NET "mcb3_dram_dqs"                                   IN_TERM = NONE;
+NET "mcb3_dram_dqs_n"                                 IN_TERM = NONE;
+NET "mcb3_dram_udqs"                                  IN_TERM = NONE;
+NET "mcb3_dram_udqs_n"                                IN_TERM = NONE;
+
+############################################################################
+# I/O STANDARDS 
+############################################################################
+
+NET  "mcb3_dram_dq[*]"                               IOSTANDARD = SSTL15_II  | OUT_TERM = UNTUNED_50;
+NET  "mcb3_dram_a[*]"                                IOSTANDARD = SSTL15_II  | OUT_TERM = UNTUNED_50;
+NET  "mcb3_dram_ba[*]"                               IOSTANDARD = SSTL15_II  | OUT_TERM = UNTUNED_50;
+NET  "mcb3_dram_dqs"                                 IOSTANDARD = DIFF_SSTL15_II  | OUT_TERM = UNTUNED_50;
+NET  "mcb3_dram_udqs"                                IOSTANDARD = DIFF_SSTL15_II  | OUT_TERM = UNTUNED_50;
+NET  "mcb3_dram_dqs_n"                               IOSTANDARD = DIFF_SSTL15_II  | OUT_TERM = UNTUNED_50;
+NET  "mcb3_dram_udqs_n"                              IOSTANDARD = DIFF_SSTL15_II  | OUT_TERM = UNTUNED_50;
+NET  "mcb3_dram_ck"                                  IOSTANDARD = DIFF_SSTL15_II  | OUT_TERM = UNTUNED_50;
+NET  "mcb3_dram_ck_n"                                IOSTANDARD = DIFF_SSTL15_II  | OUT_TERM = UNTUNED_50;
+NET  "mcb3_dram_cke"                                 IOSTANDARD = SSTL15_II  | OUT_TERM = UNTUNED_50;
+NET  "mcb3_dram_ras_n"                               IOSTANDARD = SSTL15_II  | OUT_TERM = UNTUNED_50;
+NET  "mcb3_dram_cas_n"                               IOSTANDARD = SSTL15_II  | OUT_TERM = UNTUNED_50;
+NET  "mcb3_dram_we_n"                                IOSTANDARD = SSTL15_II  | OUT_TERM = UNTUNED_50;
+NET  "mcb3_dram_odt"                                 IOSTANDARD = SSTL15_II  | OUT_TERM = UNTUNED_50;
+NET  "mcb3_dram_reset_n"                             IOSTANDARD = LVCMOS15  ;
+NET  "mcb3_dram_dm"                                  IOSTANDARD = SSTL15_II  | OUT_TERM = UNTUNED_50;
+NET  "mcb3_dram_udm"                                 IOSTANDARD = SSTL15_II  | OUT_TERM = UNTUNED_50;
+NET  "mcb3_rzq"                                      IOSTANDARD = SSTL15_II  | OUT_TERM = UNTUNED_50;
+NET  "mcb3_zio"                                      IOSTANDARD = SSTL15_II  | OUT_TERM = UNTUNED_50;
+############################################################################
+# MCB 3
+# Pin Location Constraints for Clock, Masks, Address, and Controls
+############################################################################
+
+NET  "mcb3_dram_a[0]"                            LOC = "J7" ;
+NET  "mcb3_dram_a[10]"                           LOC = "F4" ;
+NET  "mcb3_dram_a[11]"                           LOC = "D3" ;
+NET  "mcb3_dram_a[12]"                           LOC = "G6" ;
+NET  "mcb3_dram_a[13]"                           LOC = "F6" ;
+NET  "mcb3_dram_a[1]"                            LOC = "J6" ;
+NET  "mcb3_dram_a[2]"                            LOC = "H5" ;
+NET  "mcb3_dram_a[3]"                            LOC = "L7" ;
+NET  "mcb3_dram_a[4]"                            LOC = "F3" ;
+NET  "mcb3_dram_a[5]"                            LOC = "H4" ;
+NET  "mcb3_dram_a[6]"                            LOC = "H3" ;
+NET  "mcb3_dram_a[7]"                            LOC = "H6" ;
+NET  "mcb3_dram_a[8]"                            LOC = "D2" ;
+NET  "mcb3_dram_a[9]"                            LOC = "D1" ;
+NET  "mcb3_dram_ba[0]"                           LOC = "F2" ;
+NET  "mcb3_dram_ba[1]"                           LOC = "F1" ;
+NET  "mcb3_dram_ba[2]"                           LOC = "E1" ;
+NET  "mcb3_dram_cas_n"                           LOC = "K5" ;
+NET  "mcb3_dram_ck"                              LOC = "G3" ;
+NET  "mcb3_dram_ck_n"                            LOC = "G1" ;
+NET  "mcb3_dram_cke"                             LOC = "H7" ;
+NET  "mcb3_dram_dm"                              LOC = "K3" ;
+NET  "mcb3_dram_dq[0]"                           LOC = "L2" ;
+NET  "mcb3_dram_dq[10]"                          LOC = "N2" ;
+NET  "mcb3_dram_dq[11]"                          LOC = "N1" ;
+NET  "mcb3_dram_dq[12]"                          LOC = "T2" ;
+NET  "mcb3_dram_dq[13]"                          LOC = "T1" ;
+NET  "mcb3_dram_dq[14]"                          LOC = "U2" ;
+NET  "mcb3_dram_dq[15]"                          LOC = "U1" ;
+NET  "mcb3_dram_dq[1]"                           LOC = "L1" ;
+NET  "mcb3_dram_dq[2]"                           LOC = "K2" ;
+NET  "mcb3_dram_dq[3]"                           LOC = "K1" ;
+NET  "mcb3_dram_dq[4]"                           LOC = "H2" ;
+NET  "mcb3_dram_dq[5]"                           LOC = "H1" ;
+NET  "mcb3_dram_dq[6]"                           LOC = "J3" ;
+NET  "mcb3_dram_dq[7]"                           LOC = "J1" ;
+NET  "mcb3_dram_dq[8]"                           LOC = "M3" ;
+NET  "mcb3_dram_dq[9]"                           LOC = "M1" ;
+NET  "mcb3_dram_dqs"                             LOC = "L4" ;
+NET  "mcb3_dram_dqs_n"                           LOC = "L3" ;
+NET  "mcb3_dram_odt"                             LOC = "K6" ;
+NET  "mcb3_dram_ras_n"                           LOC = "L5" ;
+NET  "mcb3_dram_reset_n"                         LOC = "E4" ;
+NET  "mcb3_dram_udm"                             LOC = "K4" ;
+NET  "mcb3_dram_udqs"                            LOC = "P2" ;
+NET  "mcb3_dram_udqs_n"                          LOC = "P1" ;
+NET  "mcb3_dram_we_n"                            LOC = "E3" ;
+
+##################################################################################
+#RZQ is required for all MCB designs.   Do not move the location #
+#of this pin for ES devices.For production devices, RZQ can be moved to any #
+#valid package pin within the MCB bank.For designs using Calibrated Input Termination, #
+#a 2R resistor should be connected between RZQand ground, where R is the desired#
+#input termination value.  Otherwise, RZQ should be left as a no-connect (NC) pin.#
+##################################################################################
+NET  "mcb3_rzq"                                  LOC = "C2" ;
+##################################################################################
+#ZIO is only required for MCB designs using Calibrated Input Termination.#
+#ZIO can be moved to any valid package pin (i.e. bonded IO) within the#
+#MCB bank but must be left as a no-connect (NC) pin.#
+##################################################################################
+NET  "mcb3_zio"                                  LOC = "L6" ;
+
+##################################################################################
+#VGA pin define
+##################################################################################
+ 
+
+#NET key1                                      LOC = P7  | IOSTANDARD = "LVCMOS33";  ##  
+
+
+#PIN "XLXI_563/mig_39_2_inst/memc3_infrastructure_inst/U_BUFG_CLK2.O"
+#   CLOCK_DEDICATED_ROUTE = FALSE; 
+
+#PIN "reg_config_inst/clock_20k_BUFG.O" CLOCK_DEDICATED_ROUTE = FALSE;
+######SD
+NET SD_clk                	LOC = T18 ;     ## CLK/SCK
+NET SD_cs                  LOC = P18 ;     ## DAT3/CS
+NET SD_datain              LOC = P17 ;     ## CMD/DI
+NET SD_dataout             LOC = T17 ;     ## DATA0/DO 
+
+PIN "XLXI_120/clkout4_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+PIN "XLXI_65/clkout1_buf.O" CLOCK_DEDICATED_ROUTE = FALSE;
+PIN "XLXI_570/bufg_insta.O" CLOCK_DEDICATED_ROUTE = FALSE;

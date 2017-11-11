@@ -1,0 +1,19 @@
+[Inputs]
+clk
+initial_done
+write_frame_done
+black_output
+usb_request
+sd_request
+request_frame
+request_usb
+request_sd
+[Outputs]
+frame_triger
+write_start
+request_data
+request_flag
+[BiDir]
+[ATTRIBUTES]
+VeriModel generate_request
+

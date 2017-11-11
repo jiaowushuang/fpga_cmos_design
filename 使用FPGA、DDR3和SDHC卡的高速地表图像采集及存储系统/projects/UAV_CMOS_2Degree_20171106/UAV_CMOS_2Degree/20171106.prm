@@ -1,0 +1,17 @@
+PROMGEN: Xilinx Prom Generator P.20131013
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+promgen -w -p mcs -c FF -o D:\03_FPGA_Project\01_UAV_CMOS\02_FPGA\UAV_CMOS_2Degree//20171106 -s 16384 -u 0000 D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS_2Degree/UAV_CMOS/main.bit -spi 
+
+PROM D:\03_FPGA_Project\01_UAV_CMOS\02_FPGA\UAV_CMOS_2Degree\20171106.prm map: Mon Nov 06 07:13:51 2017
+
+Calculating PROM checksum with fill value ff
+
+Format        Mcs86 (32-bit)
+Size          16384K
+PROM start    0000:0000
+PROM end      00ff:ffff
+PROM checksum e8c186bd
+
+        Addr1        Addr2                     Date File(s)
+    0000:0000    0016:a89f     Nov 06 07:08:23 2017 D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS_2Degree/UAV_CMOS/main.bit

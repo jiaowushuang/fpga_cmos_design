@@ -1,0 +1,204 @@
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/rtl/sd_test.ucf" -p xc6slx45-csg324-2 "sd_test.ngc" sd_test.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/rtl/sd_test.ucf" -p xc6slx45-csg324-2 "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/rtl/sd_test.ucf" -p xc6slx45-csg324-2 "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/rtl/sd_test.ucf" -p xc6slx45-csg324-2 "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/rtl/sd_test.ucf" -p xc6slx45-csg324-2 "sd_test.ngc" sd_test.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/rtl/sd_test.ucf" -p xc6slx45-csg324-2 "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/rtl/sd_test.ucf" -p xc6slx45-csg324-2 "sd_test.ngc" sd_test.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/rtl/sd_test.ucf" -p xc6slx45-csg324-2 "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/rtl/sd_test.ucf" -p xc6slx45-csg324-2 "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45-csg324-2 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 2 -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_20171101/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+xst -intstyle ise -ifn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.xst" -ofn "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/sd_multiblock_write/sd_test.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc "D:/work/ADC Snap/SD/SD_PROJECT/SD_2017110022226/rtl/sd_test.ucf" -p xc6slx45l-csg324-1L "sd_test.ngc" sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc G:/gitDoc/fpga/SD_20171103/SD_20171103/rtl/sd_test.ucf -p xc6slx45l-csg324-1L sd_test.ngc sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -uc G:/gitDoc/fpga/SD_20171103/SD_20171103/rtl/sd_test.ucf -p xc6slx45l-csg324-1L sd_test.ngc sd_test.ngd  
+map -intstyle ise -p xc6slx45l-csg324-1L -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o sd_test_map.ncd sd_test.ngd sd_test.pcf 
+par -w -intstyle ise -ol high -mt off sd_test_map.ncd sd_test.ncd sd_test.pcf 
+trce -intstyle ise -v 3 -s 1L -n 3 -fastpaths -xml sd_test.twx sd_test.ncd -o sd_test.twr sd_test.pcf 
+bitgen -intstyle ise -f sd_test.ut sd_test.ncd 

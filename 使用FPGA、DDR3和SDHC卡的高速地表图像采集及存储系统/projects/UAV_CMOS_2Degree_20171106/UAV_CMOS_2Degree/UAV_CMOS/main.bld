@@ -1,0 +1,371 @@
+Release 14.7 ngdbuild P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Command Line: E:\xlinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\ngdbuild.exe -intstyle
+ise -dd _ngo -sd ipcore_dir -nt timestamp -uc UAV_CMOS.ucf -p xc6slx45-csg324-2
+main_cs.ngc main.ngd
+
+Reading NGO file
+"G:/gitDoc/fpga/UAV_CMOS_2Degree_20171106/UAV_CMOS_2Degree/UAV_CMOS/main_cs.ngc"
+...
+Gathering constraint information from source properties...
+Done.
+
+Annotating constraints to design from ucf file "UAV_CMOS.ucf" ...
+Resolving constraint associations...
+Checking Constraint Associations...
+INFO:ConstraintSystem:178 - TNM 'CMOS_CLK', used in period specification
+   'TS_CMOS_CLK', was traced into PLL_ADV instance u_pll_adv. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT3: <TIMESPEC
+   TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_mcb_drp_clk_bufg_in =
+   PERIOD "XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_mcb_drp_clk_bufg_in"
+   TS_CMOS_CLK * 1.5625 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'CMOS_CLK', used in period specification
+   'TS_CMOS_CLK', was traced into PLL_ADV instance u_pll_adv. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT1: <TIMESPEC
+   TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_clk_2x_180 = PERIOD
+   "XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_clk_2x_180" TS_CMOS_CLK *
+   12.5 PHASE 0.666666667 ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'CMOS_CLK', used in period specification
+   'TS_CMOS_CLK', was traced into PLL_ADV instance u_pll_adv. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT5: <TIMESPEC
+   TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in = PERIOD
+   "XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in"
+   TS_CMOS_CLK * 0.5 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'CMOS_CLK', used in period specification
+   'TS_CMOS_CLK', was traced into PLL_ADV instance u_pll_adv. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT0: <TIMESPEC
+   TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_clk_2x_0 = PERIOD
+   "XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_clk_2x_0" TS_CMOS_CLK *
+   12.5 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'CMOS_CLK', used in period specification
+   'TS_CMOS_CLK', was traced into PLL_ADV instance u_pll_adv. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT2: <TIMESPEC
+   TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_clk0_bufg_in = PERIOD
+   "XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_clk0_bufg_in" TS_CMOS_CLK *
+   1.5625 HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'USB_SCLK', used in period specification
+   'TS_USB_SCLK', was traced into DCM_SP instance dcm_sp_inst. The following new
+   TNM groups and period specifications were generated at the DCM_SP output(s): 
+   CLK0: <TIMESPEC TS_XLXI_65_clk0 = PERIOD "XLXI_65_clk0" TS_USB_SCLK PHASE
+   1.278409091 ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'LVDS_CLK_N', used in period specification
+   'TS_LVDS_CLK_N', was traced into PLL_ADV instance PLL_ADV. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT1: <TIMESPEC TS_XLXI_559_clkout1 = PERIOD "XLXI_559_clkout1"
+   TS_LVDS_CLK_N PHASE 1 ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM 'LVDS_CLK_N', used in period specification
+   'TS_LVDS_CLK_N', was traced into PLL_ADV instance PLL_ADV. The following new
+   TNM groups and period specifications were generated at the PLL_ADV output(s):
+    
+   CLKOUT0: <TIMESPEC TS_XLXI_559_clkout0 = PERIOD "XLXI_559_clkout0"
+   TS_LVDS_CLK_N PHASE -1 ns HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM
+   'XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in', used in
+   period specification
+   'TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in', was
+   traced into PLL_ADV instance PLL_ADV. The following new TNM groups and period
+   specifications were generated at the PLL_ADV output(s): 
+   CLKOUT3: <TIMESPEC TS_XLXI_120_clkout3 = PERIOD "XLXI_120_clkout3"
+   TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM
+   'XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in', used in
+   period specification
+   'TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in', was
+   traced into PLL_ADV instance PLL_ADV. The following new TNM groups and period
+   specifications were generated at the PLL_ADV output(s): 
+   CLKOUT1: <TIMESPEC TS_XLXI_120_clkout1 = PERIOD "XLXI_120_clkout1"
+   TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in * 1.6
+   HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM
+   'XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in', used in
+   period specification
+   'TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in', was
+   traced into PLL_ADV instance PLL_ADV. The following new TNM groups and period
+   specifications were generated at the PLL_ADV output(s): 
+   CLKOUT0: <TIMESPEC TS_XLXI_120_clkout0 = PERIOD "XLXI_120_clkout0"
+   TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in * 0.125
+   HIGH 50%>
+
+INFO:ConstraintSystem:178 - TNM
+   'XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in', used in
+   period specification
+   'TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in', was
+   traced into PLL_ADV instance PLL_ADV. The following new TNM groups and period
+   specifications were generated at the PLL_ADV output(s): 
+   CLKOUT2: <TIMESPEC TS_clk_100m = PERIOD "clk_100m"
+   TS_XLXI_596_mig_39_2_inst_memc3_infrastructure_inst_vga_clk_bufg_in * 4 HIGH
+   50%>
+
+INFO:ConstraintSystem:178 - TNM 'XLXI_120_clkout3', used in period specification
+   'TS_XLXI_120_clkout3', was traced into DCM_SP instance DCM_SP_inst. The
+   following new TNM groups and period specifications were generated at the
+   DCM_SP output(s): 
+   CLKFX: <TIMESPEC TS_XLXI_570_CLKFX = PERIOD "XLXI_570_CLKFX"
+   TS_XLXI_120_clkout3 HIGH 50%>
+
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_15 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_in_buf_15 by the constraint <INST
+   "XLXI_30/USB_Data_in_buf_15" IOB =TRUE;> [UAV_CMOS.ucf(81)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_14 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_in_buf_14 by the constraint <INST
+   "XLXI_30/USB_Data_in_buf_14" IOB =TRUE;> [UAV_CMOS.ucf(80)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_13 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_in_buf_13 by the constraint <INST
+   "XLXI_30/USB_Data_in_buf_13" IOB =TRUE;> [UAV_CMOS.ucf(79)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_12 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_in_buf_12 by the constraint <INST
+   "XLXI_30/USB_Data_in_buf_12" IOB =TRUE;> [UAV_CMOS.ucf(78)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_11 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_in_buf_11 by the constraint <INST
+   "XLXI_30/USB_Data_in_buf_11" IOB =TRUE;> [UAV_CMOS.ucf(77)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_10 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_in_buf_10 by the constraint <INST
+   "XLXI_30/USB_Data_in_buf_10" IOB =TRUE;> [UAV_CMOS.ucf(76)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_9 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_in_buf_9 by the constraint <INST
+   "XLXI_30/USB_Data_in_buf_9" IOB =TRUE;> [UAV_CMOS.ucf(75)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_8 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_in_buf_8 by the constraint <INST
+   "XLXI_30/USB_Data_in_buf_8" IOB =TRUE;> [UAV_CMOS.ucf(74)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_7 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_in_buf_7 by the constraint <INST
+   "XLXI_30/USB_Data_in_buf_7" IOB =TRUE;> [UAV_CMOS.ucf(73)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_6 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_in_buf_6 by the constraint <INST
+   "XLXI_30/USB_Data_in_buf_6" IOB =TRUE;> [UAV_CMOS.ucf(72)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_5 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_in_buf_5 by the constraint <INST
+   "XLXI_30/USB_Data_in_buf_5" IOB =TRUE;> [UAV_CMOS.ucf(71)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_4 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_in_buf_4 by the constraint <INST
+   "XLXI_30/USB_Data_in_buf_4" IOB =TRUE;> [UAV_CMOS.ucf(70)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_3 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_in_buf_3 by the constraint <INST
+   "XLXI_30/USB_Data_in_buf_3" IOB =TRUE;> [UAV_CMOS.ucf(69)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_2 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_in_buf_2 by the constraint <INST
+   "XLXI_30/USB_Data_in_buf_2" IOB =TRUE;> [UAV_CMOS.ucf(68)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_1 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_in_buf_1 by the constraint <INST
+   "XLXI_30/USB_Data_in_buf_1" IOB =TRUE;> [UAV_CMOS.ucf(67)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_in_buf_0 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_in_buf_0 by the constraint <INST
+   "XLXI_30/USB_Data_in_buf_0" IOB =TRUE;> [UAV_CMOS.ucf(66)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_15 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_out_buf_15 by the constraint <INST
+   "XLXI_30/USB_Data_out_buf_15" IOB =TRUE;> [UAV_CMOS.ucf(98)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_14 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_out_buf_14 by the constraint <INST
+   "XLXI_30/USB_Data_out_buf_14" IOB =TRUE;> [UAV_CMOS.ucf(97)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_13 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_out_buf_13 by the constraint <INST
+   "XLXI_30/USB_Data_out_buf_13" IOB =TRUE;> [UAV_CMOS.ucf(96)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_12 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_out_buf_12 by the constraint <INST
+   "XLXI_30/USB_Data_out_buf_12" IOB =TRUE;> [UAV_CMOS.ucf(95)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_11 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_out_buf_11 by the constraint <INST
+   "XLXI_30/USB_Data_out_buf_11" IOB =TRUE;> [UAV_CMOS.ucf(94)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_10 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_out_buf_10 by the constraint <INST
+   "XLXI_30/USB_Data_out_buf_10" IOB =TRUE;> [UAV_CMOS.ucf(93)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_9 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_out_buf_9 by the constraint <INST
+   "XLXI_30/USB_Data_out_buf_9" IOB =TRUE;> [UAV_CMOS.ucf(92)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_8 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_out_buf_8 by the constraint <INST
+   "XLXI_30/USB_Data_out_buf_8" IOB =TRUE;> [UAV_CMOS.ucf(91)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_7 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_out_buf_7 by the constraint <INST
+   "XLXI_30/USB_Data_out_buf_7" IOB =TRUE;> [UAV_CMOS.ucf(90)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_6 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_out_buf_6 by the constraint <INST
+   "XLXI_30/USB_Data_out_buf_6" IOB =TRUE;> [UAV_CMOS.ucf(89)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_5 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_out_buf_5 by the constraint <INST
+   "XLXI_30/USB_Data_out_buf_5" IOB =TRUE;> [UAV_CMOS.ucf(88)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_4 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_out_buf_4 by the constraint <INST
+   "XLXI_30/USB_Data_out_buf_4" IOB =TRUE;> [UAV_CMOS.ucf(87)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_3 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_out_buf_3 by the constraint <INST
+   "XLXI_30/USB_Data_out_buf_3" IOB =TRUE;> [UAV_CMOS.ucf(86)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_2 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_out_buf_2 by the constraint <INST
+   "XLXI_30/USB_Data_out_buf_2" IOB =TRUE;> [UAV_CMOS.ucf(85)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_1 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_out_buf_1 by the constraint <INST
+   "XLXI_30/USB_Data_out_buf_1" IOB =TRUE;> [UAV_CMOS.ucf(84)].
+WARNING:NgdBuild:1012 - The constraint <INST
+   /main/EXPANDED/main/XLXI_30/USB_Data_out_buf_0 IOB = true> is overridden on
+   the design object XLXI_30/USB_Data_out_buf_0 by the constraint <INST
+   "XLXI_30/USB_Data_out_buf_0" IOB =TRUE;> [UAV_CMOS.ucf(83)].
+Done...
+
+WARNING:NgdBuild:1440 - User specified non-default attribute value (20) was
+   detected for the CLKIN1_PERIOD attribute on PLL "u_pll_adv".  This does not
+   match the PERIOD constraint value (60 MHz.).  The uncertainty calculation
+   will use the PERIOD constraint value.  This could result in incorrect
+   uncertainty calculated for PLL output clocks.
+WARNING:NgdBuild:1212 - User specified non-default attribute value (20.000000)
+   was detected for the CLKIN_PERIOD attribute on DCM "DCM_SP_inst".  This does
+   not match the PERIOD constraint value (30 MHz.).  The uncertainty calculation
+   will use the non-default attribute value.  This could result in incorrect
+   uncertainty calculated for DCM output clocks.
+WARNING:NgdBuild:1212 - User specified non-default attribute value (20.833000)
+   was detected for the CLKIN_PERIOD attribute on DCM "dcm_sp_inst".  This does
+   not match the PERIOD constraint value (55 MHz.).  The uncertainty calculation
+   will use the non-default attribute value.  This could result in incorrect
+   uncertainty calculated for DCM output clocks.
+WARNING:NgdBuild:1440 - User specified non-default attribute value (40) was
+   detected for the CLKIN1_PERIOD attribute on PLL "PLL_ADV".  This does not
+   match the PERIOD constraint value (30 MHz.).  The uncertainty calculation
+   will use the PERIOD constraint value.  This could result in incorrect
+   uncertainty calculated for PLL output clocks.
+WARNING:NgdBuild:1440 - User specified non-default attribute value (5) was
+   detected for the CLKIN1_PERIOD attribute on PLL "PLL_ADV".  This does not
+   match the PERIOD constraint value (4 ns.).  The uncertainty calculation will
+   use the PERIOD constraint value.  This could result in incorrect uncertainty
+   calculated for PLL output clocks.
+Checking expanded design ...
+WARNING:NgdBuild:452 - logical net 'cmos_triger1_OBUF' has no driver
+WARNING:NgdBuild:452 - logical net 'cmos_triger2_OBUF' has no driver
+WARNING:NgdBuild:452 - logical net 'N40' has no driver
+WARNING:NgdBuild:452 - logical net 'N41' has no driver
+WARNING:NgdBuild:452 - logical net 'N42' has no driver
+WARNING:NgdBuild:452 - logical net 'N43' has no driver
+WARNING:NgdBuild:452 - logical net 'N44' has no driver
+WARNING:NgdBuild:452 - logical net 'N45' has no driver
+WARNING:NgdBuild:452 - logical net 'N46' has no driver
+WARNING:NgdBuild:452 - logical net 'N47' has no driver
+WARNING:NgdBuild:452 - logical net 'N48' has no driver
+WARNING:NgdBuild:452 - logical net 'N49' has no driver
+WARNING:NgdBuild:452 - logical net 'N50' has no driver
+WARNING:NgdBuild:452 - logical net 'N51' has no driver
+WARNING:NgdBuild:452 - logical net 'N52' has no driver
+WARNING:NgdBuild:452 - logical net 'N53' has no driver
+WARNING:NgdBuild:452 - logical net 'N54' has no driver
+WARNING:NgdBuild:452 - logical net 'N55' has no driver
+WARNING:NgdBuild:452 - logical net 'N56' has no driver
+WARNING:NgdBuild:452 - logical net 'N57' has no driver
+WARNING:NgdBuild:452 - logical net 'N58' has no driver
+WARNING:NgdBuild:452 - logical net 'N59' has no driver
+WARNING:NgdBuild:452 - logical net 'N60' has no driver
+WARNING:NgdBuild:452 - logical net 'N61' has no driver
+WARNING:NgdBuild:452 - logical net 'N62' has no driver
+WARNING:NgdBuild:452 - logical net 'N63' has no driver
+WARNING:NgdBuild:452 - logical net 'N64' has no driver
+WARNING:NgdBuild:452 - logical net 'N65' has no driver
+WARNING:NgdBuild:452 - logical net 'N66' has no driver
+WARNING:NgdBuild:452 - logical net 'N67' has no driver
+WARNING:NgdBuild:452 - logical net 'N68' has no driver
+WARNING:NgdBuild:452 - logical net 'N69' has no driver
+WARNING:NgdBuild:452 - logical net 'N70' has no driver
+WARNING:NgdBuild:452 - logical net 'N71' has no driver
+WARNING:NgdBuild:452 - logical net 'N72' has no driver
+WARNING:NgdBuild:452 - logical net 'N73' has no driver
+WARNING:NgdBuild:452 - logical net 'N74' has no driver
+WARNING:NgdBuild:452 - logical net 'N75' has no driver
+WARNING:NgdBuild:452 - logical net 'N76' has no driver
+WARNING:NgdBuild:452 - logical net 'N77' has no driver
+WARNING:NgdBuild:478 - clock net XLXI_596/camera_clk with clock driver
+   XLXI_596/mig_39_2_inst/memc3_infrastructure_inst/U_BUFG_CLK2 drives no clock
+   pins
+WARNING:NgdBuild:452 - logical net 'XLXI_596/c3_p0_wr_underrun' has no driver
+WARNING:NgdBuild:452 - logical net
+   'XLXI_596/mig_39_2_inst/c3_p0_cmd_byte_addr<29>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'XLXI_596/mig_39_2_inst/c3_p0_cmd_byte_addr<28>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'XLXI_596/mig_39_2_inst/c3_p0_cmd_byte_addr<27>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'XLXI_596/mig_39_2_inst/c3_p1_cmd_byte_addr<29>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'XLXI_596/mig_39_2_inst/c3_p1_cmd_byte_addr<28>' has no driver
+WARNING:NgdBuild:452 - logical net
+   'XLXI_596/mig_39_2_inst/c3_p1_cmd_byte_addr<27>' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_596/mig_39_2_inst/c3_p0_wr_error' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_596/mig_39_2_inst/c3_p0_rd_overflow'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_596/mig_39_2_inst/c3_p0_rd_error' has
+   no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_596/mig_39_2_inst/c3_p1_wr_underrun'
+   has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_348/LVDS_Channel1' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_348/LVDS_Channel2' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_348/LVDS_Channel3' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_127/rst' has no driver
+WARNING:NgdBuild:452 - logical net 'XLXI_112/rst' has no driver
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+NGDBUILD Design Results Summary:
+  Number of errors:     0
+  Number of warnings:  94
+
+Total memory usage is 267096 kilobytes
+
+Writing NGD file "main.ngd" ...
+Total REAL time to NGDBUILD completion:  9 sec
+Total CPU time to NGDBUILD completion:   9 sec
+
+Writing NGDBUILD log file "main.bld"...

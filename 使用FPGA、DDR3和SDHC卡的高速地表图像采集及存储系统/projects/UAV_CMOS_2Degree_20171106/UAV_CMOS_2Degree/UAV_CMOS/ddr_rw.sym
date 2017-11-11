@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<symbol version="7" name="ddr_rw">
+    <symboltype>BLOCK</symboltype>
+    <timestamp>2017-11-3T12:12:29</timestamp>
+    <attr value="ddr_rw" name="VeriModel" />
+    <pin polarity="Input" x="0" y="32" name="ddr_write_clk" />
+    <pin polarity="Input" x="0" y="96" name="ddr_read_clk" />
+    <pin polarity="Input" x="0" y="-1888" name="frame_switch" />
+    <pin polarity="Input" x="0" y="-1664" name="ddr_wren" />
+    <pin polarity="Input" x="0" y="-1440" name="ddr_addr_wr_set" />
+    <pin polarity="Input" x="0" y="-1216" name="ddr_rden" />
+    <pin polarity="Input" x="0" y="-992" name="ddr_addr_rd_set" />
+    <pin polarity="Input" x="0" y="-544" name="c3_sys_clk" />
+    <pin polarity="Input" x="0" y="-320" name="c3_sys_rst_n" />
+    <pin polarity="Input" x="0" y="-96" name="ddr_data_camera(63:0)" />
+    <pin polarity="BiDirectional" x="640" y="-416" name="mcb3_dram_udqs" />
+    <pin polarity="BiDirectional" x="640" y="-352" name="mcb3_dram_udqs_n" />
+    <pin polarity="BiDirectional" x="640" y="-288" name="mcb3_rzq" />
+    <pin polarity="BiDirectional" x="640" y="-224" name="mcb3_zio" />
+    <pin polarity="BiDirectional" x="640" y="-160" name="mcb3_dram_dqs" />
+    <pin polarity="BiDirectional" x="640" y="-96" name="mcb3_dram_dqs_n" />
+    <pin polarity="BiDirectional" x="640" y="-32" name="mcb3_dram_dq(15:0)" />
+    <pin polarity="Output" x="640" y="-1888" name="camera_clk" />
+    <pin polarity="Output" x="640" y="-1824" name="vga_clk" />
+    <pin polarity="Output" x="640" y="-1760" name="c3_clk0" />
+    <pin polarity="Output" x="640" y="160" name="c3_calib_done" />
+    <pin polarity="Output" x="640" y="-1696" name="c3_p0_wr_underrun" />
+    <pin polarity="Output" x="640" y="-1632" name="c3_p0_wr_full" />
+    <pin polarity="Output" x="640" y="-1568" name="c3_p0_cmd_full" />
+    <pin polarity="Output" x="640" y="-1504" name="c3_p1_rd_overflow" />
+    <pin polarity="Output" x="640" y="-1440" name="c3_p1_rd_empty" />
+    <pin polarity="Output" x="640" y="-1376" name="c3_p1_cmd_full" />
+    <pin polarity="Output" x="640" y="-1312" name="mcb3_dram_ras_n" />
+    <pin polarity="Output" x="640" y="-1248" name="mcb3_dram_cas_n" />
+    <pin polarity="Output" x="640" y="-1184" name="mcb3_dram_we_n" />
+    <pin polarity="Output" x="640" y="-1120" name="mcb3_dram_odt" />
+    <pin polarity="Output" x="640" y="-1056" name="mcb3_dram_reset_n" />
+    <pin polarity="Output" x="640" y="-992" name="mcb3_dram_cke" />
+    <pin polarity="Output" x="640" y="-928" name="mcb3_dram_dm" />
+    <pin polarity="Output" x="640" y="-864" name="mcb3_dram_udm" />
+    <pin polarity="Output" x="640" y="-800" name="c3_rst0" />
+    <pin polarity="Output" x="640" y="-736" name="mcb3_dram_ck" />
+    <pin polarity="Output" x="640" y="-672" name="mcb3_dram_ck_n" />
+    <pin polarity="Output" x="640" y="-608" name="ddr_data_vga(63:0)" />
+    <pin polarity="Output" x="640" y="-544" name="mcb3_dram_a(13:0)" />
+    <pin polarity="Output" x="640" y="-480" name="mcb3_dram_ba(2:0)" />
+    <pin polarity="Output" x="640" y="224" name="first" />
+    <graph>
+        <attrtext style="alignment:BCENTER;fontsize:56;fontname:Arial" attrname="SymbolName" x="296" y="-1928" type="symbol" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="32" type="pin ddr_write_clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="96" type="pin ddr_read_clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1888" type="pin frame_switch" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1664" type="pin ddr_wren" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1440" type="pin ddr_addr_wr_set" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-1216" type="pin ddr_rden" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-992" type="pin ddr_addr_rd_set" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-544" type="pin c3_sys_clk" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-320" type="pin c3_sys_rst_n" />
+        <attrtext style="fontsize:24;fontname:Arial" attrname="PinName" x="72" y="-96" type="pin ddr_data_camera(63:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-416" type="pin mcb3_dram_udqs" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-352" type="pin mcb3_dram_udqs_n" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-288" type="pin mcb3_rzq" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-224" type="pin mcb3_zio" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-160" type="pin mcb3_dram_dqs" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-96" type="pin mcb3_dram_dqs_n" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-32" type="pin mcb3_dram_dq(15:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-1888" type="pin camera_clk" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-1824" type="pin vga_clk" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-1760" type="pin c3_clk0" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="160" type="pin c3_calib_done" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-1696" type="pin c3_p0_wr_underrun" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-1632" type="pin c3_p0_wr_full" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-1568" type="pin c3_p0_cmd_full" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-1504" type="pin c3_p1_rd_overflow" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-1440" type="pin c3_p1_rd_empty" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-1376" type="pin c3_p1_cmd_full" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-1312" type="pin mcb3_dram_ras_n" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-1248" type="pin mcb3_dram_cas_n" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-1184" type="pin mcb3_dram_we_n" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-1120" type="pin mcb3_dram_odt" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-1056" type="pin mcb3_dram_reset_n" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-992" type="pin mcb3_dram_cke" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-928" type="pin mcb3_dram_dm" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-864" type="pin mcb3_dram_udm" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-800" type="pin c3_rst0" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-736" type="pin mcb3_dram_ck" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-672" type="pin mcb3_dram_ck_n" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-608" type="pin ddr_data_vga(63:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-544" type="pin mcb3_dram_a(13:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="-480" type="pin mcb3_dram_ba(2:0)" />
+        <attrtext style="alignment:RIGHT;fontsize:24;fontname:Arial" attrname="PinName" x="568" y="224" type="pin first" />
+        <line x2="640" y1="224" y2="224" x1="576" />
+        <line x2="640" y1="160" y2="160" x1="576" />
+        <line x2="0" y1="32" y2="32" x1="64" />
+        <line x2="0" y1="96" y2="96" x1="64" />
+        <line x2="0" y1="-1888" y2="-1888" x1="64" />
+        <line x2="0" y1="-1664" y2="-1664" x1="64" />
+        <line x2="0" y1="-1440" y2="-1440" x1="64" />
+        <line x2="0" y1="-1216" y2="-1216" x1="64" />
+        <line x2="0" y1="-992" y2="-992" x1="64" />
+        <line x2="0" y1="-544" y2="-544" x1="64" />
+        <line x2="0" y1="-320" y2="-320" x1="64" />
+        <rect width="64" x="0" y="-108" height="24" />
+        <line x2="0" y1="-96" y2="-96" x1="64" />
+        <line x2="640" y1="-1888" y2="-1888" x1="576" />
+        <line x2="640" y1="-1824" y2="-1824" x1="576" />
+        <line x2="640" y1="-1760" y2="-1760" x1="576" />
+        <line x2="640" y1="-1696" y2="-1696" x1="576" />
+        <line x2="640" y1="-1632" y2="-1632" x1="576" />
+        <line x2="640" y1="-1568" y2="-1568" x1="576" />
+        <line x2="640" y1="-1504" y2="-1504" x1="576" />
+        <line x2="640" y1="-1440" y2="-1440" x1="576" />
+        <line x2="640" y1="-1376" y2="-1376" x1="576" />
+        <line x2="640" y1="-1312" y2="-1312" x1="576" />
+        <line x2="640" y1="-1248" y2="-1248" x1="576" />
+        <line x2="640" y1="-1184" y2="-1184" x1="576" />
+        <line x2="640" y1="-1120" y2="-1120" x1="576" />
+        <line x2="640" y1="-1056" y2="-1056" x1="576" />
+        <line x2="640" y1="-992" y2="-992" x1="576" />
+        <line x2="640" y1="-928" y2="-928" x1="576" />
+        <line x2="640" y1="-864" y2="-864" x1="576" />
+        <line x2="640" y1="-800" y2="-800" x1="576" />
+        <line x2="640" y1="-736" y2="-736" x1="576" />
+        <line x2="640" y1="-672" y2="-672" x1="576" />
+        <rect width="64" x="576" y="-620" height="24" />
+        <line x2="640" y1="-608" y2="-608" x1="576" />
+        <rect width="64" x="576" y="-556" height="24" />
+        <line x2="640" y1="-544" y2="-544" x1="576" />
+        <rect width="64" x="576" y="-492" height="24" />
+        <line x2="640" y1="-480" y2="-480" x1="576" />
+        <line x2="640" y1="-416" y2="-416" x1="576" />
+        <line x2="640" y1="-352" y2="-352" x1="576" />
+        <line x2="640" y1="-288" y2="-288" x1="576" />
+        <line x2="640" y1="-224" y2="-224" x1="576" />
+        <line x2="640" y1="-160" y2="-160" x1="576" />
+        <line x2="640" y1="-96" y2="-96" x1="576" />
+        <rect width="64" x="576" y="-44" height="24" />
+        <line x2="640" y1="-32" y2="-32" x1="576" />
+        <rect width="512" x="64" y="-1920" height="2240" />
+    </graph>
+</symbol>

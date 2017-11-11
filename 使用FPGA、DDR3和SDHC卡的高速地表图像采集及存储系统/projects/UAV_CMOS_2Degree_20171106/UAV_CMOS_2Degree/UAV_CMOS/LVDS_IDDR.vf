@@ -1,0 +1,195 @@
+////////////////////////////////////////////////////////////////////////////////
+// Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+//   ____  ____ 
+//  /   /\/   / 
+// /___/  \  /    Vendor: Xilinx 
+// \   \   \/     Version : 14.7
+//  \   \         Application : sch2hdl
+//  /   /         Filename : LVDS_IDDR.vf
+// /___/   /\     Timestamp : 11/03/2017 21:03:49
+// \   \  /  \ 
+//  \___\/\___\ 
+//
+//Command: sch2hdl -sympath D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS_2Degree/UAV_CMOS/ipcore_dir -intstyle ise -family spartan6 -verilog D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS_2Degree/UAV_CMOS/LVDS_IDDR.vf -w D:/03_FPGA_Project/01_UAV_CMOS/02_FPGA/UAV_CMOS_2Degree/UAV_CMOS/LVDS_IDDR.sch
+//Design Name: LVDS_IDDR
+//Device: spartan6
+//Purpose:
+//    This verilog netlist is translated from an ECS schematic.It can be 
+//    synthesized and simulated, but it should not be modified. 
+//
+`timescale 1ns / 1ps
+
+module LVDS_IDDR(CMOS_CLK, 
+                 CMOS_CLK_INV, 
+                 LVDS_Channel0, 
+                 LVDS_Channel1, 
+                 LVDS_Channel2, 
+                 LVDS_Channel3, 
+                 LVDS_Sync, 
+                 Channel_0_N, 
+                 Channel_0_P, 
+                 Channel_1_N, 
+                 Channel_1_P, 
+                 Channel_2_N, 
+                 Channel_2_P, 
+                 Channel_3_N, 
+                 Channel_3_P, 
+                 Sync_N, 
+                 Sync_P);
+
+    input CMOS_CLK;
+    input CMOS_CLK_INV;
+    input LVDS_Channel0;
+    input LVDS_Channel1;
+    input LVDS_Channel2;
+    input LVDS_Channel3;
+    input LVDS_Sync;
+   output Channel_0_N;
+   output Channel_0_P;
+   output Channel_1_N;
+   output Channel_1_P;
+   output Channel_2_N;
+   output Channel_2_P;
+   output Channel_3_N;
+   output Channel_3_P;
+   output Sync_N;
+   output Sync_P;
+   
+   wire XLXN_5;
+   wire XLXN_6;
+   wire XLXN_7;
+   wire XLXN_8;
+   wire XLXN_9;
+   wire XLXN_10;
+   wire XLXN_11;
+   wire XLXN_12;
+   wire XLXN_13;
+   wire XLXN_14;
+   wire XLXN_32;
+   wire XLXN_34;
+   wire XLXN_36;
+   wire XLXN_38;
+   wire XLXN_40;
+   wire XLXN_43;
+   wire XLXN_47;
+   wire XLXN_49;
+   
+   FD #( .INIT(1'b0) ) XLXI_180 (.C(CMOS_CLK), 
+                .D(XLXN_5), 
+                .Q(Channel_0_P));
+   FD #( .INIT(1'b0) ) XLXI_181 (.C(CMOS_CLK), 
+                .D(XLXN_6), 
+                .Q(Channel_0_N));
+   FD #( .INIT(1'b0) ) XLXI_182 (.C(CMOS_CLK), 
+                .D(XLXN_7), 
+                .Q(Channel_1_P));
+   FD #( .INIT(1'b0) ) XLXI_183 (.C(CMOS_CLK), 
+                .D(XLXN_8), 
+                .Q(Channel_1_N));
+   FD #( .INIT(1'b0) ) XLXI_184 (.C(CMOS_CLK), 
+                .D(XLXN_10), 
+                .Q(Channel_2_P));
+   FD #( .INIT(1'b0) ) XLXI_185 (.C(CMOS_CLK), 
+                .D(XLXN_9), 
+                .Q(Channel_2_N));
+   FD #( .INIT(1'b0) ) XLXI_186 (.C(CMOS_CLK), 
+                .D(XLXN_12), 
+                .Q(Channel_3_P));
+   FD #( .INIT(1'b0) ) XLXI_187 (.C(CMOS_CLK), 
+                .D(XLXN_11), 
+                .Q(Channel_3_N));
+   FD #( .INIT(1'b0) ) XLXI_188 (.C(CMOS_CLK), 
+                .D(XLXN_14), 
+                .Q(Sync_P));
+   FD #( .INIT(1'b0) ) XLXI_189 (.C(CMOS_CLK), 
+                .D(XLXN_13), 
+                .Q(Sync_N));
+   IDDR2 #( .INIT_Q0(1'b0), .INIT_Q1(1'b0), .SRTYPE("SYNC"), 
+         .DDR_ALIGNMENT("NONE") ) XLXI_200 (.CE(XLXN_43), 
+                   .C0(CMOS_CLK), 
+                   .C1(CMOS_CLK_INV), 
+                   .D(XLXN_47), 
+                   .R(XLXN_32), 
+                   .S(XLXN_32), 
+                   .Q0(XLXN_5), 
+                   .Q1(XLXN_6));
+   IDDR2 #( .INIT_Q0(1'b0), .INIT_Q1(1'b0), .SRTYPE("SYNC"), 
+         .DDR_ALIGNMENT("NONE") ) XLXI_201 (.CE(XLXN_43), 
+                   .C0(CMOS_CLK), 
+                   .C1(CMOS_CLK_INV), 
+                   .D(LVDS_Channel1), 
+                   .R(XLXN_34), 
+                   .S(XLXN_34), 
+                   .Q0(XLXN_7), 
+                   .Q1(XLXN_8));
+   IDDR2 #( .INIT_Q0(1'b0), .INIT_Q1(1'b0), .SRTYPE("SYNC"), 
+         .DDR_ALIGNMENT("NONE") ) XLXI_202 (.CE(XLXN_43), 
+                   .C0(CMOS_CLK), 
+                   .C1(CMOS_CLK_INV), 
+                   .D(LVDS_Channel2), 
+                   .R(XLXN_36), 
+                   .S(XLXN_36), 
+                   .Q0(XLXN_10), 
+                   .Q1(XLXN_9));
+   IDDR2 #( .INIT_Q0(1'b0), .INIT_Q1(1'b0), .SRTYPE("SYNC"), 
+         .DDR_ALIGNMENT("NONE") ) XLXI_203 (.CE(XLXN_43), 
+                   .C0(CMOS_CLK), 
+                   .C1(CMOS_CLK_INV), 
+                   .D(LVDS_Channel3), 
+                   .R(XLXN_38), 
+                   .S(XLXN_38), 
+                   .Q0(XLXN_12), 
+                   .Q1(XLXN_11));
+   IDDR2 #( .INIT_Q0(1'b0), .INIT_Q1(1'b0), .SRTYPE("SYNC"), 
+         .DDR_ALIGNMENT("NONE") ) XLXI_204 (.CE(XLXN_43), 
+                   .C0(CMOS_CLK), 
+                   .C1(CMOS_CLK_INV), 
+                   .D(XLXN_49), 
+                   .R(XLXN_40), 
+                   .S(XLXN_40), 
+                   .Q0(XLXN_14), 
+                   .Q1(XLXN_13));
+   GND  XLXI_205 (.G(XLXN_32));
+   GND  XLXI_206 (.G(XLXN_34));
+   GND  XLXI_207 (.G(XLXN_36));
+   GND  XLXI_208 (.G(XLXN_38));
+   GND  XLXI_209 (.G(XLXN_40));
+   VCC  XLXI_210 (.P(XLXN_43));
+   IODELAY2 #( .IDELAY_TYPE("FIXED"), .DELAY_SRC("IDATAIN"), .IDELAY_VALUE(10), 
+         .DATA_RATE("DDR"), .COUNTER_WRAPAROUND("WRAPAROUND"), 
+         .IDELAY2_VALUE(0), .IDELAY_MODE("NORMAL"), .ODELAY_VALUE(0), 
+         .SERDES_MODE("NONE"), .SIM_TAPDELAY_VALUE(75) ) XLXI_213 (.CAL(), 
+                      .CE(), 
+                      .CLK(), 
+                      .IDATAIN(LVDS_Channel0), 
+                      .INC(), 
+                      .IOCLK0(), 
+                      .IOCLK1(), 
+                      .ODATAIN(), 
+                      .RST(), 
+                      .T(), 
+                      .BUSY(), 
+                      .DATAOUT(XLXN_47), 
+                      .DATAOUT2(), 
+                      .DOUT(), 
+                      .TOUT());
+   IODELAY2 #( .IDELAY_TYPE("FIXED"), .DELAY_SRC("IDATAIN"), .IDELAY_VALUE(10), 
+         .DATA_RATE("DDR"), .COUNTER_WRAPAROUND("WRAPAROUND"), 
+         .IDELAY2_VALUE(0), .IDELAY_MODE("NORMAL"), .ODELAY_VALUE(0), 
+         .SERDES_MODE("NONE"), .SIM_TAPDELAY_VALUE(75) ) XLXI_214 (.CAL(), 
+                      .CE(), 
+                      .CLK(), 
+                      .IDATAIN(LVDS_Sync), 
+                      .INC(), 
+                      .IOCLK0(), 
+                      .IOCLK1(), 
+                      .ODATAIN(), 
+                      .RST(), 
+                      .T(), 
+                      .BUSY(), 
+                      .DATAOUT(XLXN_49), 
+                      .DATAOUT2(), 
+                      .DOUT(), 
+                      .TOUT());
+endmodule

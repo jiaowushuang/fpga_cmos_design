@@ -1,0 +1,9 @@
+[Inputs]
+clk_in
+key_in
+[Outputs]
+key_out
+[BiDir]
+[ATTRIBUTES]
+VeriModel digital_filter
+

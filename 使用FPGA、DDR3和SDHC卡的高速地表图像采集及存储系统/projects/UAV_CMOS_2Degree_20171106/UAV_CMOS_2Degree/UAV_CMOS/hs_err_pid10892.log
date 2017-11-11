@@ -1,0 +1,179 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  EXCEPTION_ACCESS_VIOLATION (0xc0000005) at pc=0x000000006da20081, pid=10892, tid=4548
+#
+# JRE version: 6.0_21-b07
+# Java VM: Java HotSpot(TM) 64-Bit Server VM (17.0-b17 mixed mode windows-amd64 )
+# Problematic frame:
+# V  [jvm.dll+0x230081]
+#
+# If you would like to submit a bug report, please visit:
+#   http://java.sun.com/webapps/bugreport/crash.jsp
+#
+
+---------------  T H R E A D  ---------------
+
+Current thread (0x0000000006a1f800):  JavaThread "Java2D Disposer" daemon [_thread_in_vm, id=4548, stack(0x0000000008620000,0x0000000008a20000)]
+
+siginfo: ExceptionCode=0xc0000005, reading address 0x0000000000000011
+
+Registers:
+EAX=0x0000000008a1f3f8, EBX=0x000000000697aae8, ECX=0x0000000000000000, EDX=0x0000000006a1f800
+ESP=0x0000000008a1f350, EBP=0x0000000000000000, ESI=0x000000000694a710, EDI=0x0000000008a1f5d0
+EIP=0x000000006da20081, EFLAGS=0x0000000000010203
+
+Top of Stack: (sp=0x0000000008a1f350)
+0x0000000008a1f350:   0000000006a1f800 000000006dc3a338
+0x0000000008a1f360:   0000000000000000 0000000000000005
+0x0000000008a1f370:   0000000029a073d8 000000006d852eee
+0x0000000008a1f380:   000000000694a710 0000000006901f50
+0x0000000008a1f390:   0000000006901f60 0000000006902338
+0x0000000008a1f3a0:   0000000008a1f3e0 000000000697aad8
+0x0000000008a1f3b0:   000000000f017c68 000000006dc3a2ac
+0x0000000008a1f3c0:   0000000000000021 000000000000000c
+0x0000000008a1f3d0:   000000000697aaf8 0000000008a1f5d0
+0x0000000008a1f3e0:   0000000006a1f9c8 000000006dc3a5b8
+0x0000000008a1f3f0:   0000000000000004 000000000697aae0
+0x0000000008a1f400:   0000000008a1f4a8 000000006dba6119
+0x0000000008a1f410:   0000000008a1f4a8 000000006d9661e1
+0x0000000008a1f420:   000000000697aa00 000000000697aaf0
+0x0000000008a1f430:   0000000008a1f4a8 000000000697aad8
+0x0000000008a1f440:   000000000028b0b0 000000006da055fa 
+
+Instructions: (pc=0x000000006da20081)
+0x000000006da20071:   00 00 4c 89 2c c8 ff 84 24 98 01 00 00 4c 8b 03
+0x000000006da20081:   49 8b 40 10 4d 8b 40 18 0f b7 48 42 4d 8b 44 c8 
+
+
+Stack: [0x0000000008620000,0x0000000008a20000],  sp=0x0000000008a1f350,  free space=ffc0000000000000000k
+Native frames: (J=compiled Java code, j=interpreted, Vv=VM code, C=native code)
+V  [jvm.dll+0x230081]
+
+[error occurred during error reporting (printing native stack), id 0xc0000005]
+
+Java frames: (J=compiled Java code, j=interpreted, Vv=VM code)
+j  java.awt.Cursor.finalizeImpl(J)V+0
+j  java.awt.Cursor.access$000(J)V+1
+j  java.awt.Cursor$CursorDisposer.dispose()V+13
+j  sun.java2d.Disposer.run()V+26
+j  java.lang.Thread.run()V+11
+v  ~StubRoutines::call_stub
+
+---------------  P R O C E S S  ---------------
+
+Java Threads: ( => current thread )
+  0x000000000c49f800 JavaThread "Thread-1" daemon [_thread_in_native, id=11212, stack(0x000000000a440000,0x000000000a840000)]
+  0x0000000007c0e800 JavaThread "Thread-5" daemon [_thread_blocked, id=11012, stack(0x000000000bb60000,0x000000000bf60000)]
+  0x0000000007b44800 JavaThread "Timer-0" [_thread_blocked, id=9748, stack(0x000000000a040000,0x000000000a440000)]
+  0x0000000007aac800 JavaThread "DesignManager MakeNGO Loop" [_thread_blocked, id=11164, stack(0x0000000009c40000,0x000000000a040000)]
+  0x0000000007a80800 JavaThread "TimerQueue" daemon [_thread_blocked, id=6248, stack(0x000000000b3c0000,0x000000000b7c0000)]
+  0x0000000006a21800 JavaThread "AWT-EventQueue-0" [_thread_blocked, id=10672, stack(0x0000000009220000,0x0000000009620000)]
+  0x0000000006a20800 JavaThread "AWT-Windows" daemon [_thread_blocked, id=10724, stack(0x0000000008e20000,0x0000000009220000)]
+  0x0000000006a20000 JavaThread "AWT-Shutdown" [_thread_blocked, id=7668, stack(0x0000000008a20000,0x0000000008e20000)]
+=>0x0000000006a1f800 JavaThread "Java2D Disposer" daemon [_thread_in_vm, id=4548, stack(0x0000000008620000,0x0000000008a20000)]
+  0x00000000069d1800 JavaThread "Server stderr Stream" [_thread_in_native, id=10832, stack(0x0000000007df0000,0x00000000081f0000)]
+  0x0000000006967000 JavaThread "Low Memory Detector" daemon [_thread_blocked, id=9608, stack(0x00000000074f0000,0x00000000078f0000)]
+  0x0000000006965800 JavaThread "CompilerThread1" daemon [_thread_blocked, id=10564, stack(0x00000000073f0000,0x00000000074f0000)]
+  0x0000000006949800 JavaThread "CompilerThread0" daemon [_thread_blocked, id=10044, stack(0x00000000072f0000,0x00000000073f0000)]
+  0x0000000006903000 JavaThread "Attach Listener" daemon [_thread_blocked, id=10676, stack(0x0000000006ef0000,0x00000000072f0000)]
+  0x00000000068fd800 JavaThread "Signal Dispatcher" daemon [_thread_blocked, id=10440, stack(0x0000000006af0000,0x0000000006ef0000)]
+  0x0000000000516800 JavaThread "Finalizer" daemon [_thread_blocked, id=9208, stack(0x00000000064f0000,0x00000000068f0000)]
+  0x0000000000515000 JavaThread "Reference Handler" daemon [_thread_blocked, id=10020, stack(0x00000000060f0000,0x00000000064f0000)]
+  0x000000000028d000 JavaThread "main" [_thread_blocked, id=5300, stack(0x0000000000030000,0x0000000000130000)]
+
+Other Threads:
+  0x0000000000511800 VMThread [stack: 0x0000000005ff0000,0x00000000060f0000] [id=11048]
+  0x000000000697a800 WatcherThread [stack: 0x00000000078f0000,0x00000000079f0000] [id=10600]
+
+VM state:synchronizing (normal execution)
+
+VM Mutex/Monitor currently owned by a thread:  ([mutex/lock_event])
+[0x000000000028b630] Threads_lock - owner thread: 0x0000000000511800
+
+Heap
+ PSYoungGen      total 65408K, used 5725K [0x0000000029970000, 0x000000002df70000, 0x0000000034410000)
+  eden space 60480K, 2% used [0x0000000029970000,0x0000000029aa1780,0x000000002d480000)
+  from space 4928K, 91% used [0x000000002d9c0000,0x000000002de26060,0x000000002de90000)
+  to   space 5376K, 0% used [0x000000002d480000,0x000000002d480000,0x000000002d9c0000)
+ PSOldGen        total 40512K, used 13429K [0x0000000014410000, 0x0000000016ba0000, 0x0000000029970000)
+  object space 40512K, 33% used [0x0000000014410000,0x000000001512d688,0x0000000016ba0000)
+ PSPermGen       total 21248K, used 17830K [0x000000000f010000, 0x00000000104d0000, 0x0000000014410000)
+  object space 21248K, 83% used [0x000000000f010000,0x0000000010179818,0x00000000104d0000)
+
+Dynamic libraries:
+0x0000000140000000 - 0x000000014000b000 	D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\inserter.exe
+0x0000000077620000 - 0x00000000777c9000 	C:\windows\SYSTEM32\ntdll.dll
+0x0000000077500000 - 0x000000007761f000 	C:\windows\system32\kernel32.dll
+0x000007fefd210000 - 0x000007fefd27b000 	C:\windows\system32\KERNELBASE.dll
+0x000007feff4d0000 - 0x000007feff5ab000 	C:\windows\system32\ADVAPI32.dll
+0x000007feff890000 - 0x000007feff92f000 	C:\windows\system32\msvcrt.dll
+0x000007fefec90000 - 0x000007fefecaf000 	C:\windows\SYSTEM32\sechost.dll
+0x000007feff5c0000 - 0x000007feff6ed000 	C:\windows\system32\RPCRT4.dll
+0x00000000772c0000 - 0x00000000773ba000 	C:\windows\system32\USER32.dll
+0x000007fefec20000 - 0x000007fefec87000 	C:\windows\system32\GDI32.dll
+0x000007feff5b0000 - 0x000007feff5be000 	C:\windows\system32\LPK.dll
+0x000007fefe8d0000 - 0x000007fefe999000 	C:\windows\system32\USP10.dll
+0x000000006e8b0000 - 0x000000006e953000 	C:\windows\WinSxS\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251\MSVCR90.dll
+0x000007feff420000 - 0x000007feff44e000 	C:\windows\system32\IMM32.DLL
+0x000007fefecb0000 - 0x000007fefedb9000 	C:\windows\system32\MSCTF.dll
+0x000007fefd0e0000 - 0x000007fefd111000 	C:\Windows\system32\nvinitx.dll
+0x000000000f000000 - 0x000000000f006000 	C:\Program Files\NVIDIA Corporation\CoProcManager\detoured.dll
+0x000007fefaba0000 - 0x000007fefabd2000 	C:\Program Files\NVIDIA Corporation\CoProcManager\nvd3d9wrapx.dll
+0x000007fefe9b0000 - 0x000007fefeb87000 	C:\windows\system32\SETUPAPI.dll
+0x000007fefd590000 - 0x000007fefd5c6000 	C:\windows\system32\CFGMGR32.dll
+0x000007feff130000 - 0x000007feff207000 	C:\windows\system32\OLEAUT32.dll
+0x000007feff210000 - 0x000007feff413000 	C:\windows\system32\ole32.dll
+0x000007fefd280000 - 0x000007fefd29a000 	C:\windows\system32\DEVOBJ.dll
+0x000007fefab70000 - 0x000007fefab92000 	C:\Program Files\NVIDIA Corporation\CoProcManager\nvdxgiwrapx.dll
+0x000000006d7f0000 - 0x000000006dec1000 	D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\java6\nt64\jre\bin\server\jvm.dll
+0x000007fefd5d0000 - 0x000007fefd60b000 	C:\windows\system32\WINMM.dll
+0x000000006d760000 - 0x000000006d76e000 	D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\java6\nt64\jre\bin\verify.dll
+0x000000006d3b0000 - 0x000000006d3d7000 	D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\java6\nt64\jre\bin\java.dll
+0x000000006d310000 - 0x000000006d31a000 	D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\java6\nt64\jre\bin\hpi.dll
+0x00000000777e0000 - 0x00000000777e7000 	C:\windows\system32\PSAPI.DLL
+0x000000006d7b0000 - 0x000000006d7c2000 	D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\java6\nt64\jre\bin\zip.dll
+0x000007fefcfb0000 - 0x000007fefd007000 	C:\windows\system32\apphelp.dll
+0x000000006d000000 - 0x000000006d1c3000 	D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\java6\nt64\jre\bin\awt.dll
+0x000007fef9bd0000 - 0x000007fef9c41000 	C:\windows\system32\WINSPOOL.DRV
+0x000007fefd9b0000 - 0x000007fefe738000 	C:\windows\system32\SHELL32.dll
+0x000007feff450000 - 0x000007feff4c1000 	C:\windows\system32\SHLWAPI.dll
+0x000007fefc030000 - 0x000007fefc0d0000 	C:\windows\WinSxS\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.18201_none_a4d3b9377117c3df\COMCTL32.dll
+0x000007fefd340000 - 0x000007fefd358000 	C:\windows\system32\DWMAPI.DLL
+0x000007fefbfc0000 - 0x000007fefc016000 	C:\windows\system32\uxtheme.dll
+0x000007fefd010000 - 0x000007fefd01f000 	C:\windows\system32\CRYPTBASE.dll
+0x000000006d2a0000 - 0x000000006d30b000 	D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\java6\nt64\jre\bin\fontmanager.dll
+0x000000006d600000 - 0x000000006d617000 	D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\java6\nt64\jre\bin\net.dll
+0x000007fefd6b0000 - 0x000007fefd6fd000 	C:\windows\system32\WS2_32.dll
+0x000007fefe9a0000 - 0x000007fefe9a8000 	C:\windows\system32\NSI.dll
+0x000007fefc950000 - 0x000007fefc9a5000 	C:\windows\system32\mswsock.dll
+0x000007fefc940000 - 0x000007fefc947000 	C:\windows\System32\wship6.dll
+0x000000006d620000 - 0x000000006d62b000 	D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\java6\nt64\jre\bin\nio.dll
+0x000007feff6f0000 - 0x000007feff789000 	C:\windows\system32\CLBCatQ.DLL
+
+VM Arguments:
+jvm_args: -Xmx512m -Xss4m -Dchipscope.dir=D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\../../java/chipscope/ vfprintf 
+java_command: <unknown>
+Launcher Type: generic
+
+Environment Variables:
+PATH=D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\\lib\nt64;D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\\bin\nt64;D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\bin\nt64;D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\lib\nt64;D:\01_Installed_SW\Xilinx\14.7\ISE_DS\ISE\..\..\..\DocNav;D:\01_Installed_SW\Xilinx\14.7\ISE_DS\PlanAhead\bin;D:\01_Installed_SW\Xilinx\14.7\ISE_DS\EDK\bin\nt64;D:\01_Installed_SW\Xilinx\14.7\ISE_DS\EDK\lib\nt64;D:\01_Installed_SW\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\nt\bin;D:\01_Installed_SW\Xilinx\14.7\ISE_DS\EDK\gnu\powerpc-eabi\nt\bin;D:\01_Installed_SW\Xilinx\14.7\ISE_DS\EDK\gnuwin\bin;D:\01_Installed_SW\Xilinx\14.7\ISE_DS\EDK\gnu\arm\nt\bin;D:\01_Installed_SW\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_be\bin;D:\01_Installed_SW\Xilinx\14.7\ISE_DS\EDK\gnu\microblaze\linux_toolchain\nt64_le\bin;D:\01_Installed_SW\Xilinx\14.7\ISE_DS\common\bin\nt64;D:\01_Installed_SW\Xilinx\14.7\ISE_DS\common\lib\nt64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Lenovo\Fingerprint Manager Pro\;C:\Program Files (x86)\Common Files\Lenovo;C:\SWTOOLS\ReadyApps;C:\Program Files\Diskeeper Corporation\ExpressCache\;D:\01_Installed_SW\UltraEdit;D:\01_Installed_SW\opencv3.0\opencv\build\x86\vc12\bin;D:\01_Installed_SW\Modelsim\win64
+USERNAME=ThinkPad
+OS=Windows_NT
+PROCESSOR_IDENTIFIER=Intel64 Family 6 Model 61 Stepping 4, GenuineIntel
+
+
+
+---------------  S Y S T E M  ---------------
+
+OS: Windows 7 Build 7601 Service Pack 1
+
+CPU:total 4 (8 cores per cpu, 2 threads per core) family 6 model 61 stepping 4, cmov, cx8, fxsr, mmx, sse, sse2, sse3, ssse3, sse4.1, sse4.2, popcnt, ht
+
+Memory: 4k page, physical 3883380k(1085396k free), swap 7764900k(3666568k free)
+
+vm_info: Java HotSpot(TM) 64-Bit Server VM (17.0-b17) for windows-amd64 JRE (1.6.0_21-b07), built on Jul 17 2010 01:05:36 by "java_re" with MS VC++ 8.0 (VS2005)
+
+time: Mon Oct 30 19:04:08 2017
+elapsed time: 14 seconds
+

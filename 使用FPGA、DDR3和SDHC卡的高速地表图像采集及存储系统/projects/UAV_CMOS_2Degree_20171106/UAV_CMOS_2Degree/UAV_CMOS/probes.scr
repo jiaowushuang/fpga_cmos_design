@@ -1,0 +1,5 @@
+# probe script file: D:\03_FPGA_Project\01_UAV_CMOS\02_FPGA\UAV_CMOS_2Degree\UAV_CMOS\probes.scr
+probe script begin
+probe add XLXN_610 -targetpins C8  -usedpin C8 
+probe add XLXI_30/fifo_image_en_flag -targetpins A7  -usedpin A7 
+probe script end
